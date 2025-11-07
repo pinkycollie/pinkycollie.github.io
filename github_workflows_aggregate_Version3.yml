@@ -1,0 +1,40 @@
+name: Aggregate Platform-wide Updates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '13 2 * * *'
+
+env:
+  MAIN_USER: pinkycollie
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN || github.token }}
+      ORG_LIST: ${{ secrets.ORG_LIST }}
+      MAIN_USER: pinkycollie
+      OFFICIAL_ORG: ${{ secrets.OFFICIAL_ORG || 'your-official-org' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements
+        run: pip install requests jinja2
+
+      - name: Fetch platform updates & render site
+        run: python scripts/fetch_updates.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN || secrets.PERSONAL_ACCESS_TOKEN }}
+          publish_dir: ./site

@@ -1,0 +1,51 @@
+name: Aggregate Platform-wide Updates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '13 2 * * *'
+
+env:
+  # Default user and org list; can be changed in secrets or here for experiments
+  MAIN_USER: pinkycollie
+  ORG_LIST: ${{ secrets.ORG_LIST }}
+  OFFICIAL_ORG: pinkycollie-official # Replace with your "official" org name!
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN || github.token }}
+      ORG_LIST: ${{ secrets.ORG_LIST }}
+      MAIN_USER: pinkycollie
+      OFFICIAL_ORG: ${{ secrets.OFFICIAL_ORG || 'pinkycollie-official' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name: Fetch platform updates & render site
+        run: python scripts/fetch_updates.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN || secrets.PERSONAL_ACCESS_TOKEN }}
+          publish_dir: ./site
