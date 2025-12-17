@@ -1,68 +1,45 @@
-# Project Updates Aggregator
+# Pinky Collie — Personal Site
 
-A GitHub Pages site that aggregates recent activity (releases, commits, open PRs/issues) across all repositories for your user **and** your selected organizations. Designed with accessibility (deaf-first, text-first) and org migration in mind, it highlights official organization repos and can support platform-wide consolidation.
-
----
-
-## Features
-
-- **Aggregates activity:** Gets latest release, latest commit, open issues & PRs for all user repos and any number of designated organizations.
-- **Accessible:** Large text, clear headings, skip links, ARIA landmarks; all information readable without audio.
-- **"Official" indicator:** Repos in your main organization are marked as "Official".
-- **Supports future migration:** Easily adapt as projects move from your user account to your org or are mirrored.
-- **JSON feed:** Static updates.json provides a live API feed for further use.
+A GitHub Pages site showcasing Pinky Collie's work as a Deaf-first business architect and systems builder. This site highlights platforms, expertise, and accessibility-first approach to building technology for the Deaf community.
 
 ---
 
-## Setup
+## About
 
-1. **Repository:** Use a GitHub Pages repo, e.g. `pinkycollie/pinkycollie.github.io`.
-2. **Add these secrets:**  
-   - `PERSONAL_ACCESS_TOKEN` — Personal access token with `repo` and `read:org` scopes (so you see private and org repos).
-   - `ORG_LIST` — Comma-separated list of orgs to aggregate (e.g. `officialorg,otherorg`).
-   - `OFFICIAL_ORG` — Main org slug (e.g. `officialorg`).
-3. **Enable GitHub Pages:** Serve from `gh-pages` branch (set by your repo → Settings → Pages).
-4. **(Optional) Workflow customization:** Change schedule, add further fields and pages.
+This is the personal website for **Pinky Collie**, featuring:
 
----
-
-## How It Works
-
-- Workflow runs daily and on push.
-- `scripts/fetch_updates.py`:
-    - Queries all repos for your user and orgs.
-    - Builds per-repo update info (release, commit, open issues/PRs).
-    - Tags repos as "official" (if in main org) or "fork" if they are forks.
-    - Renders `site/index.html` and `site/updates.json`.
-- `peaceiris/actions-gh-pages` deploys `site/` to your GitHub Pages branch.
+- **Deaf-First Architecture:** Building platforms like DeafAUTH, PinkSync, and 360Magicians
+- **Business & Tech Integration:** Combining insurance, tax, real estate, and compliance expertise with modern cloud and AI technologies
+- **Accessibility Focus:** Dark-mode design with high contrast, clear typography, and text-first approach
+- **Modern Stack:** Supabase, TypeScript, Python, Cloud Run, Next.js, and AI copilots
 
 ---
 
-## Accessibility Principles
+## Site Structure
 
-- Text-first, large fonts, high contrast.
-- Clear headings/landmarks for screen readers and navigation.
-- Keyboard "skip to content" link.
-- No audio-only content; space for transcripts/captions if multimedia added.
-
----
-
-## Customization Ideas
-
-- Add per-repo detail pages or filters.
-- Generate RSS or Atom feeds.
-- Add migration/mirroring status per repo.
-- Integrate more badges: archived, fork, mirror, etc.
-- Display PR/issue trends.
-- Style with your org branding.
+The site is built with:
+- **Static HTML/CSS:** Pure HTML with embedded CSS, no build tools required
+- **Modern Design:** Dark theme with gradient accents, responsive layout
+- **Accessibility:** Space Grotesk font, high contrast, semantic HTML
 
 ---
 
-## Example Output
+## Deployment
 
-- Main `index.html`: List of updates for each repo
-- Marked badges for official, fork, or personal repos
-- JSON feed: `/updates.json`
+The site is automatically deployed to GitHub Pages via GitHub Actions:
+- The `site/` directory contains the static HTML page
+- On push to `main` branch, the workflow deploys the site
+- GitHub Pages serves the content from the `gh-pages` branch
+
+---
+
+## Accessibility Features
+
+- **Deaf-First Design:** All content is visual and text-based
+- **High Contrast:** Dark background with light text for readability
+- **Clear Typography:** Space Grotesk font with appropriate sizing
+- **Semantic HTML:** Proper heading structure and landmarks
+- **Responsive:** Works on desktop and mobile devices
 
 ---
 
