@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Specialist AI Prompt Pack</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+            50% { transform: translate(20px, -20px) rotate(180deg); }
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 30px 40px;
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #3498db;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .category {
+            margin-bottom: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .category-header {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .category-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .category h2 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        
+        .prompts {
+            background: #f8f9fa;
+            padding: 0;
+        }
+        
+        .prompt {
+            border-bottom: 1px solid #e9ecef;
+            padding: 25px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .prompt:hover {
+            background: white;
+            transform: translateX(5px);
+        }
+        
+        .prompt:last-child {
+            border-bottom: none;
+        }
+        
+        .prompt-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .prompt-text {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .prompt-variables {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .copy-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        .copy-btn:hover {
+            background: #219a52;
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .download-section {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin: 30px 0;
+            border-radius: 15px;
+        }
+        
+        .download-btn {
+            background: white;
+            color: #e74c3c;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🤖 VR AI Prompt Pack</h1>
+            <p>50+ Ready-to-Use AI Prompts for Vocational Rehabilitation Specialists<br>
+            Serving Deaf & Hard of Hearing Communities</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">AI Prompts</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">8</span>
+                <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Copy-Paste Ready</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">ASL</span>
+                <span class="stat-label">Friendly</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">📋</div>
+                    <h2>Case Assessment & Planning</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Individual Employment Plan Generator</div>
+                        <div class="prompt-text">Create a comprehensive Individual Employment Plan (IEP) for a Deaf client with the following profile: [CLIENT_PROFILE]. Include specific vocational goals, service needs, timeline, and accommodation requirements. Format as a professional document suitable for RSA reporting.</div>
+                        <div class="prompt-variables">Variables: CLIENT_PROFILE (education, work history, communication preferences, career goals)</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Vocational Assessment Summary</div>
+                        <div class="prompt-text">Analyze this client intake information and generate a vocational assessment summary: [INTAKE_DATA]. Identify strengths, barriers, transferable skills, and recommended services. Include cultural considerations for Deaf community members.</div>
+                        <div class="prompt-variables">Variables: INTAKE_DATA (assessment results, background info)</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Case Notes Template</div>
+                        <div class="prompt-text">Generate professional case notes for today's session with [CLIENT_NAME]. Session focus: [SESSION_TOPIC]. Key outcomes: [OUTCOMES]. Next steps: [NEXT_STEPS]. Include any accommodation needs discussed and follow-up actions required.</div>
+                        <div class="prompt-variables">Variables: CLIENT_NAME, SESSION_TOPIC, OUTCOMES, NEXT_STEPS</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">🏢</div>
+                    <h2>Employer Engagement</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Employer Education Script</div>
+                        <div class="prompt-text">Create a professional script for contacting [EMPLOYER_NAME] about hiring opportunities for Deaf employees. Include information about available tax incentives, accommodation support, and success stories. Tone should be confident and business-focused.</div>
+                        <div class="prompt-variables">Variables: EMPLOYER_NAME, INDUSTRY_TYPE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Accommodation Request Letter</div>
+                        <div class="prompt-text">Draft a formal accommodation request letter to HR for [CLIENT_NAME] who is [HEARING_STATUS] and needs [ACCOMMODATIONS] for the position of [JOB_TITLE]. Include legal references, implementation suggestions, and cost-benefit information.</div>
+                        <div class="prompt-variables">Variables: CLIENT_NAME, HEARING_STATUS, ACCOMMODATIONS, JOB_TITLE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Workplace Diversity Presentation</div>
+                        <div class="prompt-text">Create an outline for a 30-minute presentation to [COMPANY_NAME] management about the benefits of hiring Deaf employees. Include statistics, case studies, accommodation examples, and Q&A talking points.</div>
+                        <div class="prompt-variables">Variables: COMPANY_NAME, AUDIENCE_SIZE, INDUSTRY</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">💼</div>
+                    <h2>Job Search & Career Development</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Resume Optimization</div>
+                        <div class="prompt-text">Optimize this resume for a Deaf job seeker: [RESUME_TEXT]. Target position: [JOB_TITLE]. Highlight transferable skills, relevant experience, and subtly indicate communication strengths. Ensure ADA-compliant formatting.</div>
+                        <div class="prompt-variables">Variables: RESUME_TEXT, JOB_TITLE, INDUSTRY</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Interview Preparation Guide</div>
+                        <div class="prompt-text">Create a personalized interview preparation guide for [CLIENT_NAME] interviewing for [POSITION] at [COMPANY]. Include common questions, accommodation discussion strategies, and confidence-building talking points specific to Deaf job seekers.</div>
+                        <div class="prompt-variables">Variables: CLIENT_NAME, POSITION, COMPANY, COMMUNICATION_PREFERENCE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Career Pathway Analysis</div>
+                        <div class="prompt-text">Analyze career pathways in [FIELD/INDUSTRY] for Deaf professionals. Include entry-level positions, advancement opportunities, typical accommodations needed, salary ranges, and success stories. Format as a comprehensive career guide.</div>
+                        <div class="prompt-variables">Variables: FIELD/INDUSTRY, EDUCATION_LEVEL, LOCATION</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">🎓</div>
+                    <h2>Education & Training Support</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Educational Program Evaluation</div>
+                        <div class="prompt-text">Evaluate [EDUCATIONAL_PROGRAM] for accessibility and suitability for Deaf students. Consider factors: interpreter availability, captioning services, visual learning materials, faculty experience with Deaf students, and post-graduation employment outcomes.</div>
+                        <div class="prompt-variables">Variables: EDUCATIONAL_PROGRAM, INSTITUTION, PROGRAM_LENGTH</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Academic Accommodation Plan</div>
+                        <div class="prompt-text">Develop an academic accommodation plan for [STUDENT_NAME] enrolled in [PROGRAM] at [INSTITUTION]. Student's needs: [ACCOMMODATION_NEEDS]. Include specific services, technology requirements, and coordination with disability services office.</div>
+                        <div class="prompt-variables">Variables: STUDENT_NAME, PROGRAM, INSTITUTION, ACCOMMODATION_NEEDS</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">⚖️</div>
+                    <h2>Legal & Advocacy</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">ADA Compliance Letter</div>
+                        <div class="prompt-text">Draft a professional letter to [ORGANIZATION] regarding ADA compliance concerns for [SPECIFIC_ISSUE]. Include relevant legal citations, required accommodations, and suggested resolution timeline. Tone should be firm but collaborative.</div>
+                        <div class="prompt-variables">Variables: ORGANIZATION, SPECIFIC_ISSUE, DEADLINE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Rights Education Material</div>
+                        <div class="prompt-text">Create easy-to-understand educational material about employment rights for Deaf individuals. Cover ADA protections, reasonable accommodations, discrimination prevention, and complaint procedures. Use clear, ASL-friendly language.</div>
+                        <div class="prompt-variables">Variables: AUDIENCE_LEVEL, FORMAT_PREFERENCE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">💰</div>
+                    <h2>Benefits & Financial Planning</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Benefits Counseling Summary</div>
+                        <div class="prompt-text">Explain how employment at [SALARY_LEVEL] hours per week will impact SSI/SSDI benefits for someone currently receiving [CURRENT_BENEFITS]. Include work incentives, trial work periods, and protection strategies. Use simple, clear language.</div>
+                        <div class="prompt-variables">Variables: SALARY_LEVEL, HOURS, CURRENT_BENEFITS</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Financial Planning Worksheet</div>
+                        <div class="prompt-text">Create a monthly budget worksheet for a VR client transitioning from benefits to employment. Income: [EXPECTED_INCOME]. Include categories for essential expenses, work-related costs, savings goals, and accommodation expenses.</div>
+                        <div class="prompt-variables">Variables: EXPECTED_INCOME, LOCATION, FAMILY_SIZE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">🤝</div>
+                    <h2>Community Resources</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Resource Directory Creation</div>
+                        <div class="prompt-text">Compile a comprehensive resource directory for [CITY/REGION] including: Deaf community organizations, interpreting services, assistive technology providers, mental health services, educational institutions, and recreational opportunities. Organize by category with contact information.</div>
+                        <div class="prompt-variables">Variables: CITY/REGION, SPECIFIC_NEEDS</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Support Group Facilitation Guide</div>
+                        <div class="prompt-text">Create a facilitation guide for a job seekers' support group for Deaf individuals. Include icebreaker activities, discussion topics, goal-setting exercises, and peer networking strategies. Plan for [SESSION_LENGTH] minute sessions.</div>
+                        <div class="prompt-variables">Variables: SESSION_LENGTH, GROUP_SIZE, MEETING_FREQUENCY</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-header">
+                    <div class="category-icon">📊</div>
+                    <h2>Documentation & Reporting</h2>
+                </div>
+                <div class="prompts">
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">RSA Quarterly Report</div>
+                        <div class="prompt-text">Generate a quarterly progress report for RSA-911 compliance based on this caseload data: [CASELOAD_DATA]. Include employment outcomes, service delivery statistics, successful closures, and demographic breakdowns. Format according to federal reporting requirements.</div>
+                        <div class="prompt-variables">Variables: CASELOAD_DATA, REPORTING_PERIOD, REGION</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Success Story Documentation</div>
+                        <div class="prompt-text">Write a professional success story about [CLIENT_OUTCOME] while maintaining client confidentiality. Include challenges overcome, services provided, accommodations implemented, and measurable outcomes. Format for both internal reporting and public relations use.</div>
+                        <div class="prompt-variables">Variables: CLIENT_OUTCOME, SERVICES_PROVIDED, TIMELINE</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                    
+                    <div class="prompt" onclick="copyPrompt(this)">
+                        <div class="prompt-title">Program Evaluation Summary</div>
+                        <div class="prompt-text">Analyze the effectiveness of [VR_PROGRAM] over [TIME_PERIOD]. Evaluate participant outcomes, cost-effectiveness, accommodation success rates, employer satisfaction, and areas for improvement. Include recommendations for program enhancement.</div>
+                        <div class="prompt-variables">Variables: VR_PROGRAM, TIME_PERIOD, PARTICIPANT_COUNT</div>
+                        <button class="copy-btn">Copy Prompt</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2>🎯 Ready to Supercharge Your VR Practice?</h2>
+            <p>Get all 50+ prompts in multiple formats:</p>
+            <button class="download-btn" onclick="window.print()">📄 Print PDF Version</button>
+            <button class="download-btn" onclick="downloadJSON()">📁 Download JSON Pack</button>
+            <button class="download-btn" onclick="downloadTxt()">📝 Download Text File</button>
+        </div>
+
+        <div class="footer">
+            <h3>Usage Tips</h3>
+            <p><strong>• Customize Variables:</strong> Replace bracketed variables with specific client/case information</p>
+            <p><strong>• Combine Prompts:</strong> Mix and match prompts for comprehensive case planning</p>
+            <p><strong>• Cultural Sensitivity:</strong> All prompts are designed with Deaf community cultural considerations</p>
+            <p><strong>• AI Tool Compatibility:</strong> Works with ChatGPT, Claude, Gemini, and other AI assistants</p>
+            <br>
+            <p><em>Designed specifically for VR specialists serving Deaf and Hard of Hearing communities</em></p>
+        </div>
+    </div>
+
+    <script>
+        function copyPrompt(element) {
+            const promptText = element.querySelector('.prompt-text').textContent;
+            navigator.clipboard.writeText(promptText).then(() => {
+                const btn = element.querySelector('.copy-btn');
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                btn.style.background = '#27ae60';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#27ae60';
+                }, 2000);
+            });
+        }
+
+        function downloadJSON() {
+            const prompts = [];
+            document.querySelectorAll('.prompt').forEach(prompt => {
+                const title = prompt.querySelector('.prompt-title').textContent;
+                const text = prompt.querySelector('.prompt-text').textContent;
+                const variables = prompt.querySelector('.prompt-variables').textContent;
+                prompts.push({ title, text, variables });
+            });
+            
+            const dataStr = JSON.stringify(prompts, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'vr_ai_prompts.json';
+            link.click();
+        }
+
+        function downloadTxt() {
+            let txtContent = 'VR SPECIALIST AI PROMPT PACK\n';
+            txtContent += '50+ Ready-to-Use Prompts for Vocational Rehabilitation\n';
+            txtContent += '=' .repeat(60) + '\n\n';
+            
+            document.querySelectorAll('.category').forEach(category => {
+                const categoryTitle = category.querySelector('h2').textContent;
+                txtContent += `${categoryTitle.toUpperCase()}\n`;
+                txtContent += '-'.repeat(categoryTitle.length) + '\n\n';
+                
+                category.querySelectorAll('.prompt').forEach(prompt => {
+                    const title = prompt.querySelector('.prompt-title').textContent;
+                    const text = prompt.querySelector('.prompt-text').textContent;
+                    const variables = prompt.querySelector('.prompt-variables').textContent;
+                    
+                    txtContent += `${title}\n`;
+                    txtContent += `${text}\n`;
+                    txtContent += `${variables}\n\n`;
+                });
+                txtContent += '\n';
+            });
+            
+            const dataBlob = new Blob([txtContent], {type: 'text/plain'});
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'vr_ai_prompts.txt';
+            link.click();
+        }
+
+        // Add some visual effects
+        document.addEventListener('DOMContentLoaded', function() {
+            const prompts = document.querySelectorAll('.prompt');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            prompts.forEach(prompt => {
+                prompt.style.opacity = '0';
+                prompt.style.transform = 'translateY(20px)';
+                prompt.style.transition = 'all 0.6s ease';
+                observer.observe(prompt);
+            });
+        });
+    </script>
+</body>
+</html>

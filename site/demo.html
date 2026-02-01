@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(120deg, #5a45a5 0%, #9d69d1 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(8px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.6);
+        }
+        .asl-video-placeholder {
+            background: rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            min-height: 180px;
+        }
+        .loading-indicator {
+            width: 24px;
+            height: 24px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .asl-icon {
+            font-size: 24px;
+            background: rgba(90, 69, 165, 0.7);
+            padding: 6px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .tab-active {
+            background: rgba(255, 255, 255, 0.15);
+            border-bottom: 3px solid white;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="gradient-bg min-h-screen">
+        <header class="py-6">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-bold">Frontend Optimization Demo</h1>
+                    <nav>
+                        <ul class="flex space-x-4">
+                            <li><a href="/" class="hover:text-purple-300">Home</a></li>
+                            <li><a href="/demo" class="hover:text-purple-300">Demo</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="container mx-auto px-4 py-8">
+            <!-- User Preference Selector -->
+            <div class="glass-card p-6 mb-8">
+                <h2 class="text-2xl font-bold mb-4">User Preference Simulator</h2>
+                <p class="mb-4">Adjust settings to see how the interface adapts to different user needs.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="userType" class="block mb-2">User Type</label>
+                        <select id="userType" class="w-full bg-gray-800 rounded px-3 py-2 text-white">
+                            <option value="deaf">Deaf User</option>
+                            <option value="hearing">Hearing User</option>
+                            <option value="screenReader">Screen Reader User</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="connectionSpeed" class="block mb-2">Connection Speed</label>
+                        <select id="connectionSpeed" class="w-full bg-gray-800 rounded px-3 py-2 text-white">
+                            <option value="fast">Fast (Fiber/5G)</option>
+                            <option value="medium">Medium (4G/Cable)</option>
+                            <option value="slow">Slow (3G/DSL)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="deviceType" class="block mb-2">Device Type</label>
+                        <select id="deviceType" class="w-full bg-gray-800 rounded px-3 py-2 text-white">
+                            <option value="desktop">Desktop</option>
+                            <option value="tablet">Tablet</option>
+                            <option value="mobile">Mobile</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button id="applyChanges" class="mt-4 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded">
+                    Apply Changes
+                </button>
+            </div>
+            
+            <!-- Optimized Interface Preview -->
+            <div class="glass-card p-6 mb-8">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-2xl font-bold">Optimized Interface Preview</h2>
+                    <div class="flex items-center">
+                        <span id="optimizationBadge" class="bg-green-600 text-xs font-bold px-2 py-1 rounded">
+                            OPTIMIZED FOR: DEAF USERS
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Interface Tabs -->
+                <div class="mb-4 border-b border-gray-700">
+                    <ul class="flex flex-wrap -mb-px" id="interfaceTabs">
+                        <li class="mr-2">
+                            <button class="inline-block py-2 px-4 tab-active" data-tab="job-search">
+                                Job Search
+                            </button>
+                        </li>
+                        <li class="mr-2">
+                            <button class="inline-block py-2 px-4" data-tab="business-plan">
+                                Business Plan
+                            </button>
+                        </li>
+                        <li class="mr-2">
+                            <button class="inline-block py-2 px-4" data-tab="vr-application">
+                                VR Application
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Tab Content -->
+                <div id="tabContent">
+                    <!-- Job Search Tab -->
+                    <div data-content="job-search" class="block">
+                        <div class="flex items-center mb-4">
+                            <div class="asl-icon">👋</div>
+                            <h3 class="text-xl font-bold">Job Search Dashboard</h3>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                            <!-- Search Box with ASL Video Help -->
+                            <div class="md:col-span-2">
+                                <div class="bg-gray-800 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <label class="block text-sm font-medium text-gray-400">Search Jobs</label>
+                                        <button class="text-purple-400 text-sm">
+                                            ASL Help Video
+                                        </button>
+                                    </div>
+                                    <div class="flex">
+                                        <input type="text" placeholder="Job title, skills, or company" 
+                                               class="flex-grow bg-gray-700 text-white rounded-l px-3 py-2">
+                                        <button class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-r">
+                                            Search
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Results with visual indicators -->
+                                <div class="mt-4 space-y-3">
+                                    <div class="bg-gray-800 rounded-lg p-4 border-l-4 border-green-500">
+                                        <div class="flex justify-between">
+                                            <h4 class="font-bold">Frontend Developer</h4>
+                                            <span class="text-green-400 text-sm">ASL-Friendly</span>
+                                        </div>
+                                        <p class="text-sm text-gray-400">TechCorp - Remote</p>
+                                        <div class="flex mt-2">
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded mr-2">React</span>
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded mr-2">TypeScript</span>
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded">UI/UX</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="bg-gray-800 rounded-lg p-4 border-l-4 border-yellow-500">
+                                        <div class="flex justify-between">
+                                            <h4 class="font-bold">UX Designer</h4>
+                                            <span class="text-yellow-400 text-sm">Interpreter Available</span>
+                                        </div>
+                                        <p class="text-sm text-gray-400">DesignHub - Hybrid</p>
+                                        <div class="flex mt-2">
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded mr-2">Figma</span>
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded mr-2">User Research</span>
+                                            <span class="bg-gray-700 text-xs px-2 py-1 rounded">Prototyping</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- ASL Video Guide -->
+                            <div>
+                                <div class="bg-gray-800 rounded-lg p-4 h-full">
+                                    <h4 class="font-bold mb-2">ASL Job Search Guide</h4>
+                                    <div class="asl-video-placeholder mb-2">
+                                        <div class="text-center">
+                                            <div class="loading-indicator mx-auto mb-2"></div>
+                                            <p class="text-sm text-gray-400">ASL Video Loading...</p>
+                                        </div>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <button class="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm w-full text-left">
+                                            How to search effectively
+                                        </button>
+                                        <button class="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm w-full text-left">
+                                            Understanding job requirements
+                                        </button>
+                                        <button class="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm w-full text-left">
+                                            Identifying deaf-friendly employers
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Real-time job alerts -->
+                        <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2">Real-time Job Notifications</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-sm">New jobs matching your profile will appear here instantly</p>
+                                <span class="inline-flex h-3 w-3 relative">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Business Plan Tab (Initially Hidden) -->
+                    <div data-content="business-plan" class="hidden">
+                        <!-- Tab content for Business Plan -->
+                        <div class="text-center p-8">
+                            <div class="loading-indicator mx-auto mb-4"></div>
+                            <p>Loading Business Plan Interface...</p>
+                            <p class="text-sm text-gray-400 mt-2">The content will display when you click the tab.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- VR Application Tab (Initially Hidden) -->
+                    <div data-content="vr-application" class="hidden">
+                        <!-- Tab content for VR Application -->
+                        <div class="text-center p-8">
+                            <div class="loading-indicator mx-auto mb-4"></div>
+                            <p>Loading VR Application Interface...</p>
+                            <p class="text-sm text-gray-400 mt-2">The content will display when you click the tab.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Performance Metrics -->
+            <div class="glass-card p-6">
+                <h2 class="text-2xl font-bold mb-4">Performance Metrics</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <h4 class="text-sm text-gray-400">Load Time</h4>
+                        <p class="text-2xl font-bold" id="loadTime">124ms</p>
+                        <p class="text-xs text-green-400">68% faster with Python worker</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <h4 class="text-sm text-gray-400">Cache Hit Rate</h4>
+                        <p class="text-2xl font-bold" id="cacheRate">94%</p>
+                        <p class="text-xs text-green-400">Intelligent prefetching active</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <h4 class="text-sm text-gray-400">Memory Usage</h4>
+                        <p class="text-2xl font-bold" id="memoryUsage">28MB</p>
+                        <p class="text-xs text-yellow-400">Optimized for low resource usage</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <h4 class="text-sm text-gray-400">Active Connections</h4>
+                        <p class="text-2xl font-bold" id="connections">1</p>
+                        <p class="text-xs text-green-400">WebSocket enabled</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h4 class="font-bold mb-2">Optimization Log</h4>
+                    <div class="bg-gray-900 p-3 rounded font-mono text-xs h-32 overflow-y-auto" id="optimizationLog">
+                        <div class="text-gray-400">[System] Connecting to Python worker...</div>
+                        <div class="text-green-400">[System] Connected successfully</div>
+                        <div class="text-gray-400">[Cache] Prefetching common data</div>
+                        <div class="text-gray-400">[Layout] Analyzing user profile</div>
+                        <div class="text-green-400">[Layout] Applied deaf-optimized interface layout</div>
+                        <div class="text-gray-400">[Content] Loading ASL video resources</div>
+                        <div class="text-gray-400">[Performance] Monitoring real-time metrics</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="py-6 bg-gray-800 mt-12">
+            <div class="container mx-auto px-4">
+                <p class="text-center text-gray-400">
+                    © 2025 360 Magicians Platform | Python Frontend Optimization Demo
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Demo functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab switching
+            const tabs = document.querySelectorAll('[data-tab]');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Update active tab
+                    tabs.forEach(t => t.classList.remove('tab-active'));
+                    tab.classList.add('tab-active');
+                    
+                    // Show corresponding content
+                    const tabName = tab.getAttribute('data-tab');
+                    document.querySelectorAll('[data-content]').forEach(content => {
+                        content.classList.add('hidden');
+                        content.classList.remove('block');
+                    });
+                    document.querySelector(`[data-content="${tabName}"]`).classList.remove('hidden');
+                    document.querySelector(`[data-content="${tabName}"]`).classList.add('block');
+                    
+                    // Simulate loading
+                    const optimizationLog = document.getElementById('optimizationLog');
+                    optimizationLog.innerHTML += `<div class="text-gray-400">[Navigation] Switched to ${tabName} interface</div>`;
+                    optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                    
+                    // Update metrics
+                    updateMetrics();
+                });
+            });
+            
+            // Apply user preferences
+            document.getElementById('applyChanges').addEventListener('click', () => {
+                const userType = document.getElementById('userType').value;
+                const connectionSpeed = document.getElementById('connectionSpeed').value;
+                const deviceType = document.getElementById('deviceType').value;
+                
+                // Update optimization badge
+                const badge = document.getElementById('optimizationBadge');
+                
+                if (userType === 'deaf') {
+                    badge.innerText = 'OPTIMIZED FOR: DEAF USERS';
+                    badge.className = 'bg-green-600 text-xs font-bold px-2 py-1 rounded';
+                } else if (userType === 'screenReader') {
+                    badge.innerText = 'OPTIMIZED FOR: SCREEN READER';
+                    badge.className = 'bg-blue-600 text-xs font-bold px-2 py-1 rounded';
+                } else {
+                    badge.innerText = 'OPTIMIZED FOR: STANDARD VIEW';
+                    badge.className = 'bg-purple-600 text-xs font-bold px-2 py-1 rounded';
+                }
+                
+                // Log changes
+                const optimizationLog = document.getElementById('optimizationLog');
+                optimizationLog.innerHTML += `<div class="text-green-400">[Profile] Updated user preferences: ${userType}, ${connectionSpeed}, ${deviceType}</div>`;
+                optimizationLog.innerHTML += `<div class="text-gray-400">[Layout] Reconfiguring interface components...</div>`;
+                optimizationLog.innerHTML += `<div class="text-green-400">[Layout] Interface optimized for new preferences</div>`;
+                optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                
+                // Update metrics to simulate changes
+                updateMetrics();
+            });
+            
+            // Simulate metrics updates
+            function updateMetrics() {
+                const connectionSpeed = document.getElementById('connectionSpeed').value;
+                const deviceType = document.getElementById('deviceType').value;
+                
+                // Adjust load time based on connection
+                let loadTime;
+                if (connectionSpeed === 'fast') {
+                    loadTime = Math.floor(Math.random() * 50) + 80;
+                } else if (connectionSpeed === 'medium') {
+                    loadTime = Math.floor(Math.random() * 100) + 150;
+                } else {
+                    loadTime = Math.floor(Math.random() * 150) + 250;
+                }
+                document.getElementById('loadTime').innerText = `${loadTime}ms`;
+                
+                // Adjust memory usage based on device
+                let memoryUsage;
+                if (deviceType === 'mobile') {
+                    memoryUsage = Math.floor(Math.random() * 10) + 20;
+                } else if (deviceType === 'tablet') {
+                    memoryUsage = Math.floor(Math.random() * 15) + 25;
+                } else {
+                    memoryUsage = Math.floor(Math.random() * 20) + 28;
+                }
+                document.getElementById('memoryUsage').innerText = `${memoryUsage}MB`;
+                
+                // Random cache hit rate (high due to optimization)
+                const cacheRate = Math.floor(Math.random() * 10) + 90;
+                document.getElementById('cacheRate').innerText = `${cacheRate}%`;
+                
+                // Increase connection count for demonstration
+                const connections = parseInt(document.getElementById('connections').innerText, 10);
+                if (connections < 5) {
+                    document.getElementById('connections').innerText = connections + 1;
+                }
+            }
+            
+            // Simulate real-time WebSocket connection
+            try {
+                const socket = io();
+                
+                socket.on('connect', () => {
+                    const optimizationLog = document.getElementById('optimizationLog');
+                    optimizationLog.innerHTML += `<div class="text-green-400">[WebSocket] Connected for real-time updates</div>`;
+                    optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                });
+                
+                socket.on('disconnect', () => {
+                    const optimizationLog = document.getElementById('optimizationLog');
+                    optimizationLog.innerHTML += `<div class="text-yellow-400">[WebSocket] Disconnected, retrying...</div>`;
+                    optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                });
+                
+                socket.on('error', (error) => {
+                    const optimizationLog = document.getElementById('optimizationLog');
+                    optimizationLog.innerHTML += `<div class="text-red-400">[WebSocket] Error: ${error}</div>`;
+                    optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                });
+            } catch (e) {
+                console.log('WebSocket simulation only works when server is running');
+            }
+            
+            // Simulate loading times with progressive enhancement
+            setTimeout(() => {
+                const optimizationLog = document.getElementById('optimizationLog');
+                optimizationLog.innerHTML += `<div class="text-green-400">[Content] ASL video resources loaded</div>`;
+                optimizationLog.scrollTop = optimizationLog.scrollHeight;
+                
+                document.querySelectorAll('.asl-video-placeholder').forEach(placeholder => {
+                    placeholder.innerHTML = `
+                        <div class="text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-2 text-purple-400">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                            </svg>
+                            <p class="text-sm">ASL Video Ready</p>
+                        </div>
+                    `;
+                });
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

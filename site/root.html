@@ -1,0 +1,18 @@
+<div id="root"></div>
+
+<script>
+  const root = document.getElementById("root");
+
+  root.innerHTML = `
+    <h1>Open Tabs</h1>
+    <ul>
+      ${edge_all_open_tabs.map(tab => `
+        <li>
+          <strong>${tab.pageTitle}</strong><br>
+          <a href="${tab.pageUrl}">${tab.pageUrl}</a><br>
+          ${tab.isCurrent ? "<em>Active Tab</em>" : ""}
+        </li>
+      `).join("")}
+    </ul>
+  `;
+</script>

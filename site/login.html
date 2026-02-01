@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Supabase Auth Quick Test — Email, Magic Link, Google & GitHub</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width:720px; margin:28px auto; padding:0 16px; }
+    input, button { padding:10px; margin:6px 0; width:100%; box-sizing:border-box; }
+    .row { display:flex; gap:8px; }
+    .row > * { flex:1; }
+    .socials { display:flex; gap:8px; margin:8px 0; }
+    .socials button { flex:1; }
+    pre { background:#f6f8fa; padding:10px; overflow:auto; white-space:pre-wrap; }
+    small { color:#666; }
+  </style>
+</head>
+<body>
+  <h2>Supabase Auth Quick Test</h2>
+
+  <label>Supabase URL
+    <input id="supabaseUrl" placeholder="https://xyzcompany.supabase.co" />
+  </label>
+  <label>Supabase ANON KEY
+    <input id="supabaseKey" placeholder="anon key" />
+  </label>
+
+  <hr />
+
+  <h3>Email / Password</h3>
+  <input id="signupEmail" placeholder="Email for signup" />
+  <input id="signupPassword" placeholder="Password" type="password" />
+  <button id="btnSignup">Sign up (email/password)</button>
+
+  <input id="signinEmail" placeholder="Email for signin" />
+  <input id="signinPassword" placeholder="Password" type="password" />
+  <button id="btnSignin">Sign in (email/password)</button>
+
+  <h3>Magic link</h3>
+  <input id="magicEmail" placeholder="Email for magic link" />
+  <button id="btnMagic">Send magic link</button>
+  <small>Make sure Redirect URLs are configured in Supabase Auth settings (e.g., http://localhost:5173 or file:///... won't work for OAuth callbacks).</small>
+
+  <h3>Social sign-in</h3>
+  <div class="socials">
+    <button id="btnGoogle">Sign in with Google</button>
+    <button id="btnGithub">Sign in with GitHub</button>
+  </div>
+
+  <h3>Session / User</h3>
+  <div class="row">
+    <button id="btnGetUser">Get current user</button>
+    <button id="btnSignout">Sign out</button>
+  </div>
+
+  <h3>Response</h3>
+  <pre id="output">Ready</pre>
+
+  <script type="module">
+    import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+
+    const $ = id => document.getElementById(id);
+    const out = v => { $('output').textContent = typeof v === 'string' ? v : JSON.stringify(v, null, 2); };
+
+    let supabase = null;
+    function initClient() {
+      const url = $('supabaseUrl').value.trim();
+      const key = $('supabaseKey').value.trim();
+      if (!url || !key) { out('Set SUPABASE_URL and SUPABASE_ANON_KEY'); return false; }
+      supabase = createClient(url, key, {
+        auth: { persistSession: true, autoRefreshToken: true }
+      });
+      // Listen for auth changes (e.g., magic link redirect)
+      supabase.auth.onAuthStateChange((event, session) => {
+        out({ event, session });
+      });
+      out('Client initialized');
+      return true;
+    }
+
+    // Helpers
+    async function ensureClient() {
+      if (!supabase) {
+        if (!initClient()) throw new Error('Missing client config');
+      }
+    }
+
+    // Email/password signup
+    $('btnSignup').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        out('Signing up...');
+        const email = $('signupEmail').value;
+        const password = $('signupPassword').value;
+        const res = await supabase.auth.signUp({ email, password });
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Email/password signin
+    $('btnSignin').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        out('Signing in...');
+        const email = $('signinEmail').value;
+        const password = $('signinPassword').value;
+        const res = await supabase.auth.signInWithPassword({ email, password });
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Magic link
+    $('btnMagic').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        out('Sending magic link...');
+        const email = $('magicEmail').value;
+        // You can set redirectTo to a URL you control. When link clicked, user returns there with session.
+        const res = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.href } });
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Social providers
+    $('btnGoogle').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        out('Redirecting to Google...');
+        const res = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+        // signInWithOAuth redirects the browser; response usually not returned (depends on popup vs redirect)
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    $('btnGithub').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        out('Redirecting to GitHub...');
+        const res = await supabase.auth.signInWithOAuth({ provider: 'github', options: { redirectTo: window.location.href } });
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Get current user / session
+    $('btnGetUser').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        const { data, error } = await supabase.auth.getSession();
+        if (error) throw error;
+        out({ session: data });
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Sign out
+    $('btnSignout').addEventListener('click', async () => {
+      try {
+        await ensureClient();
+        const res = await supabase.auth.signOut();
+        out(res);
+      } catch (err) { out({ error: err.message || err }); }
+    });
+
+    // Auto init from query params if provided
+    (function autoInit() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('url')) $('supabaseUrl').value = params.get('url');
+      if (params.get('key')) $('supabaseKey').value = params.get('key');
+      if ($('supabaseUrl').value && $('supabaseKey').value) initClient();
+      // If redirected back after OAuth or magic link, Supabase may include access_token in URL hash.
+      // The client will parse that on init; so auto-init helps capture session after redirect.
+    })();
+  </script>
+</body>
+</html>
