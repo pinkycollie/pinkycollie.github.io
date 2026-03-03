@@ -31,6 +31,36 @@ The site is automatically deployed to GitHub Pages via GitHub Actions:
 - On push to `main` branch, the workflow deploys the site
 - GitHub Pages serves the content from the `gh-pages` branch
 
+### GitHub Actions Workflow Configuration
+
+The deployment workflow (`.github/workflows/deploy.yml`) includes:
+
+```yaml
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+**Important:** The `environment` section is required for GitHub Pages deployment. Without it, the workflow will fail with an error about missing environment configuration.
+
 ---
 
 ## Accessibility Features
