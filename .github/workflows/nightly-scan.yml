@@ -1,0 +1,42 @@
+name: Nightly GitHub map
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 6:00 UTC daily
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm install
+
+      - name: Run scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run scan
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "pinky-bot"
+            git config user.email "actions@github.com"
+            git add inventory/repos.json dashboards/REPOS_DASHBOARD.md
+            git commit -m "Nightly scan: update repo inventory and dashboard"
+            git push
+          else
+            echo "No changes to commit."
+          fi
