@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepoMetadata",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "full_name": { "type": "string" },
+    "html_url": { "type": "string", "format": "uri" },
+    "description": { "type": ["string", "null"] },
+    "archived": { "type": "boolean" },
+    "private": { "type": "boolean" },
+    "pushed_at": { "type": ["string", "null"], "format": "date-time" },
+    "has_issues": { "type": "boolean" },
+    "has_pages": { "type": "boolean" },
+    "language": { "type": ["string", "null"] }
+  },
+  "required": ["name", "full_name", "html_url", "archived", "private"]
+}
