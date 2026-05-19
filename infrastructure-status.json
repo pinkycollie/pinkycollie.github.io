@@ -1,0 +1,18 @@
+{
+  "deployment": {
+    "gateEnabled": true,
+    "requireInfrastructureComplete": true,
+    "requireServicesConfigured": true,
+    "preventPushUntilReady": true
+  },
+  "services": {
+    "deafauth": { "status": "configured" },
+    "pinksync": { "status": "configured" },
+    "fibonrose": { "status": "configured" }
+  },
+  "infrastructure": {
+    "terraform": "complete",
+    "environments": "ready"
+  },
+  "lastUpdated": "2024-12-01T00:00:00Z"
+}
