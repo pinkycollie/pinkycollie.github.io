@@ -1,0 +1,81 @@
+{
+  "updated": "2026-05-19T00:19:35.270290+00:00",
+  "repos": [
+    {
+      "repo": "DeafAUTH",
+      "full_name": "PinkSync/DeafAUTH",
+      "url": "https://github.com/PinkSync/DeafAUTH",
+      "description": "Deaf-first identity and authentication \u2014 a passport, accessibility profile, and compliance key for Deaf professionals.",
+      "open_issues": 2,
+      "open_prs": 1,
+      "latest_commit": {
+        "date": "2024-11-28T14:30:00Z"
+      },
+      "category": "Core Identity",
+      "status": "official"
+    },
+    {
+      "repo": "PinkSync",
+      "full_name": "PinkSync/PinkSync-Core",
+      "url": "https://github.com/PinkSync/PinkSync-Core",
+      "description": "Accessibility broker that coordinates speech, text, and sign language services in real-time.",
+      "open_issues": 5,
+      "open_prs": 0,
+      "latest_commit": {
+        "date": "2024-11-30T09:15:00Z"
+      },
+      "category": "Accessibility Tools",
+      "status": "official"
+    },
+    {
+      "repo": "360Magicians",
+      "full_name": "MBTQ-dev/360Magicians",
+      "url": "https://github.com/MBTQ-dev/360Magicians",
+      "description": "Business lifecycle agents for Deaf founders \u2014 from idea intake to compliance and managed operations.",
+      "open_issues": 0,
+      "open_prs": 2,
+      "latest_commit": {
+        "date": "2024-11-25T16:45:00Z"
+      },
+      "category": "Business Magicians",
+      "status": "personal"
+    },
+    {
+      "repo": "FibonRose",
+      "full_name": "pinkycollie/FibonRose",
+      "url": "https://github.com/pinkycollie/FibonRose",
+      "description": "The golden ratio applied to Deaf-first UI/UX systems and financial growth patterns.",
+      "open_issues": 1,
+      "open_prs": 0,
+      "latest_commit": {
+        "date": "2024-12-01T11:00:00Z"
+      },
+      "category": "Core Identity",
+      "status": "personal"
+    }
+  ],
+  "infrastructure": {
+    "deployment": {
+      "gateEnabled": true,
+      "requireInfrastructureComplete": true,
+      "requireServicesConfigured": true,
+      "preventPushUntilReady": true
+    },
+    "services": {
+      "deafauth": {
+        "status": "configured"
+      },
+      "pinksync": {
+        "status": "configured"
+      },
+      "fibonrose": {
+        "status": "configured"
+      }
+    },
+    "infrastructure": {
+      "terraform": "complete",
+      "environments": "ready"
+    },
+    "lastUpdated": "2024-12-01T00:00:00Z"
+  }
+}
