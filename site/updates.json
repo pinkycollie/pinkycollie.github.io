@@ -1,57 +1,613 @@
 {
-  "updated": "2026-05-19T00:19:35.270290+00:00",
+  "updated": "2026-05-19T02:52:24.632911+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
-      "full_name": "PinkSync/DeafAUTH",
-      "url": "https://github.com/PinkSync/DeafAUTH",
-      "description": "Deaf-first identity and authentication \u2014 a passport, accessibility profile, and compliance key for Deaf professionals.",
-      "open_issues": 2,
+      "full_name": "MBTQ-dev/DeafAUTH",
+      "url": "https://github.com/MBTQ-dev/DeafAUTH",
+      "description": "DeafAUTH is a universal identity compiler that aggregates authentication from multiple sources into a single Deaf-first identity hub.",
+      "updated_at": "2026-05-15T04:17:11Z",
+      "open_issues": 1,
       "open_prs": 1,
       "latest_commit": {
-        "date": "2024-11-28T14:30:00Z"
+        "sha": "b323fca705072aac407c9039184e690e3d1926b2",
+        "date": "2026-05-15T04:17:07Z",
+        "message": "Bump pytest from 7.4.3 to 9.0.3 in the pip group across 1 directory (#32)\n\nBumps the pip group with 1 update in the / directory: [pytest](https://github.com/pytest-dev/pytest).\n\n\nUpdates `pytest` from 7.4.3 to 9.0.3\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/7.4.3...9.0.3)\n\n---\nupdated-dependencies:\n- dependency-name: pytest\n  dependency-version: 9.0.3\n  dependency-type: direct:production\n  dependency-group: pip\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
-      "category": "Core Identity",
-      "status": "official"
+      "latest_release": null,
+      "private": false,
+      "owner": "MBTQ-dev",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
     },
     {
       "repo": "PinkSync",
-      "full_name": "PinkSync/PinkSync-Core",
-      "url": "https://github.com/PinkSync/PinkSync-Core",
-      "description": "Accessibility broker that coordinates speech, text, and sign language services in real-time.",
-      "open_issues": 5,
-      "open_prs": 0,
+      "full_name": "PinkSync/PinkSync",
+      "url": "https://github.com/PinkSync/PinkSync",
+      "description": "comprehensive Layer 1 accessibility orchestration platform designed specifically for deaf users. It acts as a unified gateway connecting deaf communities with accessible services, products, and programs while providing real-time accessibility enhancements across multiple environments.",
+      "updated_at": "2026-05-14T18:34:50Z",
+      "open_issues": 1,
+      "open_prs": 1,
       "latest_commit": {
-        "date": "2024-11-30T09:15:00Z"
+        "sha": "b1771370e692430ce63c433c1f0febe198425771",
+        "date": "2026-05-14T18:34:44Z",
+        "message": "Bump fast-uri from 3.1.0 to 3.1.2 in the npm_and_yarn group across 1 directory (#29)"
       },
-      "category": "Accessibility Tools",
-      "status": "official"
+      "latest_release": null,
+      "private": false,
+      "owner": "PinkSync",
+      "org": null,
+      "status": "official",
+      "category": "Accessibility Tools"
     },
     {
-      "repo": "360Magicians",
-      "full_name": "MBTQ-dev/360Magicians",
-      "url": "https://github.com/MBTQ-dev/360Magicians",
-      "description": "Business lifecycle agents for Deaf founders \u2014 from idea intake to compliance and managed operations.",
+      "repo": "Aegis",
+      "full_name": "pinkycollie/Aegis",
+      "url": "https://github.com/pinkycollie/Aegis",
+      "description": "DeafAUTH AI - AEGIS ",
+      "updated_at": "2026-05-17T22:22:53Z",
       "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "8e823c79fbd71d41fe352dbfbb17329da99adb23",
+        "date": "2025-12-16T01:38:05Z",
+        "message": "Merge pull request #2 from pinkycollie/copilot/enhance-readme-and-docs"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "ai-magicians-gcp",
+      "full_name": "pinkycollie/ai-magicians-gcp",
+      "url": "https://github.com/pinkycollie/ai-magicians-gcp",
+      "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
+      "updated_at": "2026-05-03T23:04:20Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "fb499415ed4c935c04213305ce065556e0208ec6",
+        "date": "2026-05-03T19:25:02Z",
+        "message": "Merge pull request #5 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-edc2f2fe5d"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "dao",
+      "full_name": "pinkycollie/dao",
+      "url": "https://github.com/pinkycollie/dao",
+      "description": "Modular, web3-ready DAO platform scaffold for Vercel + Next.js. Manage members, proposals, treasury, and reputation in one dashboard. Fully TypeScript-ready, Tailwind-styled, and serverless-friendly.",
+      "updated_at": "2025-12-30T05:16:42Z",
+      "open_issues": 2,
       "open_prs": 2,
       "latest_commit": {
-        "date": "2024-11-25T16:45:00Z"
+        "sha": "4ecb25b1ae4a66d15dd4439f75e907f1a85e2a66",
+        "date": "2025-12-30T05:16:39Z",
+        "message": "Create dependabot.yml"
       },
-      "category": "Business Magicians",
-      "status": "personal"
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
     },
     {
-      "repo": "FibonRose",
-      "full_name": "pinkycollie/FibonRose",
-      "url": "https://github.com/pinkycollie/FibonRose",
-      "description": "The golden ratio applied to Deaf-first UI/UX systems and financial growth patterns.",
-      "open_issues": 1,
+      "repo": "Deaf-Creators-Platform",
+      "full_name": "pinkycollie/Deaf-Creators-Platform",
+      "url": "https://github.com/pinkycollie/Deaf-Creators-Platform",
+      "description": "A comprehensive video processing platform designed specifically for Deaf creators, featuring multi-channel video processing, creator dispatch, video request matching, and AI-powered video vision models. Creators.pinksync.io",
+      "updated_at": "2026-05-15T09:44:47Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "fd68e319e41c8af573c0e3a13491d292fcc4575f",
+        "date": "2026-05-15T09:44:42Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 10 updates (#9)\n\nBumps the npm_and_yarn group with 10 updates in the / directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [next](https://github.com/vercel/next.js) | `15.2.4` | `15.5.18` |\n| [nodemailer](https://github.com/nodemailer/nodemailer) | `7.0.11` |\n`8.0.7` |\n| [postcss](https://github.com/postcss/postcss) | `8.5.6` | `8.5.10` |\n| [defu](https://github.com/unjs/defu) | `6.1.4` | `6.1.7` |\n|\n[fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser)\n| `5.2.5` | `5.7.3` |\n|\n[follow-redirects](https://github.com/follow-redirects/follow-redirects)\n| `1.15.11` | `1.16.0` |\n| [lodash](https://github.com/lodash/lodash) | `4.17.21` | `4.18.1` |\n| [picomatch](https://github.com/micromatch/picomatch) | `2.3.1` |\n`2.3.2` |\n| [protobufjs](https://github.com/protobufjs/protobuf.js) | `7.5.4` |\n`7.5.8` |\n| [yaml](https://github.com/eemeli/yaml) | `1.10.2` | `1.10.3` |\n| [yaml](https://github.com/eemeli/yaml) | `2.8.2` | `2.9.0` |\n\n\nUpdates `next` from 15.2.4 to 15.5.18\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/vercel/next.js/releases\">next's\nreleases</a>.</em></p>\n<blockquote>\n<h2>v15.5.18</h2>\n<p>This release contains security fixes for the following\nadvisories:</p>\n<p>High:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj\">GHSA-8h8q-6873-q5fj:\nDenial of Service with Server Components</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f\">GHSA-267c-6grr-h53f:\nMiddleware / Proxy bypass in App Router applications via\nsegment-prefetch routes</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-26hh-7cqf-hhc6\">GHSA-26hh-7cqf-hhc6:\nMiddleware / Proxy bypass in App Router applications via\nsegment-prefetch routes - Incomplete Fix Follow-Up</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-mg66-mrh9-m8jx\">GHSA-mg66-mrh9-m8jx:\nDenial of Service via connection exhaustion in applications using Cache\nComponents</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-492v-c6pp-mqqv\">GHSA-492v-c6pp-mqqv:\nMiddleware / Proxy bypass through dynamic route parameter\ninjection</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r\">GHSA-c4j6-fc7j-m34r:\nServer-side request forgery in applications using WebSocket\nupgrades</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-36qx-fr4f-26g5\">GHSA-36qx-fr4f-26g5:\nMiddleware / Proxy bypass in Pages Router applications using\ni18n</a></li>\n</ul>\n<p>Moderate:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-ffhc-5mcf-pf4q\">GHSA-ffhc-5mcf-pf4q:\nCross-site scripting in App Router applications using CSP\nnonces</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-gx5p-jg67-6x7h\">GHSA-gx5p-jg67-6x7h:\nCross-site scripting in beforeInteractive scripts with untrusted\ninput</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-h64f-5h5j-jqjh\">GHSA-h64f-5h5j-jqjh:\nDenial of Service in the Image Optimization API</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-wfc6-r584-vfw7\">GHSA-wfc6-r584-vfw7:\nCache poisoning in React Server Component responses</a></li>\n</ul>\n<p>Low:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-vfv6-92ff-j949\">GHSA-vfv6-92ff-j949:\nCache poisoning via collisions in React Server Component\ncache-busting</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-3g8h-86w9-wvmq\">GHSA-3g8h-86w9-wvmq:\nMiddleware / Proxy redirects can be cache-poisoned</a></li>\n</ul>\n<h2>v15.5.16</h2>\n<p>This release contains security fixes for the following\nadvisories:</p>\n<p>High:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-8h8q-6873-q5fj\">GHSA-8h8q-6873-q5fj:\nDenial of Service with Server Components</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-267c-6grr-h53f\">GHSA-267c-6grr-h53f:\nMiddleware / Proxy bypass in App Router applications via\nsegment-prefetch routes</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-mg66-mrh9-m8jx\">GHSA-mg66-mrh9-m8jx:\nDenial of Service via connection exhaustion in applications using Cache\nComponents</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-492v-c6pp-mqqv\">GHSA-492v-c6pp-mqqv:\nMiddleware / Proxy bypass through dynamic route parameter\ninjection</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r\">GHSA-c4j6-fc7j-m34r:\nServer-side request forgery in applications using WebSocket\nupgrades</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-36qx-fr4f-26g5\">GHSA-36qx-fr4f-26g5:\nMiddleware / Proxy bypass in Pages Router applications using\ni18n</a></li>\n</ul>\n<p>Moderate:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-ffhc-5mcf-pf4q\">GHSA-ffhc-5mcf-pf4q:\nCross-site scripting in App Router applications using CSP\nnonces</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-gx5p-jg67-6x7h\">GHSA-gx5p-jg67-6x7h:\nCross-site scripting in beforeInteractive scripts with untrusted\ninput</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-h64f-5h5j-jqjh\">GHSA-h64f-5h5j-jqjh:\nDenial of Service in the Image Optimization API</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-wfc6-r584-vfw7\">GHSA-wfc6-r584-vfw7:\nCache poisoning in React Server Component responses</a></li>\n</ul>\n<p>Low:</p>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-vfv6-92ff-j949\">GHSA-vfv6-92ff-j949:\nCache poisoning via collisions in React Server Component\ncache-busting</a></li>\n<li><a\nhref=\"https://github.com/vercel/next.js/security/advisories/GHSA-3g8h-86w9-wvmq\">GHSA-3g8h-86w9-wvmq:\nMiddleware / Proxy redirects can be cache-poisoned</a></li>\n</ul>\n<h2>v15.5.15</h2>\n<p>Please refer the following changelogs for more information about this\nsecurity release:</p>\n<p><a\nhref=\"https://vercel.com/changelog/summary-of-cve-2026-23869\">https://vercel.com/changelog/summary-of-cve-2026-23869</a></p>\n<h2>v15.5.14</h2>\n<blockquote>\n<p>[!NOTE]</p>\n</blockquote>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/9ff92cebcaa6ba4e7463b6fd037a8510ba9b81ec\"><code>9ff92ce</code></a>\nv15.5.18</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/00ebe23562bd7eb32dd78730984bfadb47138bcf\"><code>00ebe23</code></a>\n[backport] Disable build caches for production/staging/force-preview\ndeploys ...</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/62c97ab0b5825e2cbc15f6b682d8286a8dd6a038\"><code>62c97ab</code></a>\nv15.5.17</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/423623ae38c106273085b66946ee5bf9aab77f2c\"><code>423623a</code></a>\nTurbopack: Match proxy matchers with webpack implementation (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/93594\">#93594</a>)</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/fa787399b38d9aa702118f9bd23a8315b9f0ecc6\"><code>fa78739</code></a>\nTurbopack: Fix middleware matcher suffix (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/93590\">#93590</a>)</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/36e62c6eb7813e42d409eb487f93b829f4ad77e8\"><code>36e62c6</code></a>\n[backport] Turbopack: more strict vergen setup (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/93588\">#93588</a>)</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/36589b5db512b7704cdadd873cbe49b6dbcc9261\"><code>36589b5</code></a>\n[backport][test] Pin package manager to patch versions (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/93596\">#93596</a>)</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/ad6fd4e50e5aba20b60d283c42b89273a3167ccd\"><code>ad6fd4e</code></a>\nv15.5.16</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/79d7dff1448483f0c8f187f98887b31019f6e494\"><code>79d7dff</code></a>\nIgnore malformed CSP nonce headers (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/103\">#103</a>)</li>\n<li><a\nhref=\"https://github.com/vercel/next.js/commit/c4f69086cc8dcbd81b1dbc321c98ea874d90d6f8\"><code>c4f6908</code></a>\nrouter-server: guard upgrade proxy against absolute-url SSRF (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/77\">#77</a>) (<a\nhref=\"https://redirect.github.com/vercel/next.js/issues/102\">#102</a>)</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/vercel/next.js/compare/v15.2.4...v15.5.18\">compare\nview</a></li>\n</ul>\n</details>\n<details>\n<summary>Maintainer changes</summary>\n<p>This version was pushed to npm by <a\nhref=\"https://www.npmjs.com/~GitHub%20Actions\">GitHub Actions</a>, a new\nreleaser for next since your current version.</p>\n</details>\n<br />\n\nUpdates `nodemailer` from 7.0.11 to 8.0.7\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/nodemailer/nodemailer/releases\">nodemailer's\nreleases</a>.</em></p>\n<blockquote>\n<h2>v8.0.7</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.6...v8.0.7\">8.0.7</a>\n(2026-04-27)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>keep domain as UTF-8 when local part is non-ASCII (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1814\">#1814</a>)\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/66d4ecb5aa431f3614a26b3c08b9c63cdf32a9ea\">66d4ecb</a>)</li>\n</ul>\n<h2>v8.0.6</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.5...v8.0.6\">8.0.6</a>\n(2026-04-24)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>restore base64 wrap() trim behavior to prevent trailing CRLF (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1810\">#1810</a>)\n(<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1811\">#1811</a>)\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/b1ae6c1c2927240737d9f68f316f0c84042b8adb\">b1ae6c1</a>)</li>\n</ul>\n<h2>v8.0.5</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.4...v8.0.5\">8.0.5</a>\n(2026-04-07)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>decode SMTP server responses as UTF-8 at line boundary (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/95876b103e587e49583e43f88cb2c3a61556f3ac\">95876b1</a>)</li>\n<li>sanitize CRLF in transport name option to prevent SMTP command\ninjection (GHSA-vvjj-xcjg-gr5g) (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/0a43876801a420ca528f492eaa01bfc421cc306e\">0a43876</a>)</li>\n</ul>\n<h2>v8.0.4</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.3...v8.0.4\">8.0.4</a>\n(2026-03-25)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>sanitize envelope size to prevent SMTP command injection (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/2d7b9710e63555a1eb13d721296c51186d4b5651\">2d7b971</a>)</li>\n</ul>\n<h2>v8.0.3</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.2...v8.0.3\">8.0.3</a>\n(2026-03-18)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>clean up addressparser and fix group name fallback producing\nundefined (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/9d55877f8ed15a6aefd7ba76cbb6b6a6cdbcc4fd\">9d55877</a>)</li>\n<li>fix cookie bugs, remove dead code, and improve hot-path efficiency\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/e8c8b92f46f2a82d06d49cc9a6ffc26067f68524\">e8c8b92</a>)</li>\n<li>refactor smtp-connection for clarity and add Node.js 6 syntax compat\ntest (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/c5b48ea61c28eabf347972f4198a12cdab226ff7\">c5b48ea</a>)</li>\n<li>remove familySupportCache that broke DNS resolution tests (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/c803d901f195a21edbb2c276b2e116564467aaaa\">c803d90</a>)</li>\n</ul>\n<h2>v8.0.2</h2>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.1...v8.0.2\">8.0.2</a>\n(2026-03-09)</h2>\n<h3>Bug Fixes</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/nodemailer/nodemailer/blob/master/CHANGELOG.md\">nodemailer's\nchangelog</a>.</em></p>\n<blockquote>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.6...v8.0.7\">8.0.7</a>\n(2026-04-27)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>keep domain as UTF-8 when local part is non-ASCII (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1814\">#1814</a>)\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/66d4ecb5aa431f3614a26b3c08b9c63cdf32a9ea\">66d4ecb</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.5...v8.0.6\">8.0.6</a>\n(2026-04-24)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>restore base64 wrap() trim behavior to prevent trailing CRLF (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1810\">#1810</a>)\n(<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1811\">#1811</a>)\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/b1ae6c1c2927240737d9f68f316f0c84042b8adb\">b1ae6c1</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.4...v8.0.5\">8.0.5</a>\n(2026-04-07)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>decode SMTP server responses as UTF-8 at line boundary (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/95876b103e587e49583e43f88cb2c3a61556f3ac\">95876b1</a>)</li>\n<li>sanitize CRLF in transport name option to prevent SMTP command\ninjection (GHSA-vvjj-xcjg-gr5g) (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/0a43876801a420ca528f492eaa01bfc421cc306e\">0a43876</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.3...v8.0.4\">8.0.4</a>\n(2026-03-25)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>sanitize envelope size to prevent SMTP command injection (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/2d7b9710e63555a1eb13d721296c51186d4b5651\">2d7b971</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.2...v8.0.3\">8.0.3</a>\n(2026-03-18)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>clean up addressparser and fix group name fallback producing\nundefined (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/9d55877f8ed15a6aefd7ba76cbb6b6a6cdbcc4fd\">9d55877</a>)</li>\n<li>fix cookie bugs, remove dead code, and improve hot-path efficiency\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/e8c8b92f46f2a82d06d49cc9a6ffc26067f68524\">e8c8b92</a>)</li>\n<li>refactor smtp-connection for clarity and add Node.js 6 syntax compat\ntest (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/c5b48ea61c28eabf347972f4198a12cdab226ff7\">c5b48ea</a>)</li>\n<li>remove familySupportCache that broke DNS resolution tests (<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/c803d901f195a21edbb2c276b2e116564467aaaa\">c803d90</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.1...v8.0.2\">8.0.2</a>\n(2026-03-09)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>merge fragmented display names with unquoted commas in addressparser\n(<a\nhref=\"https://github.com/nodemailer/nodemailer/commit/fe27f7fd57f7587d897274438da2f628ad0ad7d9\">fe27f7f</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v8.0.0...v8.0.1\">8.0.1</a>\n(2026-02-07)</h2>\n<h3>Bug Fixes</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/1997040e23e5df901b8ee085ae3fc1fdbdd06f9f\"><code>1997040</code></a>\nchore(master): release 8.0.7 (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1815\">#1815</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/9b9c545dcfae3b884d5b92bf3196e674066e8b3e\"><code>9b9c545</code></a>\nchore: drop nodemailer-ntlm-auth devDependency (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1816\">#1816</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/22bf90cf111f02b7a0271494d85b48adcc8ab0a1\"><code>22bf90c</code></a>\nBumped dev deps</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/66d4ecb5aa431f3614a26b3c08b9c63cdf32a9ea\"><code>66d4ecb</code></a>\nfix: keep domain as UTF-8 when local part is non-ASCII (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1814\">#1814</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/6a4a01e1c94a469d8dc56cc858ea5beb80e1f9b8\"><code>6a4a01e</code></a>\nFix/base64 wrap trailing crlf (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1813\">#1813</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/a22efbcf4fa14df283d9d92294b3d0499aa42145\"><code>a22efbc</code></a>\nchore(master): release 8.0.6 (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1812\">#1812</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/b1ae6c1c2927240737d9f68f316f0c84042b8adb\"><code>b1ae6c1</code></a>\nfix: restore base64 wrap() trim behavior to prevent trailing CRLF (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1810\">#1810</a>)\n(<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1\">#1</a>...</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/202cfb3e14010223204e9ba9f7430176be624f0f\"><code>202cfb3</code></a>\nchore(master): release 8.0.5 (<a\nhref=\"https://redirect.github.com/nodemailer/nodemailer/issues/1809\">#1809</a>)</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/b634abf05959edcc7207cdaba2c6541f92994cbb\"><code>b634abf</code></a>\ndocs: add CLAUDE.md with project conventions and release process</li>\n<li><a\nhref=\"https://github.com/nodemailer/nodemailer/commit/95876b103e587e49583e43f88cb2c3a61556f3ac\"><code>95876b1</code></a>\nfix: decode SMTP server responses as UTF-8 at line boundary</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/nodemailer/nodemailer/compare/v7.0.11...v8.0.7\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `postcss` from 8.5.6 to 8.5.10\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/releases\">postcss's\nreleases</a>.</em></p>\n<blockquote>\n<h2>8.5.10</h2>\n<ul>\n<li>Fixed XSS via unescaped <code>&lt;/style&gt;</code> in non-bundler\ncases (by <a\nhref=\"https://github.com/TharVid\"><code>@\u200bTharVid</code></a>).</li>\n</ul>\n<h2>8.5.9</h2>\n<ul>\n<li>Speed up source map encoding paring in case of the error.</li>\n</ul>\n<h2>8.5.8</h2>\n<ul>\n<li>Fixed <code>Processor#version</code>.</li>\n</ul>\n<h2>8.5.7</h2>\n<ul>\n<li>Improved source map annotation cleaning performance (by CodeAnt\nAI).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/blob/main/CHANGELOG.md\">postcss's\nchangelog</a>.</em></p>\n<blockquote>\n<h2>8.5.10</h2>\n<ul>\n<li>Fixed XSS via unescaped <code>&lt;/style&gt;</code> in non-bundler\ncases (by <a\nhref=\"https://github.com/TharVid\"><code>@\u200bTharVid</code></a>).</li>\n</ul>\n<h2>8.5.9</h2>\n<ul>\n<li>Speed up source map encoding paring in case of the error.</li>\n</ul>\n<h2>8.5.8</h2>\n<ul>\n<li>Fixed <code>Processor#version</code>.</li>\n</ul>\n<h2>8.5.7</h2>\n<ul>\n<li>Improved source map annotation cleaning performance (by CodeAnt\nAI).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/33b9790263dc1562a46ce45d9532bd63e95b7986\"><code>33b9790</code></a>\nRelease 8.5.10 version</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/536c79e4b01e58a3a56b09c3c0cf2323f4b9a28b\"><code>536c79e</code></a>\nEscape &lt;/style&gt; in CSS output (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2074\">#2074</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/afa96b2a139ce625c4d27973313479c7c85f39d4\"><code>afa96b2</code></a>\nUpdate dependencies (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2073\">#2073</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/effe88bb87cabdc1876e02adbdd30f392f19f40d\"><code>effe88b</code></a>\nTypo (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2072\">#2072</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/3ee79a2c4a11e41d52db50b444eebe38299495ad\"><code>3ee79a2</code></a>\nThread model (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2071\">#2071</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/2e0683daca4dc2919211b03774f6b2d137136c01\"><code>2e0683d</code></a>\nCreate incident response docs (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2070\">#2070</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/fe88ac29c06b7b218be32994cdc6ca1525bdf2c9\"><code>fe88ac2</code></a>\nRelease 8.5.9 version</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/c551632496b87ab3f1965bfda5dc386b6c71963e\"><code>c551632</code></a>\nAvoid RegExp when we can use simple JS</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/89a6b744060eb8dee743351c785a9fbe37d4525a\"><code>89a6b74</code></a>\nMove SECURITY.txt for docs folder to keep GitHub page cleaner</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/6ceb8a46af9f9de821faee98f861bdf84617347b\"><code>6ceb8a4</code></a>\nCreate SECURITY.md</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/postcss/postcss/compare/8.5.6...8.5.10\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `defu` from 6.1.4 to 6.1.7\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/unjs/defu/releases\">defu's\nreleases</a>.</em></p>\n<blockquote>\n<h2>v6.1.7</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.6...v6.1.7\">compare\nchanges</a></p>\n<h3>\ud83d\udce6 Build</h3>\n<ul>\n<li>Correct the <code>types</code> export entry (<a\nhref=\"https://redirect.github.com/unjs/defu/pull/160\">#160</a>)</li>\n<li>Export Defu types (<a\nhref=\"https://redirect.github.com/unjs/defu/pull/157\">#157</a>)</li>\n</ul>\n<h3>\u2764\ufe0f Contributors</h3>\n<ul>\n<li>Jakub Mich\u00e1lek (<a\nhref=\"https://github.com/J-Michalek\"><code>@\u200bJ-Michalek</code></a>)</li>\n<li>Kricsleo (<a\nhref=\"https://github.com/kricsleo\"><code>@\u200bkricsleo</code></a>)</li>\n</ul>\n<h2>v6.1.6</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.5...v6.1.6\">compare\nchanges</a></p>\n<h3>\ud83d\udce6 Build</h3>\n<ul>\n<li>Fix mixed types (<a\nhref=\"https://github.com/unjs/defu/commit/407b516\">407b516</a>)</li>\n</ul>\n<h2>v6.1.5</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.4...v6.1.5\">compare\nchanges</a></p>\n<h3>\ud83e\ude79 Fixes</h3>\n<ul>\n<li>Prevent prototype pollution via <code>__proto__</code> in defaults\n(<a href=\"https://redirect.github.com/unjs/defu/pull/156\">#156</a>)</li>\n<li>Ignore inherited enumerable properties (<a\nhref=\"https://github.com/unjs/defu/commit/11ba022\">11ba022</a>)</li>\n</ul>\n<h3>\u2705 Tests</h3>\n<ul>\n<li>Add more tests for plain objects (<a\nhref=\"https://github.com/unjs/defu/commit/b65f603\">b65f603</a>)</li>\n</ul>\n<h3>\u2764\ufe0f Contributors</h3>\n<ul>\n<li>Pooya Parsa (<a\nhref=\"https://github.com/pi0\"><code>@\u200bpi0</code></a>)</li>\n<li>Kricsleo (<a\nhref=\"https://github.com/kricsleo\"><code>@\u200bkricsleo</code></a>)</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/unjs/defu/blob/main/CHANGELOG.md\">defu's\nchangelog</a>.</em></p>\n<blockquote>\n<h2>v6.1.7</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.6...v6.1.7\">compare\nchanges</a></p>\n<h3>\ud83e\ude79 Fixes</h3>\n<ul>\n<li><strong>defu.d.cts:</strong> Export Defu types (<a\nhref=\"https://redirect.github.com/unjs/defu/pull/157\">#157</a>)</li>\n</ul>\n<h3>\ud83d\udce6 Build</h3>\n<ul>\n<li>Correct the <code>types</code> export entry (<a\nhref=\"https://redirect.github.com/unjs/defu/pull/160\">#160</a>)</li>\n</ul>\n<h3>\u2764\ufe0f Contributors</h3>\n<ul>\n<li>Jakub Mich\u00e1lek (<a\nhref=\"https://github.com/J-Michalek\"><code>@\u200bJ-Michalek</code></a>)</li>\n<li>Kricsleo (<a\nhref=\"https://github.com/kricsleo\"><code>@\u200bkricsleo</code></a>)</li>\n</ul>\n<h2>v6.1.6</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.5...v6.1.6\">compare\nchanges</a></p>\n<h3>\ud83d\udce6 Build</h3>\n<ul>\n<li>Fix mixed types (<a\nhref=\"https://github.com/unjs/defu/commit/407b516\">407b516</a>)</li>\n</ul>\n<h3>\u2764\ufe0f Contributors</h3>\n<ul>\n<li>Pooya Parsa (<a\nhref=\"https://github.com/pi0\"><code>@\u200bpi0</code></a>)</li>\n</ul>\n<h2>v6.1.5</h2>\n<p><a\nhref=\"https://github.com/unjs/defu/compare/v6.1.4...v6.1.5\">compare\nchanges</a></p>\n<h3>\ud83e\ude79 Fixes</h3>\n<ul>\n<li>Prevent prototype pollution via <code>__proto__</code> in defaults\n(<a href=\"https://redirect.github.com/unjs/defu/pull/156\">#156</a>)</li>\n<li>Ignore inherited enumerable properties (<a\nhref=\"https://github.com/unjs/defu/commit/11ba022\">11ba022</a>)</li>\n</ul>\n<h3>\ud83c\udfe1 Chore</h3>\n<ul>\n<li>Add tea.yaml (<a\nhref=\"https://github.com/unjs/defu/commit/70cffe5\">70cffe5</a>)</li>\n<li>Update repo (<a\nhref=\"https://github.com/unjs/defu/commit/23cc432\">23cc432</a>)</li>\n<li>Fix typecheck (<a\nhref=\"https://github.com/unjs/defu/commit/89df6bb\">89df6bb</a>)</li>\n</ul>\n<h3>\u2705 Tests</h3>\n<ul>\n<li>Add more tests for plain objects (<a\nhref=\"https://github.com/unjs/defu/commit/b65f603\">b65f603</a>)</li>\n</ul>\n<h3>\ud83e\udd16 CI</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/80c0146afb11ebd86183a579ec469f3abd976695\"><code>80c0146</code></a>\nchore(release): v6.1.7</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/40d7ef42d30db975bf80c340e7856c1ad3568321\"><code>40d7ef4</code></a>\nfix(defu.d.cts): export Defu types (<a\nhref=\"https://redirect.github.com/unjs/defu/issues/157\">#157</a>)</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/3d3a7c89ca78f3fa43ec7194b12e44e4b0568697\"><code>3d3a7c8</code></a>\nbuild: correct the <code>types</code> export entry (<a\nhref=\"https://redirect.github.com/unjs/defu/issues/160\">#160</a>)</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/001c2906010eb65c1bb13ccd1f4abea09e10405b\"><code>001c290</code></a>\nchore(release): v6.1.6</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/407b51645c41a57da6efac5b40967f2c60ce4f12\"><code>407b516</code></a>\nbuild: fix mixed types</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/23e59e684cb6a432aad13f308d142247e31b6315\"><code>23e59e6</code></a>\nchore(release): v6.1.5</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/11ba02213d4b1c6b02dd686041f75edc479c98e9\"><code>11ba022</code></a>\nfix: ignore inherited enumerable properties</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/3942bfbbcaa72084bd4284846c83bd61ed7c8b29\"><code>3942bfb</code></a>\nfix: prevent prototype pollution via <code>__proto__</code> in defaults\n(<a\nhref=\"https://redirect.github.com/unjs/defu/issues/156\">#156</a>)</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/d3ef16dabe861713192ba8679c5db8e0ac143f9b\"><code>d3ef16d</code></a>\nchore(deps): update actions/checkout action to v6 (<a\nhref=\"https://redirect.github.com/unjs/defu/issues/151\">#151</a>)</li>\n<li><a\nhref=\"https://github.com/unjs/defu/commit/869a053effb7b1bf49a1635e1bb211840daa589e\"><code>869a053</code></a>\nchore(deps): update actions/setup-node action to v6 (<a\nhref=\"https://redirect.github.com/unjs/defu/issues/149\">#149</a>)</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/unjs/defu/compare/v6.1.4...v6.1.7\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `fast-xml-parser` from 5.2.5 to 5.7.3\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/releases\">fast-xml-parser's\nreleases</a>.</em></p>\n<blockquote>\n<h2>fix minor old bugs and update builder</h2>\n<ul>\n<li>fix: alwaysCreateTextNode should create text node when attributes\nare present for self closing node</li>\n<li>fix stop node expression when ns prefix is removed (found by <a\nhref=\"https://github.com/iruizsalinas\">iruizsalinas</a>)</li>\n<li>update XML Builder to 1.1.7</li>\n<li>mark addEntity deprecated</li>\n</ul>\n<h2>backward compatibility for numerical external entity, fix <a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/705\">#705</a>,\n<a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/817\">#817</a></h2>\n<ul>\n<li>allow numerical external entity for backward compatibility</li>\n<li>fix <a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/705\">#705</a>:\nattributesGroupName working with preserveOrder</li>\n<li>fix <a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/817\">#817</a>:\nstackoverflow when tag expression is very long</li>\n</ul>\n<h2>upgrade <code>@\u200bnodable/entities</code> and FXB</h2>\n<ul>\n<li>Use <code>@nodable/entities</code> v2.1.0\n<ul>\n<li>breaking changes\n<ul>\n<li>single entity scan. You're not allowed to use entity value to form\nanother entity name.</li>\n<li>you cant add numeric external entity</li>\n<li>entity error message when expantion limit is crossed might\nchange</li>\n</ul>\n</li>\n<li>typings are updated for new options related to process entity</li>\n<li>please follow documentation of <code>@nodable/entities</code> for\nmore detail.</li>\n<li>performance\n<ul>\n<li>if processEntities is false, then there should not be impact on\nperformance.</li>\n<li>if processEntities is true, but you dont pass entity decoder\nseparately then performance may degrade by approx 8-10%</li>\n<li>if processEntities is true, and you pass entity decoder separately\n<ul>\n<li>if no entity then performance should be same as before</li>\n<li>if there are entities then performance should be increased from past\nversions</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>ignoreAttributes is not required to be set to set xml version for\nNCR entity value</li>\n</ul>\n</li>\n<li>update 'fast-xml-builder' to sanitize malicious CDATA and comment's\ncontent</li>\n</ul>\n<h2>use <code>@\u200bnodable/entities</code> to replace entities</h2>\n<ul>\n<li>No API change</li>\n<li>No change in performance for basic usage</li>\n<li>No typing change</li>\n<li>No config change</li>\n<li>new dependency</li>\n<li>breaking: error messages for entities might have been changed.</li>\n<li></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/compare/v5.5.12...v5.6.0\">https://github.com/NaturalIntelligence/fast-xml-parser/compare/v5.5.12...v5.6.0</a></p>\n<h2>performance improvment, increase entity expansion default limit</h2>\n<ul>\n<li>increase default entity explansion limit as many projects demand for\nthat</li>\n</ul>\n<pre><code>maxEntitySize: 10000,\nmaxExpansionDepth: 10000,\nmaxTotalExpansions: Infinity,\nmaxExpandedLength: 100000,\nmaxEntityCount: 1000,\n</code></pre>\n<ul>\n<li>performance improvement\n<ul>\n<li>reduce calls to toString</li>\n<li>early return when entities are not present</li>\n</ul>\n</li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/blob/master/CHANGELOG.md\">fast-xml-parser's\nchangelog</a>.</em></p>\n<blockquote>\n<p><!-- raw HTML omitted -->Note: If you find missing information about\nparticular minor version, that version must have been changed without\nany functional change in this library.<!-- raw HTML omitted --></p>\n<p>Note: Due to some last quick changes on v4, detail of v4.5.3 &amp;\nv4.5.4 are not updated here. v4.5.4x is the last tag of v4 in github\nrepository. I'm extremely sorry for the confusion</p>\n<p>*<em>5.8.0 / 2026-05-12</em></p>\n<ul>\n<li>integrate xml-naming to validate DOCTYPE entity name and notation\nname (using qname becaue of backward compatibility)\n<ul>\n<li>This will consider xml-version as well. '1.0' is default</li>\n</ul>\n</li>\n<li>update strnum to 2.3.0\n<ul>\n<li>You can set octal and binary parsing which is bydeault off</li>\n</ul>\n</li>\n<li>update fast-xml-builder to 1.2.0\n<ul>\n<li>can sanitize tag names if found invalid</li>\n<li>fix format output</li>\n</ul>\n</li>\n</ul>\n<p><strong>5.7.3 / 2006-05-05</strong></p>\n<ul>\n<li>fix: alwaysCreateTextNode should create text node when attributes\nare present for self closing node</li>\n<li>fix stop node expression when ns prefix is removed (found by <a\nhref=\"https://github.com/iruizsalinas\">iruizsalinas</a>)</li>\n<li>update XML Builder to 1.1.7</li>\n<li>mark addEntity deprecated</li>\n</ul>\n<p><strong>5.7.2 / 2026-04-25</strong></p>\n<ul>\n<li>allow numerical external entity for backward compatibility</li>\n<li>fix <a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/705\">#705</a>:\nattributesGroupName working with preserveOrder</li>\n<li>fix <a\nhref=\"https://redirect.github.com/NaturalIntelligence/fast-xml-parser/issues/817\">#817</a>:\nstackoverflow when tag expression is very long</li>\n</ul>\n<p><strong>5.7.1 / 2026-04-20</strong></p>\n<ul>\n<li>fix typo in CJS typing file</li>\n</ul>\n<p><strong>5.7.0 / 2026-04-17</strong></p>\n<ul>\n<li>Use <code>@nodable/entities</code> v2.1.0\n<ul>\n<li>breaking changes\n<ul>\n<li>single entity scan. You're not allowed to user entity value to form\nanother entity name.</li>\n<li>you cant add numeric external entity</li>\n<li>entity error message when expantion limit is crossed might\nchange</li>\n</ul>\n</li>\n<li>typings are updated for new options related to process entity</li>\n<li>please follow documentation of <code>@nodable/entities</code> for\nmore detail.</li>\n<li>performance\n<ul>\n<li>if processEntities is false, then there should not be impact on\nperformance.</li>\n<li>if processEntities is true, but you dont pass entity decoder\nseparately then performance may degrade by approx 8-10%</li>\n<li>if processEntities is true, and you pass entity decoder separately\n<ul>\n<li>if no entity then performance should be same as before</li>\n<li>if there are entities then performance should be increased from past\nversions</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>ignoreAttributes is not required to be set to set xml version for\nNCR entity value</li>\n</ul>\n</li>\n<li>update 'fast-xml-builder' to sanitize malicious CDATA and comment's\ncontent</li>\n</ul>\n<p><strong>5.6.0 / 2026-04-15</strong></p>\n<ul>\n<li>fix: entity replacement for numeric entities</li>\n<li>use <code>@\u200bnodable/entities</code> to replace entities\n<ul>\n<li>this may change some error messages related to entities expansion\nlimit or inavlid use</li>\n<li>post check would be exposed in future version</li>\n</ul>\n</li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/d6d80429b1d1f1420902e1cebac6fe7831ba0839\"><code>d6d8042</code></a>\nupdate to release</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/d2633709699520c514208ea70e31adb6d71ab0e8\"><code>d263370</code></a>\nremove dev dependency 'he'</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/f9c9a2c19f819ab6fe0856ef4e94d6aa28fe1eec\"><code>f9c9a2c</code></a>\nupdate builder to 1.1.7</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/b65da87028f943abf5698b96385eef21e39f983e\"><code>b65da87</code></a>\nupdate changelog and mark addEntity deprecated</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/c2ca631f99d4d7f66e0d48001741bc8784cfe966\"><code>c2ca631</code></a>\nupdate fxb</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/da7519163bfdc257e90be781a05af83840b330a8\"><code>da75191</code></a>\nfix stop node expression when ns prefix is removed</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/31bbc99adedcada7d52bc4745273e7d8b9824b31\"><code>31bbc99</code></a>\nfix: alwaysCreateTextNode should create text node when attributes are\npresent...</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/dab327a05acd4f62bba277fb924e2e751079eca0\"><code>dab327a</code></a>\nremove unnecessary</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/ab04eeb91d3013d56c6a949cf45c17deaa3a0fc8\"><code>ab04eeb</code></a>\nupdate docs</li>\n<li><a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/commit/383cb3feee7f8181379f41836359e6b53379db5d\"><code>383cb3f</code></a>\nRevise security information for v6 release</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/NaturalIntelligence/fast-xml-parser/compare/v5.2.5...v5.7.3\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `follow-redirects` from 1.15.11 to 1.16.0\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/follow-redirects/follow-redirects/commit/0c23a223067201c368035e82954c11eb2578a33b\"><code>0c23a22</code></a>\nRelease version 1.16.0 of the npm package.</li>\n<li><a\nhref=\"https://github.com/follow-redirects/follow-redirects/commit/844c4d302ac963d29bdb5dc1754ec7df3d70d7f9\"><code>844c4d3</code></a>\nAdd sensitiveHeaders option.</li>\n<li><a\nhref=\"https://github.com/follow-redirects/follow-redirects/commit/5e8b8d024e2c76f804a284258e585ecb49a575be\"><code>5e8b8d0</code></a>\nci: add Node.js 24.x to the CI matrix</li>\n<li><a\nhref=\"https://github.com/follow-redirects/follow-redirects/commit/7953e2255aa0b93602eed3804f3bc5e6923a03af\"><code>7953e22</code></a>\nci: upgrade GitHub Actions to use setup-node@v6 and checkout@v6</li>\n<li><a\nhref=\"https://github.com/follow-redirects/follow-redirects/commit/86dc1f86e4b56bcd642c78384d51f10f123aea75\"><code>86dc1f8</code></a>\nSanitizing input.</li>\n<li>See full diff in <a\nhref=\"https://github.com/follow-redirects/follow-redirects/compare/v1.15.11...v1.16.0\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `lodash` from 4.17.21 to 4.18.1\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/lodash/lodash/releases\">lodash's\nreleases</a>.</em></p>\n<blockquote>\n<h2>4.18.1</h2>\n<h2>Bugs</h2>\n<p>Fixes a <code>ReferenceError</code> issue in <code>lodash</code>\n<code>lodash-es</code> <code>lodash-amd</code> and\n<code>lodash.template</code> when using the <code>template</code> and\n<code>fromPairs</code> functions from the modular builds. See <a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6167#issuecomment-4165269769\">lodash/lodash#6167</a></p>\n<p>These defects were related to how lodash distributions are built from\nthe main branch using <a\nhref=\"https://github.com/lodash-archive/lodash-cli\">https://github.com/lodash-archive/lodash-cli</a>.\nWhen internal dependencies change inside lodash functions, equivalent\nupdates need to be made to a mapping in the lodash-cli. (hey, it was\nahead of its time once upon a time!). We know this, but we missed it in\nthe last release. It's the kind of thing that passes in CI, but fails bc\nthe build is not the same thing you tested.</p>\n<p>There is no diff on main for this, but you can see the diffs for each\nof the npm packages on their respective branches:</p>\n<ul>\n<li><code>lodash</code>: <a\nhref=\"https://github.com/lodash/lodash/compare/4.18.0-npm...4.18.1-npm\">https://github.com/lodash/lodash/compare/4.18.0-npm...4.18.1-npm</a></li>\n<li><code>lodash-es</code>: <a\nhref=\"https://github.com/lodash/lodash/compare/4.18.0-es...4.18.1-es\">https://github.com/lodash/lodash/compare/4.18.0-es...4.18.1-es</a></li>\n<li><code>lodash-amd</code>: <a\nhref=\"https://github.com/lodash/lodash/compare/4.18.0-amd...4.18.1-amd\">https://github.com/lodash/lodash/compare/4.18.0-amd...4.18.1-amd</a></li>\n<li><code>lodash.template</code><a\nhref=\"https://github.com/lodash/lodash/compare/4.18.0-npm-packages...4.18.1-npm-packages\">https://github.com/lodash/lodash/compare/4.18.0-npm-packages...4.18.1-npm-packages</a></li>\n</ul>\n<h2>4.18.0</h2>\n<h2>v4.18.0</h2>\n<p><strong>Full Changelog</strong>: <a\nhref=\"https://github.com/lodash/lodash/compare/4.17.23...4.18.0\">https://github.com/lodash/lodash/compare/4.17.23...4.18.0</a></p>\n<h3>Security</h3>\n<p><strong><code>_.unset</code> / <code>_.omit</code></strong>: Fixed\nprototype pollution via <code>constructor</code>/<code>prototype</code>\npath traversal (<a\nhref=\"https://github.com/lodash/lodash/security/advisories/GHSA-f23m-r3pf-42rh\">GHSA-f23m-r3pf-42rh</a>,\n<a\nhref=\"https://github.com/lodash/lodash/commit/fe8d32eda854377349a4f922ab7655c8e5df9a0b\">fe8d32e</a>).\nPreviously, array-wrapped path segments and primitive roots could bypass\nthe existing guards, allowing deletion of properties from built-in\nprototypes. Now <code>constructor</code> and <code>prototype</code> are\nblocked unconditionally as non-terminal path keys, matching\n<code>baseSet</code>. Calls that previously returned <code>true</code>\nand deleted the property now return <code>false</code> and leave the\ntarget untouched.</p>\n<p><strong><code>_.template</code></strong>: Fixed code injection via\n<code>imports</code> keys (<a\nhref=\"https://github.com/lodash/lodash/security/advisories/GHSA-r5fr-rjxr-66jc\">GHSA-r5fr-rjxr-66jc</a>,\nCVE-2026-4800, <a\nhref=\"https://github.com/lodash/lodash/commit/879aaa93132d78c2f8d20c60279da9f8b21576d6\">879aaa9</a>).\nFixes an incomplete patch for CVE-2021-23337. The <code>variable</code>\noption was validated against <code>reForbiddenIdentifierChars</code> but\n<code>importsKeys</code> was left unguarded, allowing code injection via\nthe same <code>Function()</code> constructor sink. <code>imports</code>\nkeys containing forbidden identifier characters now throw\n<code>&quot;Invalid imports option passed into\n_.template&quot;</code>.</p>\n<h3>Docs</h3>\n<ul>\n<li>Add security notice for <code>_.template</code> in threat model and\nAPI docs (<a\nhref=\"https://redirect.github.com/lodash/lodash/pull/6099\">#6099</a>)</li>\n<li>Document <code>lower &gt; upper</code> behavior in\n<code>_.random</code> (<a\nhref=\"https://redirect.github.com/lodash/lodash/pull/6115\">#6115</a>)</li>\n<li>Fix quotes in <code>_.compact</code> jsdoc (<a\nhref=\"https://redirect.github.com/lodash/lodash/pull/6090\">#6090</a>)</li>\n</ul>\n<h3><code>lodash.*</code> modular packages</h3>\n<p><a\nhref=\"https://redirect.github.com/lodash/lodash/pull/6157\">Diff</a></p>\n<p>We have also regenerated and published a select number of the\n<code>lodash.*</code> modular packages.</p>\n<p>These modular packages had fallen out of sync significantly from the\nminor/patch updates to lodash. Specifically, we have brought the\nfollowing packages up to parity w/ the latest lodash release because\nthey have had CVEs on them in the past:</p>\n<ul>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.orderby\">lodash.orderby</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.tonumber\">lodash.tonumber</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.trim\">lodash.trim</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.trimend\">lodash.trimend</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.sortedindexby\">lodash.sortedindexby</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.zipobjectdeep\">lodash.zipobjectdeep</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.unset\">lodash.unset</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.omit\">lodash.omit</a></li>\n<li><a\nhref=\"https://www.npmjs.com/package/lodash.template\">lodash.template</a></li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/cb0b9b9212521c08e3eafe7c8cb0af1b42b6649e\"><code>cb0b9b9</code></a>\nrelease(patch): bump main to 4.18.1 (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6177\">#6177</a>)</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/75535f57883b7225adb96de1cfc1cd4169cfcb51\"><code>75535f5</code></a>\nchore: prune stale advisory refs (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6170\">#6170</a>)</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/62e91bc6a39c98d85b9ada8c44d40593deaf82a4\"><code>62e91bc</code></a>\ndocs: remove n_ Node.js &lt; 6 REPL note from README (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6165\">#6165</a>)</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/59be2de61f8aa9461c7856533b51d31b7d8babc4\"><code>59be2de</code></a>\nrelease(minor): bump to 4.18.0 (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6161\">#6161</a>)</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/af634573030f979194871da7c68f79420992f53d\"><code>af63457</code></a>\nfix: broken tests for _.template 879aaa9</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/1073a7693e1727e0cf3641e5f71f75ddcf8de7c0\"><code>1073a76</code></a>\nfix: linting issues</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/879aaa93132d78c2f8d20c60279da9f8b21576d6\"><code>879aaa9</code></a>\nfix: validate imports keys in _.template</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/fe8d32eda854377349a4f922ab7655c8e5df9a0b\"><code>fe8d32e</code></a>\nfix: block prototype pollution in baseUnset via constructor/prototype\ntraversal</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/18ba0a32f42fd02117f096b032f89c984173462d\"><code>18ba0a3</code></a>\nrefactor(fromPairs): use baseAssignValue for consistent assignment (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6153\">#6153</a>)</li>\n<li><a\nhref=\"https://github.com/lodash/lodash/commit/b8190803d48d60b8c80ad45d39125f32fa618cb2\"><code>b819080</code></a>\nci: add dist sync validation workflow (<a\nhref=\"https://redirect.github.com/lodash/lodash/issues/6137\">#6137</a>)</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/lodash/lodash/compare/4.17.21...4.18.1\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `picomatch` from 2.3.1 to 2.3.2\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/micromatch/picomatch/releases\">picomatch's\nreleases</a>.</em></p>\n<blockquote>\n<h2>2.3.2</h2>\n<p>This is a security release fixing several security relevant\nissues.</p>\n<h2>What's Changed</h2>\n<ul>\n<li>fix: exception when glob pattern contains constructor by <a\nhref=\"https://github.com/Jason3S\"><code>@\u200bJason3S</code></a> in <a\nhref=\"https://redirect.github.com/micromatch/picomatch/pull/144\">micromatch/picomatch#144</a></li>\n<li>Fix for <a\nhref=\"https://github.com/micromatch/picomatch/security/advisories/GHSA-c2c7-rcm5-vvqj\">CVE-2026-33671</a></li>\n<li>Fix for <a\nhref=\"https://github.com/micromatch/picomatch/security/advisories/GHSA-3v7f-55p6-f55p\">CVE-2026-33672</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a\nhref=\"https://github.com/micromatch/picomatch/compare/2.3.1...2.3.2\">https://github.com/micromatch/picomatch/compare/2.3.1...2.3.2</a></p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/micromatch/picomatch/blob/master/CHANGELOG.md\">picomatch's\nchangelog</a>.</em></p>\n<blockquote>\n<h1>Release history</h1>\n<p><strong>All notable changes to this project will be documented in\nthis file.</strong></p>\n<p>The format is based on <a\nhref=\"http://keepachangelog.com/en/1.0.0/\">Keep a Changelog</a>\nand this project adheres to <a\nhref=\"http://semver.org/spec/v2.0.0.html\">Semantic Versioning</a>.</p>\n<!-- raw HTML omitted -->\n<ul>\n<li>Changelogs are for humans, not machines.</li>\n<li>There should be an entry for every single version.</li>\n<li>The same types of changes should be grouped.</li>\n<li>Versions and sections should be linkable.</li>\n<li>The latest version comes first.</li>\n<li>The release date of each versions is displayed.</li>\n<li>Mention whether you follow Semantic Versioning.</li>\n</ul>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>Changelog entries are classified using the following labels <em>(from\n<a href=\"http://keepachangelog.com/\">keep-a-changelog</a></em>):</p>\n<ul>\n<li><code>Added</code> for new features.</li>\n<li><code>Changed</code> for changes in existing functionality.</li>\n<li><code>Deprecated</code> for soon-to-be removed features.</li>\n<li><code>Removed</code> for now removed features.</li>\n<li><code>Fixed</code> for any bug fixes.</li>\n<li><code>Security</code> in case of vulnerabilities.</li>\n</ul>\n<!-- raw HTML omitted -->\n<h2>4.0.0 (2024-02-07)</h2>\n<h3>Fixes</h3>\n<ul>\n<li>Fix bad text values in parse <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/126\">#126</a>,\nthanks to <a\nhref=\"https://github.com/connor4312\"><code>@\u200bconnor4312</code></a></li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>Remove process global to work outside of node <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/129\">#129</a>,\nthanks to <a\nhref=\"https://github.com/styfle\"><code>@\u200bstyfle</code></a></li>\n<li>Add sideEffects to package.json <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/128\">#128</a>,\nthanks to <a\nhref=\"https://github.com/frandiox\"><code>@\u200bfrandiox</code></a></li>\n<li>Removed <code>os</code>, make compatible browser environment. See <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/124\">#124</a>,\nthanks to <a\nhref=\"https://github.com/gwsbhqt\"><code>@\u200bgwsbhqt</code></a></li>\n</ul>\n<h2>3.0.1</h2>\n<h3>Fixes</h3>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/micromatch/picomatch/commit/81cba8d4b767cab3cb29d26eb4f691eed75b73b2\"><code>81cba8d</code></a>\nPublish 2.3.2</li>\n<li><a\nhref=\"https://github.com/micromatch/picomatch/commit/fc1f6b69006e9435caf8fb40d8aff378bc0b7bce\"><code>fc1f6b6</code></a>\nMerge commit from fork</li>\n<li><a\nhref=\"https://github.com/micromatch/picomatch/commit/eec17aee5428a7249e9ca5adbb8a0d28fa29619b\"><code>eec17ae</code></a>\nMerge commit from fork</li>\n<li><a\nhref=\"https://github.com/micromatch/picomatch/commit/78f8ca4362d9e66cadea97b93e292f10096452ed\"><code>78f8ca4</code></a>\nMerge pull request <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/156\">#156</a>\nfrom micromatch/backport-144</li>\n<li><a\nhref=\"https://github.com/micromatch/picomatch/commit/3f4f10eaa65bf3a52e8f2999674cd27e11fa3c9b\"><code>3f4f10e</code></a>\nMerge pull request <a\nhref=\"https://redirect.github.com/micromatch/picomatch/issues/144\">#144</a>\nfrom Jason3S/jdent-object-properties</li>\n<li>See full diff in <a\nhref=\"https://github.com/micromatch/picomatch/compare/2.3.1...2.3.2\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `protobufjs` from 7.5.4 to 7.5.8\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/protobufjs/protobuf.js/releases\">protobufjs's\nreleases</a>.</em></p>\n<blockquote>\n<h2>protobufjs: v7.5.8</h2>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.7...protobufjs-v7.5.8\">7.5.8</a>\n(2026-05-12)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Backport parser hardening to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2245\">#2245</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/54b593ffd960f7fe4b0c448a12542c3de0a0cf26\">54b593f</a>)</li>\n</ul>\n<h2>protobufjs: v7.5.7</h2>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.6...protobufjs-v7.5.7\">7.5.7</a>\n(2026-05-09)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Restore first-match namespace lookup (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2236\">#2236</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/cc7d59559d4e8c533a35218310c67f4a5dda54f5\">cc7d595</a>)</li>\n</ul>\n<h2>protobufjs: v7.5.6</h2>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.5...protobufjs-v7.5.6\">7.5.6</a>\n(2026-04-27)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Backport input hardening and CLI fixes to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2173\">#2173</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/75392ea1b78bdc4faba027b5db44ad7c50e9c454\">75392ea</a>)</li>\n</ul>\n<h2>v7.5.5</h2>\n<p>This release backports two reported security issues to 7.x\nbranch.</p>\n<ul>\n<li>fix: do not allow setting <code>__proto__</code> in Message\nconstructor (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2126\">#2126</a>)</li>\n<li>fix: filter invalid characters from the type name (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2127\">#2127</a>)</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.4...protobufjs-v7.5.5\">https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.4...protobufjs-v7.5.5</a></p>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/protobufjs/protobuf.js/blob/protobufjs-v7.5.8/CHANGELOG.md\">protobufjs's\nchangelog</a>.</em></p>\n<blockquote>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.7...protobufjs-v7.5.8\">7.5.8</a>\n(2026-05-12)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Backport parser hardening to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2245\">#2245</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/54b593ffd960f7fe4b0c448a12542c3de0a0cf26\">54b593f</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.6...protobufjs-v7.5.7\">7.5.7</a>\n(2026-05-09)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Restore first-match namespace lookup (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2236\">#2236</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/cc7d59559d4e8c533a35218310c67f4a5dda54f5\">cc7d595</a>)</li>\n</ul>\n<h2><a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.5...protobufjs-v7.5.6\">7.5.6</a>\n(2026-04-27)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Backport input hardening and CLI fixes to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2173\">#2173</a>)\n(<a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/75392ea1b78bdc4faba027b5db44ad7c50e9c454\">75392ea</a>)</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/d7035f9b7f06210ea343cab1f2f1cc18ee5cc1d6\"><code>d7035f9</code></a>\nchore: release protobufjs-v7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2248\">#2248</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/54b593ffd960f7fe4b0c448a12542c3de0a0cf26\"><code>54b593f</code></a>\nfix: Backport parser hardening to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2245\">#2245</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/e88fcea1635f79c414e8a070e164d38ea99e104a\"><code>e88fcea</code></a>\nchore: release protobufjs-v7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2239\">#2239</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/cc7d59559d4e8c533a35218310c67f4a5dda54f5\"><code>cc7d595</code></a>\nfix: Restore first-match namespace lookup (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2236\">#2236</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/3abc9b54d67a7102785c6dfd8bf6610f545d445b\"><code>3abc9b5</code></a>\nchore: release protobufjs-v7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2190\">#2190</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/a0bf2dfdd8a75aa62ce5a1ff47a52b9b8f1ea793\"><code>a0bf2df</code></a>\nfix: Update CLI peer dependency (7.x) (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2189\">#2189</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/2189e5beeca6a70e4c104dfdb9fb8200bc5f81fe\"><code>2189e5b</code></a>\nchore: release protobufjs-v7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2174\">#2174</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/75392ea1b78bdc4faba027b5db44ad7c50e9c454\"><code>75392ea</code></a>\nfix: Backport input hardening and CLI fixes to 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2173\">#2173</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/8af8d7c0e9800879625f7d0d4a7fb51beb4410cd\"><code>8af8d7c</code></a>\nchore(ci): Fix 7.x release please configuration (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2169\">#2169</a>)</li>\n<li><a\nhref=\"https://github.com/protobufjs/protobuf.js/commit/e92ca42244ad67203b48d836290062dae037ead6\"><code>e92ca42</code></a>\nchore(ci): Enable release-please for 7.x (<a\nhref=\"https://redirect.github.com/protobufjs/protobuf.js/issues/2166\">#2166</a>)</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/protobufjs/protobuf.js/compare/protobufjs-v7.5.4...protobufjs-v7.5.8\">compare\nview</a></li>\n</ul>\n</details>\n<details>\n<summary>Maintainer changes</summary>\n<p>This version was pushed to npm by <a\nhref=\"https://www.npmjs.com/~GitHub%20Actions\">GitHub Actions</a>, a new\nreleaser for protobufjs since your current version.</p>\n</details>\n<br />\n\nUpdates `yaml` from 1.10.2 to 1.10.3\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/cfe8f0437054ff5fbfe6499894f55b3316a54959\"><code>cfe8f04</code></a>\n1.10.3</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/7abcf45dd63f0bc626890ad9a8cdeb397f92be73\"><code>7abcf45</code></a>\nfix: Catch stack overflow during CST composition</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/a0252f8b056f49875d1b79edb8709cff7d7d0dc6\"><code>a0252f8</code></a>\nchore: Add rules avoiding processing of tests/json-test-suite</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/a5e83b05f7124c31b4784b613f0c669959a5ed48\"><code>a5e83b0</code></a>\nstyle: Apply updates Prettier rules</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/b8ddca0a5d4794a3c60f252d3513e6ff7068fdf0\"><code>b8ddca0</code></a>\nchore: Refresh lockfile</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/395f892ec9a26b9038c8db388b675c3281ab8cd3\"><code>395f892</code></a>\nci: Use a different (working) submodule checkout</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/6fd272052751775e48196024d4bed639cc1e0350\"><code>6fd2720</code></a>\ntest-events: Add {} and [] indicators to flow maps &amp; sequences</li>\n<li>See full diff in <a\nhref=\"https://github.com/eemeli/yaml/compare/v1.10.2...v1.10.3\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `yaml` from 2.8.2 to 2.9.0\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/cfe8f0437054ff5fbfe6499894f55b3316a54959\"><code>cfe8f04</code></a>\n1.10.3</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/7abcf45dd63f0bc626890ad9a8cdeb397f92be73\"><code>7abcf45</code></a>\nfix: Catch stack overflow during CST composition</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/a0252f8b056f49875d1b79edb8709cff7d7d0dc6\"><code>a0252f8</code></a>\nchore: Add rules avoiding processing of tests/json-test-suite</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/a5e83b05f7124c31b4784b613f0c669959a5ed48\"><code>a5e83b0</code></a>\nstyle: Apply updates Prettier rules</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/b8ddca0a5d4794a3c60f252d3513e6ff7068fdf0\"><code>b8ddca0</code></a>\nchore: Refresh lockfile</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/395f892ec9a26b9038c8db388b675c3281ab8cd3\"><code>395f892</code></a>\nci: Use a different (working) submodule checkout</li>\n<li><a\nhref=\"https://github.com/eemeli/yaml/commit/6fd272052751775e48196024d4bed639cc1e0350\"><code>6fd2720</code></a>\ntest-events: Add {} and [] indicators to flow maps &amp; sequences</li>\n<li>See full diff in <a\nhref=\"https://github.com/eemeli/yaml/compare/v1.10.2...v1.10.3\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\n\nDependabot will resolve any conflicts with this PR as long as you don't\nalter it yourself. You can also trigger a rebase manually by commenting\n`@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits\nthat have been made to it\n- `@dependabot show <dependency name> ignore conditions` will show all\nof the ignore conditions of the specified dependency\n- `@dependabot ignore <dependency name> major version` will close this\ngroup update PR and stop Dependabot creating any more for the specific\ndependency's major version (unless you unignore this specific\ndependency's major version or upgrade to it yourself)\n- `@dependabot ignore <dependency name> minor version` will close this\ngroup update PR and stop Dependabot creating any more for the specific\ndependency's minor version (unless you unignore this specific\ndependency's minor version or upgrade to it yourself)\n- `@dependabot ignore <dependency name>` will close this group update PR\nand stop Dependabot creating any more for the specific dependency\n(unless you unignore this specific dependency or upgrade to it yourself)\n- `@dependabot unignore <dependency name>` will remove all of the ignore\nconditions of the specified dependency\n- `@dependabot unignore <dependency name> <ignore condition>` will\nremove the ignore condition of the specified dependency and ignore\nconditions\nYou can disable automated security fix PRs for this repo from the\n[Security Alerts\npage](https://github.com/pinkycollie/Deaf-Creators-Platform/network/alerts).\n\n</details>\n\nSigned-off-by: dependabot[bot] <support@github.com>\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "deaf-first",
+      "full_name": "pinkycollie/deaf-first",
+      "url": "https://github.com/pinkycollie/deaf-first",
+      "description": "Vision to Idea Suite",
+      "updated_at": "2026-04-28T08:49:38Z",
+      "open_issues": 0,
       "open_prs": 0,
       "latest_commit": {
-        "date": "2024-12-01T11:00:00Z"
+        "sha": "188e2b648d049a9997b8df76d2179a6cc376a1b3",
+        "date": "2025-11-15T00:29:55Z",
+        "message": "Merge pull request #1 from pinkycollie/copilot/create-idea-capture-workflow"
       },
-      "category": "Core Identity",
-      "status": "personal"
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "deaf-first-platform",
+      "full_name": "pinkycollie/deaf-first-platform",
+      "url": "https://github.com/pinkycollie/deaf-first-platform",
+      "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
+      "updated_at": "2026-05-19T02:11:31Z",
+      "open_issues": 34,
+      "open_prs": 34,
+      "latest_commit": {
+        "sha": "841848d1cdc6d8b4e3739591143daf881d5ef4d1",
+        "date": "2026-05-19T02:11:27Z",
+        "message": "Update infrastructure.md\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Developer-Magician",
+      "full_name": "pinkycollie/Developer-Magician",
+      "url": "https://github.com/pinkycollie/Developer-Magician",
+      "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
+      "updated_at": "2026-05-14T16:08:59Z",
+      "open_issues": 8,
+      "open_prs": 8,
+      "latest_commit": {
+        "sha": "9f784a2e4f496c135e0f25939e749ee4eb44e188",
+        "date": "2026-05-02T22:40:33Z",
+        "message": "Merge pull request #38 from pinkycollie/dependabot/pip/pytest-gte-9.0.3\n\ndeps(deps): update pytest requirement from >=7.0.0 to >=9.0.3"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "FibonRoseTrust",
+      "full_name": "pinkycollie/FibonRoseTrust",
+      "url": "https://github.com/pinkycollie/FibonRoseTrust",
+      "description": "FibonRoseTrust is a robust development framework designed to integrate modern verification solutions with innovative trust management systems.",
+      "updated_at": "2026-05-17T22:17:22Z",
+      "open_issues": 14,
+      "open_prs": 14,
+      "latest_commit": {
+        "sha": "dced39d2ffefaf7f802011dd223f31908bb3ed26",
+        "date": "2026-05-17T22:17:19Z",
+        "message": "Delete .github/workflows/jekyll-gh-pages.yml"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Job-Magician",
+      "full_name": "pinkycollie/Job-Magician",
+      "url": "https://github.com/pinkycollie/Job-Magician",
+      "description": "Job Magician ",
+      "updated_at": "2026-04-18T20:00:21Z",
+      "open_issues": 2,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "8ba12702c64fabc174d0b0bca77099aaf32a6dc2",
+        "date": "2026-04-18T20:00:17Z",
+        "message": "Merge pull request #7 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-790fbff4bb"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "Justifed-Idea-Generator",
+      "full_name": "pinkycollie/Justifed-Idea-Generator",
+      "url": "https://github.com/pinkycollie/Justifed-Idea-Generator",
+      "description": "An advanced HTML-based interface for generating innovative business ideas with integrated AI support and validation tools. This application helps users justify accommodation needs for vocational rehabilitation, SBA, and other funding agencies.",
+      "updated_at": "2026-05-10T11:09:48Z",
+      "open_issues": 17,
+      "open_prs": 17,
+      "latest_commit": {
+        "sha": "7c3b71a5d784302daf8fd72d290366fb7551a833",
+        "date": "2026-05-10T11:09:42Z",
+        "message": "chore(deps): bump @radix-ui/react-label from 2.1.1 to 2.1.8\n\nBumps [@radix-ui/react-label](https://github.com/radix-ui/primitives) from 2.1.1 to 2.1.8.\n- [Changelog](https://github.com/radix-ui/primitives/blob/main/release-process.md)\n- [Commits](https://github.com/radix-ui/primitives/commits)\n\n---\nupdated-dependencies:\n- dependency-name: \"@radix-ui/react-label\"\n  dependency-version: 2.1.8\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "mbtq-dev",
+      "full_name": "pinkycollie/mbtq-dev",
+      "url": "https://github.com/pinkycollie/mbtq-dev",
+      "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
+      "updated_at": "2026-05-18T20:37:50Z",
+      "open_issues": 99,
+      "open_prs": 99,
+      "latest_commit": {
+        "sha": "c366fbca9923a820fe7efa6783c41b1cca688595",
+        "date": "2026-05-18T20:37:46Z",
+        "message": "\u26a1 Bolt: [performance improvement] (#154)\n\n\ud83d\udca1 What: Replaced sequential await operations with chunked concurrent\nexecution (chunk size of 10) using Promise.all() in webhook retries.\n\ud83c\udfaf Why: To prevent O(N) network blocking and drastically speed up\nprocessing failed webhooks.\n\ud83d\udcca Impact: Reduces webhook retry processing time from O(N) to O(N/10),\nsignificantly improving backend efficiency.\n\ud83d\udd2c Measurement: Run a stress test triggering numerous webhook failures,\nthen invoke retryFailedWebhooks and measure the duration.\n\n---\n*PR created automatically by Jules for task\n[17317787770745039164](https://jules.google.com/task/17317787770745039164)\nstarted by @pinkycollie*\n\n---------\n\nCo-authored-by: google-labs-jules[bot] <161369871+google-labs-jules[bot]@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "mbtquniverse",
+      "full_name": "pinkycollie/mbtquniverse",
+      "url": "https://github.com/pinkycollie/mbtquniverse",
+      "description": "A clean, decentralized platform for DAO governance, tokenization systems, agent/project registration, staking, and metrics tracking. Built without third-party company integrations for maximum transparency and independence.",
+      "updated_at": "2026-03-31T02:33:46Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "a70ae70076b4957297104f06ab1b5ea0b9d7f851",
+        "date": "2026-03-31T02:33:42Z",
+        "message": "Create mbtq.svg"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "my-tanstack-app",
+      "full_name": "pinkycollie/my-tanstack-app",
+      "url": "https://github.com/pinkycollie/my-tanstack-app",
+      "description": "A TanStack Start project with Tanstack Query and Cloudflare",
+      "updated_at": "2026-04-12T16:12:51Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "NegraRosa",
+      "full_name": "pinkycollie/NegraRosa",
+      "url": "https://github.com/pinkycollie/NegraRosa",
+      "description": "an innovative security and identity verification framework.",
+      "updated_at": "2026-05-18T22:49:58Z",
+      "open_issues": 19,
+      "open_prs": 19,
+      "latest_commit": {
+        "sha": "3ffc93a84f4fd44bc5bca144d3f600295d443416",
+        "date": "2026-05-18T22:49:54Z",
+        "message": "chore: update SBOM [skip ci]"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Nextjs-DeafAUTH",
+      "full_name": "pinkycollie/Nextjs-DeafAUTH",
+      "url": "https://github.com/pinkycollie/Nextjs-DeafAUTH",
+      "description": "DeafAUTH is a focused identity and accessibility orchestration layer for Next.js apps, built to help teams reliably discover, prompt for, persist, and track accessibility needs for Deaf and hard-of-hearing learners.",
+      "updated_at": "2026-05-15T09:24:47Z",
+      "open_issues": 17,
+      "open_prs": 17,
+      "latest_commit": {
+        "sha": "b408e622558bcd36bccf9b3201a1534c0dd3ddf3",
+        "date": "2026-05-15T09:24:42Z",
+        "message": "chore(deps)(deps): bump the production-dependencies group across 1 directory with 2 updates (#118)\n\nBumps the production-dependencies group with 2 updates in the /\ndirectory:\n[@radix-ui/react-alert-dialog](https://github.com/radix-ui/primitives)\nand [postcss](https://github.com/postcss/postcss).\n\nUpdates `@radix-ui/react-alert-dialog` from 1.1.4 to 1.1.15\n<details>\n<summary>Commits</summary>\n<ul>\n<li>See full diff in <a\nhref=\"https://github.com/radix-ui/primitives/commits\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nUpdates `postcss` from 8.5.10 to 8.5.14\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/releases\">postcss's\nreleases</a>.</em></p>\n<blockquote>\n<h2>8.5.14</h2>\n<ul>\n<li>Fixed custom syntax regression (by <a\nhref=\"https://github.com/43081j\"><code>@\u200b43081j</code></a>).</li>\n</ul>\n<h2>8.5.13</h2>\n<ul>\n<li>Fixed <code>postcss-scss</code> commend regression.</li>\n</ul>\n<h2>8.5.12</h2>\n<ul>\n<li>Fixed reading any file via user-generated CSS.</li>\n<li>Added <code>opts.unsafeMap</code> to disable checks.</li>\n</ul>\n<h2>8.5.11</h2>\n<ul>\n<li>Fixed nested brackets parsing performance (by <a\nhref=\"https://github.com/offset\"><code>@\u200boffset</code></a>).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/blob/main/CHANGELOG.md\">postcss's\nchangelog</a>.</em></p>\n<blockquote>\n<h2>8.5.14</h2>\n<ul>\n<li>Fixed custom syntax regression (by <a\nhref=\"https://github.com/43081j\"><code>@\u200b43081j</code></a>).</li>\n</ul>\n<h2>8.5.13</h2>\n<ul>\n<li>Fixed <code>postcss-scss</code> commend regression.</li>\n</ul>\n<h2>8.5.12</h2>\n<ul>\n<li>Fixed reading any file via user-generated CSS.</li>\n<li>Added <code>opts.unsafeMap</code> to disable checks.</li>\n</ul>\n<h2>8.5.11</h2>\n<ul>\n<li>Fixed nested brackets parsing performance (by <a\nhref=\"https://github.com/offset\"><code>@\u200boffset</code></a>).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/3ec13948ae0006e1bde2dfb545346341ac8b2dcf\"><code>3ec1394</code></a>\nRelease 8.5.14 version</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/f2bb827b20b591080977412555aa3e5baf588620\"><code>f2bb827</code></a>\nUpdate dependencies</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/d75953d60854ad835fd21dde0b11081522341020\"><code>d75953d</code></a>\nMerge pull request <a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2084\">#2084</a>\nfrom 43081j/raw-raws-rawing</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/68bd2139b5dcaf5a682bc2e8826d8557be2d1480\"><code>68bd213</code></a>\nfix: always call <code>raw</code> to retrieve raw values</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/af58cf1b7af02e9b9fcb138a4a2d7ef3450158b1\"><code>af58cf1</code></a>\nRelease 8.5.13 version</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/f227dbd0e9443e5f33e18e633b8b4d2b55aac5ee\"><code>f227dbd</code></a>\nTemporary ignore pnpm 11 config</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/d3abd40d723cf3559e5ddb5fc738b7cb64e92bb0\"><code>d3abd40</code></a>\nUpdate dependencies</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/dd06c3e11362087bc18f9c20cee30fd82bda3de9\"><code>dd06c3e</code></a>\nRevert stringifier changes because of the conflict with\npostcss-scss</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/ae889c815fb88d785401a88f1a7dfc8cb11915fb\"><code>ae889c8</code></a>\nTry to fix CI</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/e0093e49bcf00347383a13e40bb1f67bc823ca15\"><code>e0093e4</code></a>\nMove to pnpm 11</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/postcss/postcss/compare/8.5.10...8.5.14\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "payment-service",
+      "full_name": "pinkycollie/payment-service",
+      "url": "https://github.com/pinkycollie/payment-service",
+      "description": "archived",
+      "updated_at": "2025-12-15T01:53:55Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "pinkflow",
+      "full_name": "pinkycollie/pinkflow",
+      "url": "https://github.com/pinkycollie/pinkflow",
+      "description": "polygot-container",
+      "updated_at": "2026-05-18T03:21:45Z",
+      "open_issues": 4,
+      "open_prs": 4,
+      "latest_commit": {
+        "sha": "8054a45096dbe3447c6e260f49456d28309c13b4",
+        "date": "2026-05-18T03:21:41Z",
+        "message": "chore(deps): bump transformers\n\nBumps the pip group with 1 update in the /scripts directory: [transformers](https://github.com/huggingface/transformers).\n\n\nUpdates `transformers` from 4.57.6 to 5.0.0rc3\n- [Release notes](https://github.com/huggingface/transformers/releases)\n- [Commits](https://github.com/huggingface/transformers/compare/v4.57.6...v5.0.0rc3)\n\n---\nupdated-dependencies:\n- dependency-name: transformers\n  dependency-version: 5.0.0rc3\n  dependency-type: direct:production\n  dependency-group: pip\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "PinkSync-Visualizer",
+      "full_name": "pinkycollie/PinkSync-Visualizer",
+      "url": "https://github.com/pinkycollie/PinkSync-Visualizer",
+      "description": "Deaf-First accessibility tool that transforms music and sound into vibrations, visuals, and emotional color mapping. Built for the MBTQ ecosystem, this visualizer bridges rhythm and emotion across sight, touch, and motion \u2014 making sound universally accessible.",
+      "updated_at": "2026-04-22T12:29:22Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "15e3c6d4181543e8b50b73fddc829d9ba98f3f0e",
+        "date": "2026-04-22T12:29:17Z",
+        "message": "Merge pull request #14 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-e36e4750cc\n\nBump the npm_and_yarn group across 1 directory with 3 updates"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "pinksync_estimator",
+      "full_name": "pinkycollie/pinksync_estimator",
+      "url": "https://github.com/pinkycollie/pinksync_estimator",
+      "description": "A full AI\u2011powered productivity + cost\u2011estimation platform",
+      "updated_at": "2026-04-26T19:27:18Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "c6d3d7dc1af453870e8e8c13fb08944e2dacaed0",
+        "date": "2026-04-26T19:27:12Z",
+        "message": "Bump python-dotenv in the uv group across 1 directory (#107)"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "pinkycollie",
+      "full_name": "pinkycollie/pinkycollie",
+      "url": "https://github.com/pinkycollie/pinkycollie",
+      "description": "Config files for my GitHub profile.",
+      "updated_at": "2025-04-26T02:29:52Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "Signing-Bot",
+      "full_name": "pinkycollie/Signing-Bot",
+      "url": "https://github.com/pinkycollie/Signing-Bot",
+      "description": "This is a Flask platform ",
+      "updated_at": "2026-04-06T01:26:50Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "50df8acef6a81a2e38f6f2abf44cef318515bd95",
+        "date": "2026-04-06T01:26:44Z",
+        "message": "Update ai_suggestions.py"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "transistor",
+      "full_name": "pinkycollie/transistor",
+      "url": "https://github.com/pinkycollie/transistor",
+      "description": "A minimal working demo of the SSA transistor pattern bridging Web2 API and Web3 using Thirdweb for DAOs.",
+      "updated_at": "2026-03-29T08:07:27Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "926ff0d45407c094ab180b3551aca8e43b356161",
+        "date": "2026-03-29T08:07:23Z",
+        "message": "Merge pull request #3 from pinkycollie/snyk-upgrade-563ced423fec30ea66964dec2b93629d"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "VR4Deaf",
+      "full_name": "pinkycollie/VR4Deaf",
+      "url": "https://github.com/pinkycollie/VR4Deaf",
+      "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
+      "updated_at": "2026-05-18T23:16:11Z",
+      "open_issues": 2,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "4de4a8dbc369e4f7e00e0233539fd1ba6f02f7f6",
+        "date": "2026-05-18T23:16:06Z",
+        "message": "Potential fix for pull request finding 'CodeQL / Workflow does not contain permissions'\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "businessmagician",
+      "full_name": "VR4DEAF/businessmagician",
+      "url": "https://github.com/VR4DEAF/businessmagician",
+      "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
+      "updated_at": "2026-05-18T17:40:07Z",
+      "open_issues": 12,
+      "open_prs": 12,
+      "latest_commit": {
+        "sha": "b25e034584ec8163d5e4631023dceca6fd380a72",
+        "date": "2026-05-18T17:40:02Z",
+        "message": "Bump postcss in the npm_and_yarn group across 1 directory\n\nBumps the npm_and_yarn group with 1 update in the / directory: [postcss](https://github.com/postcss/postcss).\n\n\nUpdates `postcss` from 8.5.6 to 8.5.14\n- [Release notes](https://github.com/postcss/postcss/releases)\n- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/postcss/postcss/compare/8.5.6...8.5.14)\n\n---\nupdated-dependencies:\n- dependency-name: postcss\n  dependency-version: 8.5.14\n  dependency-type: direct:development\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "VR4DEAF",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "Magician_Platform",
+      "full_name": "MBTQ-dev/Magician_Platform",
+      "url": "https://github.com/MBTQ-dev/Magician_Platform",
+      "description": "VR Compliance Workflow ",
+      "updated_at": "2026-05-18T22:45:26Z",
+      "open_issues": 10,
+      "open_prs": 10,
+      "latest_commit": {
+        "sha": "f96d555fbed008c537fb0cca29bbfe80d3a6f02b",
+        "date": "2026-05-18T22:45:19Z",
+        "message": "Create ci.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "MBTQ-dev",
+      "org": "MBTQ-dev",
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "Auto-API",
+      "full_name": "MBTQ-dev/Auto-API",
+      "url": "https://github.com/MBTQ-dev/Auto-API",
+      "description": "Visual-first API integration with auto-deployment to mbtq.dev",
+      "updated_at": "2026-05-15T11:56:27Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "f9acee12d4e1fe421cd31b8e2f383191f81aebb3",
+        "date": "2026-05-15T11:56:23Z",
+        "message": "Bump python-multipart from 0.0.26 to 0.0.27 (#7)\n\nBumps [python-multipart](https://github.com/Kludex/python-multipart) from 0.0.26 to 0.0.27.\n- [Release notes](https://github.com/Kludex/python-multipart/releases)\n- [Changelog](https://github.com/Kludex/python-multipart/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/Kludex/python-multipart/compare/0.0.26...0.0.27)\n\n---\nupdated-dependencies:\n- dependency-name: python-multipart\n  dependency-version: 0.0.27\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "MBTQ-dev",
+      "org": "MBTQ-dev",
+      "status": "personal",
+      "category": "Ecosystem Lab"
+    },
+    {
+      "repo": "deploy-admin",
+      "full_name": "MBTQ-dev/deploy-admin",
+      "url": "https://github.com/MBTQ-dev/deploy-admin",
+      "description": "administrative dashboard for all microservices serving deaf community",
+      "updated_at": "2026-04-16T06:07:58Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "546c43e470734796972168d59d7d74851c154a54",
+        "date": "2026-04-16T06:07:54Z",
+        "message": "Update print statement from 'Hello' to 'Goodbye'\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "MBTQ-dev",
+      "org": "MBTQ-dev",
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "DEAF-FIRST-PLATFORM2",
+      "full_name": "MBTQ-dev/DEAF-FIRST-PLATFORM2",
+      "url": "https://github.com/MBTQ-dev/DEAF-FIRST-PLATFORM2",
+      "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
+      "updated_at": "2026-05-18T23:27:26Z",
+      "open_issues": 51,
+      "open_prs": 51,
+      "latest_commit": {
+        "sha": "c428735ce97cd9662541548306c68bd7de4c022d",
+        "date": "2026-05-18T23:27:22Z",
+        "message": "Create _config.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "MBTQ-dev",
+      "org": "MBTQ-dev",
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Core-principles",
+      "full_name": "PinkSync/Core-principles",
+      "url": "https://github.com/PinkSync/Core-principles",
+      "description": "API Broker for Deaf Accessibility",
+      "updated_at": "2026-03-14T23:34:46Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "3f1ce662ab0e6e10ae96556820e56e48fc3ef420",
+        "date": "2026-03-14T23:34:42Z",
+        "message": "Create src"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "PinkSync",
+      "org": "PinkSync",
+      "status": "official",
+      "category": "Accessibility Tools"
     }
   ],
   "infrastructure": {
