@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T05:18:42.949771+00:00",
+  "updated": "2026-05-21T07:24:20.577827+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -474,13 +474,13 @@
       "full_name": "pinkycollie/VR4Deaf",
       "url": "https://github.com/pinkycollie/VR4Deaf",
       "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
-      "updated_at": "2026-05-18T23:16:11Z",
-      "open_issues": 2,
-      "open_prs": 0,
+      "updated_at": "2026-05-21T06:51:19Z",
+      "open_issues": 3,
+      "open_prs": 1,
       "latest_commit": {
-        "sha": "4de4a8dbc369e4f7e00e0233539fd1ba6f02f7f6",
-        "date": "2026-05-18T23:16:06Z",
-        "message": "Potential fix for pull request finding 'CodeQL / Workflow does not contain permissions'\n\nCo-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "9029b7a39bf15084ab6961b3f1ba7cb5780bcd3e",
+        "date": "2026-05-21T06:51:15Z",
+        "message": "Create CreateEmploymentPlanModal.tsx (#26)\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
