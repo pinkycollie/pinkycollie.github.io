@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T07:20:09.449262+00:00",
+  "updated": "2026-05-22T12:56:34.880019+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -495,8 +495,8 @@
       "url": "https://github.com/VR4DEAF/businessmagician",
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
       "updated_at": "2026-05-18T17:40:07Z",
-      "open_issues": 12,
-      "open_prs": 12,
+      "open_issues": 13,
+      "open_prs": 13,
       "latest_commit": {
         "sha": "b25e034584ec8163d5e4631023dceca6fd380a72",
         "date": "2026-05-18T17:40:02Z",
