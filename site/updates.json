@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T00:52:39.254749+00:00",
+  "updated": "2026-05-24T07:12:30.534023+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -226,13 +226,13 @@
       "full_name": "pinkycollie/Justifed-Idea-Generator",
       "url": "https://github.com/pinkycollie/Justifed-Idea-Generator",
       "description": "An advanced HTML-based interface for generating innovative business ideas with integrated AI support and validation tools. This application helps users justify accommodation needs for vocational rehabilitation, SBA, and other funding agencies.",
-      "updated_at": "2026-05-10T11:09:48Z",
-      "open_issues": 17,
-      "open_prs": 17,
+      "updated_at": "2026-05-24T04:23:07Z",
+      "open_issues": 16,
+      "open_prs": 16,
       "latest_commit": {
-        "sha": "7c3b71a5d784302daf8fd72d290366fb7551a833",
-        "date": "2026-05-10T11:09:42Z",
-        "message": "chore(deps): bump @radix-ui/react-label from 2.1.1 to 2.1.8\n\nBumps [@radix-ui/react-label](https://github.com/radix-ui/primitives) from 2.1.1 to 2.1.8.\n- [Changelog](https://github.com/radix-ui/primitives/blob/main/release-process.md)\n- [Commits](https://github.com/radix-ui/primitives/commits)\n\n---\nupdated-dependencies:\n- dependency-name: \"@radix-ui/react-label\"\n  dependency-version: 2.1.8\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "sha": "610b1de1ace55c79dabfa3397c72e39247f42b90",
+        "date": "2026-05-24T04:23:03Z",
+        "message": "chore(deps): bump tailwind-merge from 3.4.0 to 3.6.0\n\nBumps [tailwind-merge](https://github.com/dcastil/tailwind-merge) from 3.4.0 to 3.6.0.\n- [Release notes](https://github.com/dcastil/tailwind-merge/releases)\n- [Commits](https://github.com/dcastil/tailwind-merge/compare/v3.4.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: tailwind-merge\n  dependency-version: 3.6.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-05-21T04:48:21Z",
+      "updated_at": "2026-05-24T06:20:09Z",
       "open_issues": 104,
       "open_prs": 104,
       "latest_commit": {
-        "sha": "fb60fb7ef2f124e674979111d97f22302a1e21e5",
-        "date": "2026-05-21T04:48:17Z",
-        "message": "Update webhooks.ts"
+        "sha": "32a5d390086d720c0a3cab5377eb05dd402f709f",
+        "date": "2026-05-24T06:20:05Z",
+        "message": "\ud83c\udfa8 Palette: [UX improvement] Enhance A11y check button accessibility (#198)"
       },
       "latest_release": null,
       "private": false,
@@ -303,8 +303,8 @@
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
       "updated_at": "2026-05-24T00:22:04Z",
-      "open_issues": 20,
-      "open_prs": 20,
+      "open_issues": 19,
+      "open_prs": 19,
       "latest_commit": {
         "sha": "8298901ba1b10674f3c855261e260bb23c5fa418",
         "date": "2026-05-24T00:22:00Z",
@@ -534,7 +534,7 @@
       "full_name": "MBTQ-dev/Auto-API",
       "url": "https://github.com/MBTQ-dev/Auto-API",
       "description": "Visual-first API integration with auto-deployment to mbtq.dev",
-      "updated_at": "2026-05-15T11:56:27Z",
+      "updated_at": "2026-05-24T02:02:20Z",
       "open_issues": 0,
       "open_prs": 0,
       "latest_commit": {
