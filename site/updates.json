@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T00:54:04.392179+00:00",
+  "updated": "2026-05-25T07:41:28.378307+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -146,13 +146,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-05-21T11:19:01Z",
+      "updated_at": "2026-05-25T07:31:01Z",
       "open_issues": 32,
       "open_prs": 32,
       "latest_commit": {
-        "sha": "f27f350e51a7e24bc8bda65f28ef2a6cf9adfe07",
-        "date": "2026-05-21T11:18:57Z",
-        "message": "Merge branch 'dependabot/npm_and_yarn/services/accessibility-nodes/types/node-25.9.0' into main"
+        "sha": "005e657834c1b522e1f6bcb5f1d9e50e0e2b08d6",
+        "date": "2026-05-25T07:30:57Z",
+        "message": "Update deploy.yml"
       },
       "latest_release": null,
       "private": false,
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-05-24T06:20:09Z",
+      "updated_at": "2026-05-25T07:39:25Z",
       "open_issues": 104,
       "open_prs": 104,
       "latest_commit": {
-        "sha": "32a5d390086d720c0a3cab5377eb05dd402f709f",
-        "date": "2026-05-24T06:20:05Z",
-        "message": "\ud83c\udfa8 Palette: [UX improvement] Enhance A11y check button accessibility (#198)"
+        "sha": "6e38682136a82986e3f1a6d0f67cf78077f59b4d",
+        "date": "2026-05-25T07:39:21Z",
+        "message": "Create security.yml"
       },
       "latest_release": null,
       "private": false,
