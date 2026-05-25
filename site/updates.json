@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T07:41:28.378307+00:00",
+  "updated": "2026-05-25T13:15:20.479546+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-05-25T07:39:25Z",
-      "open_issues": 104,
-      "open_prs": 104,
+      "updated_at": "2026-05-25T07:56:43Z",
+      "open_issues": 103,
+      "open_prs": 103,
       "latest_commit": {
-        "sha": "6e38682136a82986e3f1a6d0f67cf78077f59b4d",
-        "date": "2026-05-25T07:39:21Z",
-        "message": "Create security.yml"
+        "sha": "97992d2a17b451b8547e2cb9ad04dedc1c15e53f",
+        "date": "2026-05-25T07:56:38Z",
+        "message": "chore(deps): bump the npm_and_yarn group across 2 directories with 2 updates (#200)"
       },
       "latest_release": null,
       "private": false,
@@ -358,13 +358,13 @@
       "full_name": "pinkycollie/pinkflow",
       "url": "https://github.com/pinkycollie/pinkflow",
       "description": "polygot-container",
-      "updated_at": "2026-05-24T23:28:00Z",
-      "open_issues": 5,
-      "open_prs": 5,
+      "updated_at": "2026-05-25T07:57:54Z",
+      "open_issues": 4,
+      "open_prs": 4,
       "latest_commit": {
-        "sha": "5f2394786848a8d88e287fed6e4b71a27680a2e2",
-        "date": "2026-05-24T23:27:56Z",
-        "message": "Update Rust-Core-CI-Gateway-Delivery"
+        "sha": "6c91af6d4ff49e96b9f6e1b6607ab0544f581ae7",
+        "date": "2026-05-25T07:57:49Z",
+        "message": "chore(deps): bump transformers from 5.0.0rc3 to 5.8.1\n\nBumps [transformers](https://github.com/huggingface/transformers) from 5.0.0rc3 to 5.8.1.\n- [Release notes](https://github.com/huggingface/transformers/releases)\n- [Commits](https://github.com/huggingface/transformers/compare/v5.0.0rc3...v5.8.1)\n\n---\nupdated-dependencies:\n- dependency-name: transformers\n  dependency-version: 5.8.1\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -398,13 +398,13 @@
       "full_name": "pinkycollie/pinksync_estimator",
       "url": "https://github.com/pinkycollie/pinksync_estimator",
       "description": "A full AI\u2011powered productivity + cost\u2011estimation platform",
-      "updated_at": "2026-04-26T19:27:18Z",
-      "open_issues": 2,
-      "open_prs": 2,
+      "updated_at": "2026-05-25T12:27:21Z",
+      "open_issues": 1,
+      "open_prs": 1,
       "latest_commit": {
-        "sha": "c6d3d7dc1af453870e8e8c13fb08944e2dacaed0",
-        "date": "2026-04-26T19:27:12Z",
-        "message": "Bump python-dotenv in the uv group across 1 directory (#107)"
+        "sha": "2596a121ba6e73a4dd2a3c3eb1dce9467a02045f",
+        "date": "2026-05-25T12:27:16Z",
+        "message": "Bump idna from 3.10 to 3.15 in the uv group across 1 directory (#108)"
       },
       "latest_release": null,
       "private": false,
@@ -494,13 +494,13 @@
       "full_name": "VR4DEAF/businessmagician",
       "url": "https://github.com/VR4DEAF/businessmagician",
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
-      "updated_at": "2026-05-18T17:40:07Z",
-      "open_issues": 13,
-      "open_prs": 13,
+      "updated_at": "2026-05-25T10:26:48Z",
+      "open_issues": 12,
+      "open_prs": 12,
       "latest_commit": {
-        "sha": "b25e034584ec8163d5e4631023dceca6fd380a72",
-        "date": "2026-05-18T17:40:02Z",
-        "message": "Bump postcss in the npm_and_yarn group across 1 directory\n\nBumps the npm_and_yarn group with 1 update in the / directory: [postcss](https://github.com/postcss/postcss).\n\n\nUpdates `postcss` from 8.5.6 to 8.5.14\n- [Release notes](https://github.com/postcss/postcss/releases)\n- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/postcss/postcss/compare/8.5.6...8.5.14)\n\n---\nupdated-dependencies:\n- dependency-name: postcss\n  dependency-version: 8.5.14\n  dependency-type: direct:development\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "sha": "9008999df0bf31ba1b7cff7e4856fce9db5507ca",
+        "date": "2026-05-25T10:26:43Z",
+        "message": "Bump @tootallnate/once in the npm_and_yarn group across 1 directory\n\nBumps the npm_and_yarn group with 1 update in the / directory: [@tootallnate/once](https://github.com/TooTallNate/once).\n\n\nUpdates `@tootallnate/once` from 2.0.0 to 2.0.1\n- [Release notes](https://github.com/TooTallNate/once/releases)\n- [Changelog](https://github.com/TooTallNate/once/blob/v2.0.1/CHANGELOG.md)\n- [Commits](https://github.com/TooTallNate/once/compare/2.0.0...v2.0.1)\n\n---\nupdated-dependencies:\n- dependency-name: \"@tootallnate/once\"\n  dependency-version: 2.0.1\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
