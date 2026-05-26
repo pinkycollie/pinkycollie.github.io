@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T18:38:51.726387+00:00",
+  "updated": "2026-05-26T00:51:08.560178+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -146,13 +146,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-05-25T07:31:01Z",
+      "updated_at": "2026-05-26T00:23:58Z",
       "open_issues": 32,
       "open_prs": 32,
       "latest_commit": {
-        "sha": "005e657834c1b522e1f6bcb5f1d9e50e0e2b08d6",
-        "date": "2026-05-25T07:30:57Z",
-        "message": "Update deploy.yml"
+        "sha": "527a5faf6f85422f334f215f9071f16aa9a44d4b",
+        "date": "2026-05-26T00:23:54Z",
+        "message": "Add Security Hardening workflow\n\nThis workflow runs security checks on pull requests and pushes to main, including audits, banned imports, secret detection, and rate limiting checks.\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
