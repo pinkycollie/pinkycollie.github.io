@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T18:53:32.683241+00:00",
+  "updated": "2026-05-27T00:53:14.339809+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -147,8 +147,8 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-05-26T00:23:58Z",
-      "open_issues": 32,
-      "open_prs": 32,
+      "open_issues": 33,
+      "open_prs": 33,
       "latest_commit": {
         "sha": "527a5faf6f85422f334f215f9071f16aa9a44d4b",
         "date": "2026-05-26T00:23:54Z",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-05-26T03:18:00Z",
+      "updated_at": "2026-05-27T00:14:47Z",
       "open_issues": 104,
       "open_prs": 104,
       "latest_commit": {
-        "sha": "c2e8570532125f2bb4c0c94c14e4799860a0efe4",
-        "date": "2026-05-26T03:17:56Z",
-        "message": "Create repo-runtime.yml"
+        "sha": "24e76ca8dca649b6be95bbbd4cf58ab8790339be",
+        "date": "2026-05-27T00:14:42Z",
+        "message": "Create update-node-versions.yml"
       },
       "latest_release": null,
       "private": false,
@@ -302,12 +302,12 @@
       "full_name": "pinkycollie/NegraRosa",
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
-      "updated_at": "2026-05-24T00:22:04Z",
-      "open_issues": 19,
-      "open_prs": 19,
+      "updated_at": "2026-05-27T00:08:15Z",
+      "open_issues": 16,
+      "open_prs": 16,
       "latest_commit": {
-        "sha": "8298901ba1b10674f3c855261e260bb23c5fa418",
-        "date": "2026-05-24T00:22:00Z",
+        "sha": "e5aab4d3d5d20591c58dbf22f739a5b73fe01ce9",
+        "date": "2026-05-27T00:08:11Z",
         "message": "chore: update SBOM [skip ci]"
       },
       "latest_release": null,
@@ -534,13 +534,13 @@
       "full_name": "VR4DEAF/businessmagician",
       "url": "https://github.com/VR4DEAF/businessmagician",
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
-      "updated_at": "2026-05-25T10:26:48Z",
+      "updated_at": "2026-05-27T00:20:16Z",
       "open_issues": 12,
       "open_prs": 12,
       "latest_commit": {
-        "sha": "9008999df0bf31ba1b7cff7e4856fce9db5507ca",
-        "date": "2026-05-25T10:26:43Z",
-        "message": "Bump @tootallnate/once in the npm_and_yarn group across 1 directory\n\nBumps the npm_and_yarn group with 1 update in the / directory: [@tootallnate/once](https://github.com/TooTallNate/once).\n\n\nUpdates `@tootallnate/once` from 2.0.0 to 2.0.1\n- [Release notes](https://github.com/TooTallNate/once/releases)\n- [Changelog](https://github.com/TooTallNate/once/blob/v2.0.1/CHANGELOG.md)\n- [Commits](https://github.com/TooTallNate/once/compare/2.0.0...v2.0.1)\n\n---\nupdated-dependencies:\n- dependency-name: \"@tootallnate/once\"\n  dependency-version: 2.0.1\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "sha": "1628fee3c44514995c3cb57e6af459777ca10fc0",
+        "date": "2026-05-27T00:20:12Z",
+        "message": "Create server.yml"
       },
       "latest_release": null,
       "private": false,
