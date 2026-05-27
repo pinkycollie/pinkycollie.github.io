@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T13:17:20.683246+00:00",
+  "updated": "2026-05-27T18:52:19.443058+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-05-27T00:14:47Z",
-      "open_issues": 106,
-      "open_prs": 106,
+      "updated_at": "2026-05-27T17:16:31Z",
+      "open_issues": 105,
+      "open_prs": 105,
       "latest_commit": {
-        "sha": "24e76ca8dca649b6be95bbbd4cf58ab8790339be",
-        "date": "2026-05-27T00:14:42Z",
-        "message": "Create update-node-versions.yml"
+        "sha": "ca51c47622461a3a45184005bf10dfb14e28b1c7",
+        "date": "2026-05-27T17:16:25Z",
+        "message": "fix: resolve CI failure by migrating NPM security audit to pnpm and Node 24\n\nThe NPM Security Audit workflow was failing because it expected `package-lock.json`, but this project strictly uses `pnpm-lock.yaml`. Additionally, Node.js 20 actions are deprecated.\nThis updates `.github/workflows/security.yml` to:\n1. Use `pnpm/action-setup` before `setup-node`.\n2. Specify `cache: 'pnpm'` and `cache-dependency-path: '**/pnpm-lock.yaml'` in `setup-node`.\n3. Change `node-version` from 20 to 24 to resolve deprecation warnings.\n4. Replace `npm audit` with `pnpm audit`.\n\nCo-authored-by: pinkycollie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -358,13 +358,13 @@
       "full_name": "pinkycollie/pinkflow",
       "url": "https://github.com/pinkycollie/pinkflow",
       "description": "polygot-container",
-      "updated_at": "2026-05-26T16:30:22Z",
+      "updated_at": "2026-05-27T18:45:06Z",
       "open_issues": 6,
       "open_prs": 6,
       "latest_commit": {
-        "sha": "4e7aa32772f8db201122ef1df2199b3bf580120c",
-        "date": "2026-05-26T16:30:13Z",
-        "message": "Update and rename codeql.yml to system-flow.yml"
+        "sha": "7fd263a5177ac5ef9c48864ff2f0be42fedd6988",
+        "date": "2026-05-27T18:45:02Z",
+        "message": "Create journey-classifer.py"
       },
       "latest_release": null,
       "private": false,
