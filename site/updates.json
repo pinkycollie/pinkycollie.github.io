@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T07:28:10.023389+00:00",
+  "updated": "2026-05-28T13:22:11.955395+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -29,11 +29,7 @@
       "updated_at": "2026-05-27T21:36:39Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "651036bf6c8bc2c20a12504faf9d2a2c7029bd12",
-        "date": "2026-05-27T21:36:34Z",
-        "message": "Bump next from 16.2.3 to 16.2.6 in the npm_and_yarn group across 1 directory (#30)"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "PinkSync",
@@ -49,11 +45,7 @@
       "updated_at": "2026-05-17T22:22:53Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "8e823c79fbd71d41fe352dbfbb17329da99adb23",
-        "date": "2025-12-16T01:38:05Z",
-        "message": "Merge pull request #2 from pinkycollie/copilot/enhance-readme-and-docs"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -68,12 +60,8 @@
       "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
       "updated_at": "2026-05-03T23:04:20Z",
       "open_issues": 1,
-      "open_prs": 1,
-      "latest_commit": {
-        "sha": "fb499415ed4c935c04213305ce065556e0208ec6",
-        "date": "2026-05-03T19:25:02Z",
-        "message": "Merge pull request #5 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-edc2f2fe5d"
-      },
+      "open_prs": 0,
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -89,11 +77,7 @@
       "updated_at": "2025-12-30T05:16:42Z",
       "open_issues": 2,
       "open_prs": 2,
-      "latest_commit": {
-        "sha": "4ecb25b1ae4a66d15dd4439f75e907f1a85e2a66",
-        "date": "2025-12-30T05:16:39Z",
-        "message": "Create dependabot.yml"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -129,11 +113,7 @@
       "updated_at": "2026-04-28T08:49:38Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "188e2b648d049a9997b8df76d2179a6cc376a1b3",
-        "date": "2025-11-15T00:29:55Z",
-        "message": "Merge pull request #1 from pinkycollie/copilot/create-idea-capture-workflow"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -189,11 +169,7 @@
       "updated_at": "2026-05-17T22:17:22Z",
       "open_issues": 15,
       "open_prs": 15,
-      "latest_commit": {
-        "sha": "dced39d2ffefaf7f802011dd223f31908bb3ed26",
-        "date": "2026-05-17T22:17:19Z",
-        "message": "Delete .github/workflows/jekyll-gh-pages.yml"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -209,11 +185,7 @@
       "updated_at": "2026-04-18T20:00:21Z",
       "open_issues": 2,
       "open_prs": 1,
-      "latest_commit": {
-        "sha": "8ba12702c64fabc174d0b0bca77099aaf32a6dc2",
-        "date": "2026-04-18T20:00:17Z",
-        "message": "Merge pull request #7 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-790fbff4bb"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -229,11 +201,7 @@
       "updated_at": "2026-05-24T04:23:07Z",
       "open_issues": 16,
       "open_prs": 16,
-      "latest_commit": {
-        "sha": "610b1de1ace55c79dabfa3397c72e39247f42b90",
-        "date": "2026-05-24T04:23:03Z",
-        "message": "chore(deps): bump tailwind-merge from 3.4.0 to 3.6.0\n\nBumps [tailwind-merge](https://github.com/dcastil/tailwind-merge) from 3.4.0 to 3.6.0.\n- [Release notes](https://github.com/dcastil/tailwind-merge/releases)\n- [Commits](https://github.com/dcastil/tailwind-merge/compare/v3.4.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: tailwind-merge\n  dependency-version: 3.6.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -248,12 +216,8 @@
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
       "updated_at": "2026-05-27T23:49:27Z",
       "open_issues": 106,
-      "open_prs": 106,
-      "latest_commit": {
-        "sha": "75b74fa5ea3bb253f3806a2ed534bbb3fec9a3aa",
-        "date": "2026-05-27T23:49:23Z",
-        "message": "Update .nvmrc"
-      },
+      "open_prs": 0,
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -268,12 +232,8 @@
       "description": "A clean, decentralized platform for DAO governance, tokenization systems, agent/project registration, staking, and metrics tracking. Built without third-party company integrations for maximum transparency and independence.",
       "updated_at": "2026-03-31T02:33:46Z",
       "open_issues": 2,
-      "open_prs": 2,
-      "latest_commit": {
-        "sha": "a70ae70076b4957297104f06ab1b5ea0b9d7f851",
-        "date": "2026-03-31T02:33:42Z",
-        "message": "Create mbtq.svg"
-      },
+      "open_prs": 0,
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -302,14 +262,10 @@
       "full_name": "pinkycollie/NegraRosa",
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
-      "updated_at": "2026-05-27T00:08:15Z",
+      "updated_at": "2026-05-28T09:01:19Z",
       "open_issues": 17,
       "open_prs": 17,
-      "latest_commit": {
-        "sha": "e5aab4d3d5d20591c58dbf22f739a5b73fe01ce9",
-        "date": "2026-05-27T00:08:11Z",
-        "message": "chore: update SBOM [skip ci]"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -324,12 +280,8 @@
       "description": "DeafAUTH is a focused identity and accessibility orchestration layer for Next.js apps, built to help teams reliably discover, prompt for, persist, and track accessibility needs for Deaf and hard-of-hearing learners.",
       "updated_at": "2026-05-19T17:52:31Z",
       "open_issues": 17,
-      "open_prs": 17,
-      "latest_commit": {
-        "sha": "b20baff943e7c3cc0697207db3214bfb16912980",
-        "date": "2026-05-19T17:51:44Z",
-        "message": "chore(deps)(deps): bump ws from 8.18.3 to 8.20.1 (#125)\n\nBumps [ws](https://github.com/websockets/ws) from 8.18.3 to 8.20.1.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/websockets/ws/releases\">ws's\nreleases</a>.</em></p>\n<blockquote>\n<h2>8.20.1</h2>\n<h1>Bug fixes</h1>\n<ul>\n<li>Fixed an uninitialized memory disclosure issue in\n<code>websocket.close()</code>\n(c0327ec1).</li>\n</ul>\n<p>Providing a <code>TypedArray</code> (e.g. <code>Float32Array</code>)\nas the <code>reason</code> argument for\n<code>websocket.close()</code>, rather than the supported string or\n<code>Buffer</code> types, caused\nuninitialized memory to be disclosed to the remote peer.</p>\n<pre lang=\"js\"><code>import { deepStrictEqual } from 'node:assert';\nimport { WebSocket, WebSocketServer } from 'ws';\n<p>const wss = new WebSocketServer(\n{ port: 0, skipUTF8Validation: true },\nfunction () {\nconst { port } = wss.address();\nconst ws = new WebSocket(<code>ws://localhost:${port}</code>, {\nskipUTF8Validation: true\n});</p>\n<pre><code>ws.on('close', function (code, reason) {\n  deepStrictEqual(reason, Buffer.alloc(80));\n});\n</code></pre>\n<p>}\n);</p>\n<p>wss.on('connection', function (ws) {\nws.close(1000, new Float32Array(20));\n});\n</code></pre></p>\n<p>The issue was privately reported by <a\nhref=\"https://github.com/ChALkeR\">Nikita Skovoroda</a>.</p>\n<h2>8.20.0</h2>\n<h1>Features</h1>\n<ul>\n<li>Added exports for the <code>PerMessageDeflate</code> class and\nutilities for the\n<code>Sec-WebSocket-Extensions</code> and\n<code>Sec-WebSocket-Protocol</code> headers (d3503c1f).</li>\n</ul>\n<h2>8.19.0</h2>\n<h1>Features</h1>\n<ul>\n<li>Added the <code>closeTimeout</code> option (<a\nhref=\"https://redirect.github.com/websockets/ws/issues/2308\">#2308</a>).</li>\n</ul>\n<h1>Bug fixes</h1>\n<ul>\n<li>Handled a forthcoming breaking change in Node.js core\n(19984854).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/5d9b316230ea931532a6671cc450f18c11edd02f\"><code>5d9b316</code></a>\n[dist] 8.20.1</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/c0327ec15a54d701eb6ccefaa8bef328cfc03086\"><code>c0327ec</code></a>\n[security] Fix uninitialized memory disclosure in\n<code>websocket.close()</code></li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/ce2a3d62437995a47e6056d485a33d21b6a8f867\"><code>ce2a3d6</code></a>\n[ci] Test on node 26</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/58e45b872bb0f35a3edd553c27e105300a4f5bd0\"><code>58e45b8</code></a>\n[ci] Do not test on node 25</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/5f26c245231a4b018479a9269e8c3da4773fe42f\"><code>5f26c24</code></a>\n[ci] Run the lint step on node 24</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/843925544e2f4cffe445e0179947f56d6c5b608f\"><code>8439255</code></a>\n[dist] 8.20.0</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/d3503c1fd36a310985108f62b343bae18346ab67\"><code>d3503c1</code></a>\n[minor] Export the <code>PerMessageDeflate</code> class and header\nutils</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/3ee5349a0b1580f6e1f347b59ec3371011bd8481\"><code>3ee5349</code></a>\n[api] Convert the <code>isServer</code> and <code>maxPayload</code>\nparameters to options</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/91707b470ebd803aaa3fd1e896217740f39267d4\"><code>91707b4</code></a>\n[doc] Add missing space</li>\n<li><a\nhref=\"https://github.com/websockets/ws/commit/8b553192268810a83253e2a4a39ac16768e75bb3\"><code>8b55319</code></a>\n[pkg] Update eslint to version 10.0.1</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/websockets/ws/compare/8.18.3...8.20.1\">compare\nview</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ws&package-manager=npm_and_yarn&previous-version=8.18.3&new-version=8.20.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't\nalter it yourself. You can also trigger a rebase manually by commenting\n`@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits\nthat have been made to it\n- `@dependabot show <dependency name> ignore conditions` will show all\nof the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop\nDependabot creating any more for this major version (unless you reopen\nthe PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop\nDependabot creating any more for this minor version (unless you reopen\nthe PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop\nDependabot creating any more for this dependency (unless you reopen the\nPR or upgrade to it yourself)\nYou can disable automated security fix PRs for this repo from the\n[Security Alerts\npage](https://github.com/pinkycollie/Nextjs-DeafAUTH/network/alerts).\n\n</details>\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
-      },
+      "open_prs": 0,
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -360,7 +312,7 @@
       "description": "polygot-container",
       "updated_at": "2026-05-27T18:45:06Z",
       "open_issues": 6,
-      "open_prs": 6,
+      "open_prs": 0,
       "latest_commit": {
         "sha": "7fd263a5177ac5ef9c48864ff2f0be42fedd6988",
         "date": "2026-05-27T18:45:02Z",
@@ -381,11 +333,7 @@
       "updated_at": "2026-04-22T12:29:22Z",
       "open_issues": 2,
       "open_prs": 2,
-      "latest_commit": {
-        "sha": "15e3c6d4181543e8b50b73fddc829d9ba98f3f0e",
-        "date": "2026-04-22T12:29:17Z",
-        "message": "Merge pull request #14 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-e36e4750cc\n\nBump the npm_and_yarn group across 1 directory with 3 updates"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -421,11 +369,7 @@
       "updated_at": "2026-05-26T02:46:32Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "076966e695dcb3fe54051a4e1f173ef5bf74d834",
-        "date": "2026-05-26T02:46:28Z",
-        "message": "Initial commit from TanStack Builder"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -457,11 +401,7 @@
       "updated_at": "2026-05-26T02:42:11Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "96a29002f5fe143ceaecea1d7da55ab9e7e4cef0",
-        "date": "2026-05-26T02:42:09Z",
-        "message": "Add project files"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -477,11 +417,7 @@
       "updated_at": "2026-04-06T01:26:50Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "50df8acef6a81a2e38f6f2abf44cef318515bd95",
-        "date": "2026-04-06T01:26:44Z",
-        "message": "Update ai_suggestions.py"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -497,11 +433,7 @@
       "updated_at": "2026-03-29T08:07:27Z",
       "open_issues": 2,
       "open_prs": 2,
-      "latest_commit": {
-        "sha": "926ff0d45407c094ab180b3551aca8e43b356161",
-        "date": "2026-03-29T08:07:23Z",
-        "message": "Merge pull request #3 from pinkycollie/snyk-upgrade-563ced423fec30ea66964dec2b93629d"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "pinkycollie",
@@ -536,7 +468,7 @@
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
       "updated_at": "2026-05-27T00:20:16Z",
       "open_issues": 13,
-      "open_prs": 13,
+      "open_prs": 0,
       "latest_commit": {
         "sha": "1628fee3c44514995c3cb57e6af459777ca10fc0",
         "date": "2026-05-27T00:20:12Z",
@@ -556,12 +488,8 @@
       "description": "VR Compliance Workflow ",
       "updated_at": "2026-05-18T22:45:26Z",
       "open_issues": 10,
-      "open_prs": 10,
-      "latest_commit": {
-        "sha": "f96d555fbed008c537fb0cca29bbfe80d3a6f02b",
-        "date": "2026-05-18T22:45:19Z",
-        "message": "Create ci.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
-      },
+      "open_prs": 0,
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "MBTQ-dev",
@@ -597,11 +525,7 @@
       "updated_at": "2026-04-16T06:07:58Z",
       "open_issues": 0,
       "open_prs": 0,
-      "latest_commit": {
-        "sha": "546c43e470734796972168d59d7d74851c154a54",
-        "date": "2026-04-16T06:07:54Z",
-        "message": "Update print statement from 'Hello' to 'Goodbye'\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
-      },
+      "latest_commit": null,
       "latest_release": null,
       "private": false,
       "owner": "MBTQ-dev",
