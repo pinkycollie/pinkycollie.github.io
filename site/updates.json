@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T07:54:23.493178+00:00",
+  "updated": "2026-06-01T14:08:13.040064+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -106,13 +106,13 @@
       "full_name": "pinkycollie/Deaf-Creators-Platform",
       "url": "https://github.com/pinkycollie/Deaf-Creators-Platform",
       "description": "A comprehensive video processing platform designed specifically for Deaf creators, featuring multi-channel video processing, creator dispatch, video request matching, and AI-powered video vision models. Creators.pinksync.io",
-      "updated_at": "2026-05-19T06:07:33Z",
+      "updated_at": "2026-06-01T08:36:51Z",
       "open_issues": 2,
       "open_prs": 2,
       "latest_commit": {
-        "sha": "4cad6af65de28bc90a2f4cc57730d1d016f598f2",
-        "date": "2026-05-19T06:07:28Z",
-        "message": "Bump the npm_and_yarn group across 1 directory with 3 updates (#10)"
+        "sha": "48552e2a1a97a5870612920225c1b1cf9714fbaa",
+        "date": "2026-06-01T08:36:46Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 2 updates (#11)"
       },
       "latest_release": null,
       "private": false,
@@ -147,7 +147,7 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-05-31T03:37:12Z",
-      "open_issues": 33,
+      "open_issues": 34,
       "open_prs": 33,
       "latest_commit": {
         "sha": "185e8c3c8fc281b3e313e2bc51a6cef33afc0985",
@@ -186,13 +186,13 @@
       "full_name": "pinkycollie/FibonRoseTrust",
       "url": "https://github.com/pinkycollie/FibonRoseTrust",
       "description": "FibonRoseTrust is a robust development framework designed to integrate modern verification solutions with innovative trust management systems.",
-      "updated_at": "2026-05-17T22:17:22Z",
-      "open_issues": 15,
-      "open_prs": 15,
+      "updated_at": "2026-06-01T08:21:20Z",
+      "open_issues": 14,
+      "open_prs": 14,
       "latest_commit": {
-        "sha": "dced39d2ffefaf7f802011dd223f31908bb3ed26",
-        "date": "2026-05-17T22:17:19Z",
-        "message": "Delete .github/workflows/jekyll-gh-pages.yml"
+        "sha": "8a9a13a5223da00df9545ac64876a6a094ef11dc",
+        "date": "2026-06-01T08:21:15Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 10 updates\n\nBumps the npm_and_yarn group with 10 updates in the / directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [axios](https://github.com/axios/axios) | `1.13.5` | `1.15.2` |\n| [drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | `0.39.1` | `0.45.2` |\n| [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) | `7.2.7` | `7.3.3` |\n| [brace-expansion](https://github.com/juliangruber/brace-expansion) | `2.0.2` | `2.1.0` |\n| [flatted](https://github.com/WebReflection/flatted) | `3.3.3` | `3.4.2` |\n| [follow-redirects](https://github.com/follow-redirects/follow-redirects) | `1.15.11` | `1.16.0` |\n| [lodash](https://github.com/lodash/lodash) | `4.17.23` | `4.18.1` |\n| [path-to-regexp](https://github.com/pillarjs/path-to-regexp) | `0.1.12` | `0.1.13` |\n| [picomatch](https://github.com/micromatch/picomatch) | `2.3.1` | `2.3.2` |\n| [yaml](https://github.com/eemeli/yaml) | `2.6.0` | `2.8.4` |\n\n\n\nUpdates `axios` from 1.13.5 to 1.15.2\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.13.5...v1.15.2)\n\nUpdates `drizzle-orm` from 0.39.1 to 0.45.2\n- [Release notes](https://github.com/drizzle-team/drizzle-orm/releases)\n- [Commits](https://github.com/drizzle-team/drizzle-orm/compare/0.39.1...0.45.2)\n\nUpdates `vite` from 7.2.7 to 7.3.3\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v7.3.3/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v7.3.3/packages/vite)\n\nUpdates `brace-expansion` from 2.0.2 to 2.1.0\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/v2.0.2...v2.1.0)\n\nUpdates `flatted` from 3.3.3 to 3.4.2\n- [Commits](https://github.com/WebReflection/flatted/compare/v3.3.3...v3.4.2)\n\nUpdates `follow-redirects` from 1.15.11 to 1.16.0\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.11...v1.16.0)\n\nUpdates `lodash` from 4.17.23 to 4.18.1\n- [Release notes](https://github.com/lodash/lodash/releases)\n- [Commits](https://github.com/lodash/lodash/compare/4.17.23...4.18.1)\n\nUpdates `path-to-regexp` from 0.1.12 to 0.1.13\n- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)\n- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/v.0.1.13/History.md)\n- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v0.1.12...v.0.1.13)\n\nUpdates `picomatch` from 2.3.1 to 2.3.2\n- [Release notes](https://github.com/micromatch/picomatch/releases)\n- [Changelog](https://github.com/micromatch/picomatch/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/micromatch/picomatch/compare/2.3.1...2.3.2)\n\nUpdates `yaml` from 2.6.0 to 2.8.4\n- [Release notes](https://github.com/eemeli/yaml/releases)\n- [Commits](https://github.com/eemeli/yaml/compare/v2.6.0...v2.8.4)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-version: 1.15.2\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: drizzle-orm\n  dependency-version: 0.45.2\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: vite\n  dependency-version: 7.3.3\n  dependency-type: direct:development\n  dependency-group: npm_and_yarn\n- dependency-name: brace-expansion\n  dependency-version: 2.1.0\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: flatted\n  dependency-version: 3.4.2\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: follow-redirects\n  dependency-version: 1.16.0\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: lodash\n  dependency-version: 4.18.1\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: path-to-regexp\n  dependency-version: 0.1.13\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: picomatch\n  dependency-version: 2.3.2\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: yaml\n  dependency-version: 2.8.4\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
