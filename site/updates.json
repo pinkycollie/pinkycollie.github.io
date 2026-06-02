@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T19:42:21.624841+00:00",
+  "updated": "2026-06-02T00:58:44.943611+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -27,8 +27,8 @@
       "url": "https://github.com/PinkSync/PinkSync",
       "description": "comprehensive Layer 1 accessibility orchestration platform designed specifically for deaf users. It acts as a unified gateway connecting deaf communities with accessible services, products, and programs while providing real-time accessibility enhancements across multiple environments.",
       "updated_at": "2026-05-27T21:36:39Z",
-      "open_issues": 0,
-      "open_prs": 0,
+      "open_issues": 1,
+      "open_prs": 1,
       "latest_commit": {
         "sha": "651036bf6c8bc2c20a12504faf9d2a2c7029bd12",
         "date": "2026-05-27T21:36:34Z",
@@ -146,13 +146,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-05-31T03:37:12Z",
-      "open_issues": 39,
-      "open_prs": 38,
+      "updated_at": "2026-06-01T20:13:49Z",
+      "open_issues": 40,
+      "open_prs": 39,
       "latest_commit": {
-        "sha": "185e8c3c8fc281b3e313e2bc51a6cef33afc0985",
-        "date": "2026-05-31T03:37:09Z",
-        "message": "Create Docker-exist.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "8c2f1ad43b5c5d7d9bd57ac28ccb69bf41c3d03b",
+        "date": "2026-06-01T20:13:28Z",
+        "message": "Merge branch 'copilot/add-sign-language-visuals' into main"
       },
       "latest_release": null,
       "private": false,
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-06-01T15:33:47Z",
-      "open_issues": 110,
-      "open_prs": 110,
+      "updated_at": "2026-06-01T23:08:06Z",
+      "open_issues": 109,
+      "open_prs": 109,
       "latest_commit": {
-        "sha": "481de6c51537057ff93b02105151a6df62af6b9d",
-        "date": "2026-06-01T15:12:00Z",
-        "message": "Update vite.config.ts"
+        "sha": "6ca06061eb91fdf3d12bb19195edcb2a003ee922",
+        "date": "2026-06-01T23:08:01Z",
+        "message": "chore(deps-dev): bump the npm_and_yarn group across 2 directories with 1 update (#211)"
       },
       "latest_release": null,
       "private": false,
@@ -534,13 +534,13 @@
       "full_name": "VR4DEAF/businessmagician",
       "url": "https://github.com/VR4DEAF/businessmagician",
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
-      "updated_at": "2026-05-27T00:20:16Z",
+      "updated_at": "2026-06-01T20:23:01Z",
       "open_issues": 13,
       "open_prs": 13,
       "latest_commit": {
-        "sha": "1628fee3c44514995c3cb57e6af459777ca10fc0",
-        "date": "2026-05-27T00:20:12Z",
-        "message": "Create server.yml"
+        "sha": "ec8a7e683f9d0d97ee0d044bb64cbbeb39b4905b",
+        "date": "2026-06-01T20:22:56Z",
+        "message": "Delete ci-cd.yml"
       },
       "latest_release": null,
       "private": false,
