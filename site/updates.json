@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T01:04:27.226336+00:00",
+  "updated": "2026-06-03T07:49:05.375564+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-06-01T23:08:06Z",
+      "updated_at": "2026-06-03T04:36:39Z",
       "open_issues": 109,
       "open_prs": 109,
       "latest_commit": {
-        "sha": "6ca06061eb91fdf3d12bb19195edcb2a003ee922",
-        "date": "2026-06-01T23:08:01Z",
-        "message": "chore(deps-dev): bump the npm_and_yarn group across 2 directories with 1 update (#211)"
+        "sha": "ae3d07ca17d987363c3cd3f8d0205920af4a20b8",
+        "date": "2026-06-03T04:36:35Z",
+        "message": "Update README.md"
       },
       "latest_release": null,
       "private": false,
