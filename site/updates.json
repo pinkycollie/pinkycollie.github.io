@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T19:25:17.087758+00:00",
+  "updated": "2026-06-04T01:04:10.149075+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -7,8 +7,8 @@
       "url": "https://github.com/MBTQ-dev/DeafAUTH",
       "description": "DeafAUTH is a universal identity compiler that aggregates authentication from multiple sources into a single Deaf-first identity hub.",
       "updated_at": "2026-05-15T04:17:11Z",
-      "open_issues": 1,
-      "open_prs": 1,
+      "open_issues": 2,
+      "open_prs": 2,
       "latest_commit": {
         "sha": "b323fca705072aac407c9039184e690e3d1926b2",
         "date": "2026-05-15T04:17:07Z",
