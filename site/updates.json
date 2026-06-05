@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T00:56:05.062331+00:00",
+  "updated": "2026-06-05T07:36:30.139329+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -18,7 +18,7 @@
       "private": false,
       "owner": "MBTQ-dev",
       "org": null,
-      "status": "personal",
+      "status": "official",
       "category": "Core Identity"
     },
     {
@@ -38,7 +38,7 @@
       "private": false,
       "owner": "PinkSync",
       "org": null,
-      "status": "official",
+      "status": "personal",
       "category": "Accessibility Tools"
     },
     {
@@ -146,13 +146,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-06-04T06:31:51Z",
+      "updated_at": "2026-06-05T05:32:17Z",
       "open_issues": 43,
       "open_prs": 42,
       "latest_commit": {
-        "sha": "fc71bd1ceaed28de3ed6eca8147b1b4aeff654c5",
-        "date": "2026-06-04T06:31:47Z",
-        "message": "Delete .github/co-pilot-instruction.md\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "83e886788604ea95b5de3bdbcdf8d17598ededc1",
+        "date": "2026-06-05T05:32:13Z",
+        "message": "Update README.md"
       },
       "latest_release": null,
       "private": false,
@@ -534,13 +534,13 @@
       "full_name": "VR4DEAF/businessmagician",
       "url": "https://github.com/VR4DEAF/businessmagician",
       "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
-      "updated_at": "2026-06-01T20:23:01Z",
-      "open_issues": 13,
-      "open_prs": 13,
+      "updated_at": "2026-06-05T05:53:51Z",
+      "open_issues": 12,
+      "open_prs": 12,
       "latest_commit": {
-        "sha": "ec8a7e683f9d0d97ee0d044bb64cbbeb39b4905b",
-        "date": "2026-06-01T20:22:56Z",
-        "message": "Delete ci-cd.yml"
+        "sha": "840ff5aef406d2f7bb0fc5cd6b7474a0c1487eae",
+        "date": "2026-06-05T05:53:48Z",
+        "message": "Update aiManager.ts"
       },
       "latest_release": null,
       "private": false,
@@ -566,7 +566,7 @@
       "private": false,
       "owner": "MBTQ-dev",
       "org": "MBTQ-dev",
-      "status": "personal",
+      "status": "official",
       "category": "Business Magicians"
     },
     {
@@ -586,7 +586,7 @@
       "private": false,
       "owner": "MBTQ-dev",
       "org": "MBTQ-dev",
-      "status": "personal",
+      "status": "official",
       "category": "Ecosystem Lab"
     },
     {
@@ -594,19 +594,19 @@
       "full_name": "MBTQ-dev/deploy-admin",
       "url": "https://github.com/MBTQ-dev/deploy-admin",
       "description": "administrative dashboard for all microservices serving deaf community",
-      "updated_at": "2026-04-16T06:07:58Z",
+      "updated_at": "2026-06-05T07:03:50Z",
       "open_issues": 0,
       "open_prs": 0,
       "latest_commit": {
-        "sha": "546c43e470734796972168d59d7d74851c154a54",
-        "date": "2026-04-16T06:07:54Z",
-        "message": "Update print statement from 'Hello' to 'Goodbye'\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "2677ba90738af7ce6374e63d4896529210e3e85d",
+        "date": "2026-06-05T07:03:44Z",
+        "message": "changed domain for service to service communicstion"
       },
       "latest_release": null,
       "private": false,
       "owner": "MBTQ-dev",
       "org": "MBTQ-dev",
-      "status": "personal",
+      "status": "official",
       "category": "Community Projects"
     },
     {
@@ -614,19 +614,19 @@
       "full_name": "MBTQ-dev/DEAF-FIRST-PLATFORM2",
       "url": "https://github.com/MBTQ-dev/DEAF-FIRST-PLATFORM2",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-05-27T19:13:24Z",
+      "updated_at": "2026-06-05T05:33:35Z",
       "open_issues": 51,
       "open_prs": 51,
       "latest_commit": {
-        "sha": "ea28da071b2ade7a25ae809895a270b92effbb98",
-        "date": "2026-05-27T19:13:20Z",
-        "message": "Update README.md"
+        "sha": "9b76396c110cda7e3ad71cc8b1d1fbd21ec3145b",
+        "date": "2026-06-05T05:33:30Z",
+        "message": "Create update-domain.sh"
       },
       "latest_release": null,
       "private": false,
       "owner": "MBTQ-dev",
       "org": "MBTQ-dev",
-      "status": "personal",
+      "status": "official",
       "category": "Core Identity"
     },
     {
@@ -646,8 +646,84 @@
       "private": false,
       "owner": "PinkSync",
       "org": "PinkSync",
-      "status": "official",
+      "status": "personal",
       "category": "Accessibility Tools"
+    },
+    {
+      "repo": "readme.md",
+      "full_name": "DeafAUTH/readme.md",
+      "url": "https://github.com/DeafAUTH/readme.md",
+      "description": "DeafAUTH- Security Idenitty for the Deaf-First Web",
+      "updated_at": "2026-04-06T00:35:53Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "ce6dc74552517662be266aed7e549557e806ccd6",
+        "date": "2026-04-06T00:35:48Z",
+        "message": "Update README.md"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "DeafAUTH",
+      "org": "Deafauth",
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "main",
+      "full_name": "360-Magicians/main",
+      "url": "https://github.com/360-Magicians/main",
+      "description": "Analysis API",
+      "updated_at": "2026-06-04T09:52:58Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "97cf711c75bc0f3e8efd25e4f7976093617cd0b5",
+        "date": "2026-06-04T09:52:54Z",
+        "message": "Update layout.tsx"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "360-Magicians",
+      "org": "360-magicians",
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "360-Magicians.github.io",
+      "full_name": "360-Magicians/360-Magicians.github.io",
+      "url": "https://github.com/360-Magicians/360-Magicians.github.io",
+      "description": "Github Page about 360 Magicians ",
+      "updated_at": "2026-05-15T06:44:49Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "360-Magicians",
+      "org": "360-magicians",
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "pdf-to-audio",
+      "full_name": "360-Magicians/pdf-to-audio",
+      "url": "https://github.com/360-Magicians/pdf-to-audio",
+      "description": "Convert a PDF into audio ",
+      "updated_at": "2025-09-16T22:20:28Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "074c0f927ba4549bc1c604734a44b2b266fc613a",
+        "date": "2025-09-16T22:20:26Z",
+        "message": "Initialize anthropic"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "360-Magicians",
+      "org": "360-magicians",
+      "status": "personal",
+      "category": "Community Projects"
     }
   ],
   "infrastructure": {
