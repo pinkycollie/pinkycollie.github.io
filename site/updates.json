@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T18:44:55.090761+00:00",
+  "updated": "2026-06-06T00:53:20.597658+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -146,13 +146,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-06-05T05:32:17Z",
-      "open_issues": 43,
-      "open_prs": 42,
+      "updated_at": "2026-06-05T19:45:56Z",
+      "open_issues": 25,
+      "open_prs": 24,
       "latest_commit": {
-        "sha": "83e886788604ea95b5de3bdbcdf8d17598ededc1",
-        "date": "2026-06-05T05:32:13Z",
-        "message": "Update README.md"
+        "sha": "cffaef64c6d4431a954595b59cf0f4a116d3fb2d",
+        "date": "2026-06-05T19:45:44Z",
+        "message": "updated version"
       },
       "latest_release": null,
       "private": false,
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-06-03T04:36:39Z",
+      "updated_at": "2026-06-05T22:01:43Z",
       "open_issues": 110,
       "open_prs": 110,
       "latest_commit": {
-        "sha": "ae3d07ca17d987363c3cd3f8d0205920af4a20b8",
-        "date": "2026-06-03T04:36:35Z",
-        "message": "Update README.md"
+        "sha": "cfcdf749693998f3ad58fbe30a3b3cd10948ab7f",
+        "date": "2026-06-05T22:01:35Z",
+        "message": "Merge ; commit 'ae3d07ca17d987363c3cd3f8d0205920af4a20b8'"
       },
       "latest_release": null,
       "private": false,
