@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T19:17:54.399674+00:00",
+  "updated": "2026-06-17T01:01:10.903318+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -575,8 +575,8 @@
       "url": "https://github.com/MBTQ-dev/Auto-API",
       "description": "Visual-first API integration with auto-deployment to mbtq.dev",
       "updated_at": "2026-06-01T16:26:24Z",
-      "open_issues": 0,
-      "open_prs": 0,
+      "open_issues": 1,
+      "open_prs": 1,
       "latest_commit": {
         "sha": "2e7b8a301205a56bf7ff1f66aff13e4f63ce1c53",
         "date": "2026-06-01T16:12:37Z",
