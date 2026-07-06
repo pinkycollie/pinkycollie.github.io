@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T00:45:32.392253+00:00",
+  "updated": "2026-07-06T07:39:05.747635+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -247,8 +247,8 @@
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
       "updated_at": "2026-06-29T12:36:27Z",
-      "open_issues": 112,
-      "open_prs": 111,
+      "open_issues": 113,
+      "open_prs": 112,
       "latest_commit": {
         "sha": "cfcdf749693998f3ad58fbe30a3b3cd10948ab7f",
         "date": "2026-06-05T22:01:35Z",
