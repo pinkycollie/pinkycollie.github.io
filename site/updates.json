@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T00:39:05.228905+00:00",
+  "updated": "2026-07-20T07:10:15.213864+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -17,9 +17,537 @@
       "latest_release": null,
       "private": false,
       "owner": "MBTQ-dev",
-      "org": "MBTQ-dev",
+      "org": null,
       "status": "official",
       "category": "Core Identity"
+    },
+    {
+      "repo": "PinkSync",
+      "full_name": "PinkSync/PinkSync",
+      "url": "https://github.com/PinkSync/PinkSync",
+      "description": "comprehensive Layer 1 accessibility orchestration platform designed specifically for deaf users. It acts as a unified gateway connecting deaf communities with accessible services, products, and programs while providing real-time accessibility enhancements across multiple environments.",
+      "updated_at": "2026-05-27T21:36:39Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "651036bf6c8bc2c20a12504faf9d2a2c7029bd12",
+        "date": "2026-05-27T21:36:34Z",
+        "message": "Bump next from 16.2.3 to 16.2.6 in the npm_and_yarn group across 1 directory (#30)"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "PinkSync",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "Aegis",
+      "full_name": "pinkycollie/Aegis",
+      "url": "https://github.com/pinkycollie/Aegis",
+      "description": "DeafAUTH AI - AEGIS ",
+      "updated_at": "2026-05-17T22:22:53Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "8e823c79fbd71d41fe352dbfbb17329da99adb23",
+        "date": "2025-12-16T01:38:05Z",
+        "message": "Merge pull request #2 from pinkycollie/copilot/enhance-readme-and-docs"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "ai-magicians-gcp",
+      "full_name": "pinkycollie/ai-magicians-gcp",
+      "url": "https://github.com/pinkycollie/ai-magicians-gcp",
+      "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
+      "updated_at": "2026-06-11T03:16:21Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "e51f6492483775edec45810faecc7c0b3408a9b5",
+        "date": "2026-06-11T03:16:17Z",
+        "message": "Merge pull request #6 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-b976e9ae45"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "dao",
+      "full_name": "pinkycollie/dao",
+      "url": "https://github.com/pinkycollie/dao",
+      "description": "Modular, web3-ready DAO platform scaffold for Vercel + Next.js. Manage members, proposals, treasury, and reputation in one dashboard. Fully TypeScript-ready, Tailwind-styled, and serverless-friendly.",
+      "updated_at": "2025-12-30T05:16:42Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "4ecb25b1ae4a66d15dd4439f75e907f1a85e2a66",
+        "date": "2025-12-30T05:16:39Z",
+        "message": "Create dependabot.yml"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "Deaf-Creators-Platform",
+      "full_name": "pinkycollie/Deaf-Creators-Platform",
+      "url": "https://github.com/pinkycollie/Deaf-Creators-Platform",
+      "description": "A comprehensive video processing platform designed specifically for Deaf creators, featuring multi-channel video processing, creator dispatch, video request matching, and AI-powered video vision models. Creators.pinksync.io",
+      "updated_at": "2026-06-01T08:36:51Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "48552e2a1a97a5870612920225c1b1cf9714fbaa",
+        "date": "2026-06-01T08:36:46Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 2 updates (#11)"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "deaf-first",
+      "full_name": "pinkycollie/deaf-first",
+      "url": "https://github.com/pinkycollie/deaf-first",
+      "description": "Vision to Idea Suite",
+      "updated_at": "2026-06-02T19:04:09Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "165e6fce3a6a51c9919a5604ea2c25d47c544675",
+        "date": "2026-06-02T19:04:04Z",
+        "message": "Create plans.txt"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "deaf-first-platform",
+      "full_name": "pinkycollie/deaf-first-platform",
+      "url": "https://github.com/pinkycollie/deaf-first-platform",
+      "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
+      "updated_at": "2026-06-05T19:45:56Z",
+      "open_issues": 28,
+      "open_prs": 26,
+      "latest_commit": {
+        "sha": "cffaef64c6d4431a954595b59cf0f4a116d3fb2d",
+        "date": "2026-06-05T19:45:44Z",
+        "message": "updated version"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Developer-Magician",
+      "full_name": "pinkycollie/Developer-Magician",
+      "url": "https://github.com/pinkycollie/Developer-Magician",
+      "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
+      "updated_at": "2026-06-01T17:25:06Z",
+      "open_issues": 9,
+      "open_prs": 9,
+      "latest_commit": {
+        "sha": "dc4c7cf23c94c1334ecedf6ba7a5887a5f7e2d95",
+        "date": "2026-06-01T17:25:00Z",
+        "message": "Update README.md"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "FibonRoseTrust",
+      "full_name": "pinkycollie/FibonRoseTrust",
+      "url": "https://github.com/pinkycollie/FibonRoseTrust",
+      "description": "FibonRoseTrust is a robust development framework designed to integrate modern verification solutions with innovative trust management systems.",
+      "updated_at": "2026-06-01T16:30:58Z",
+      "open_issues": 13,
+      "open_prs": 13,
+      "latest_commit": {
+        "sha": "5bf2cc11c1cb0cbbfb6e550e2efe4779e2999c6f",
+        "date": "2026-06-01T16:19:22Z",
+        "message": "Update blueprint.md\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Job-Magician",
+      "full_name": "pinkycollie/Job-Magician",
+      "url": "https://github.com/pinkycollie/Job-Magician",
+      "description": "Job Magician ",
+      "updated_at": "2026-04-18T20:00:21Z",
+      "open_issues": 2,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "8ba12702c64fabc174d0b0bca77099aaf32a6dc2",
+        "date": "2026-04-18T20:00:17Z",
+        "message": "Merge pull request #7 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-790fbff4bb"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "Justifed-Idea-Generator",
+      "full_name": "pinkycollie/Justifed-Idea-Generator",
+      "url": "https://github.com/pinkycollie/Justifed-Idea-Generator",
+      "description": "An advanced HTML-based interface for generating innovative business ideas with integrated AI support and validation tools. This application helps users justify accommodation needs for vocational rehabilitation, SBA, and other funding agencies.",
+      "updated_at": "2026-07-06T09:00:17Z",
+      "open_issues": 16,
+      "open_prs": 16,
+      "latest_commit": {
+        "sha": "610b1de1ace55c79dabfa3397c72e39247f42b90",
+        "date": "2026-05-24T04:23:03Z",
+        "message": "chore(deps): bump tailwind-merge from 3.4.0 to 3.6.0\n\nBumps [tailwind-merge](https://github.com/dcastil/tailwind-merge) from 3.4.0 to 3.6.0.\n- [Release notes](https://github.com/dcastil/tailwind-merge/releases)\n- [Commits](https://github.com/dcastil/tailwind-merge/compare/v3.4.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: tailwind-merge\n  dependency-version: 3.6.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "mbtq-dev",
+      "full_name": "pinkycollie/mbtq-dev",
+      "url": "https://github.com/pinkycollie/mbtq-dev",
+      "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
+      "updated_at": "2026-06-29T12:36:27Z",
+      "open_issues": 113,
+      "open_prs": 112,
+      "latest_commit": {
+        "sha": "cfcdf749693998f3ad58fbe30a3b3cd10948ab7f",
+        "date": "2026-06-05T22:01:35Z",
+        "message": "Merge ; commit 'ae3d07ca17d987363c3cd3f8d0205920af4a20b8'"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "mbtquniverse",
+      "full_name": "pinkycollie/mbtquniverse",
+      "url": "https://github.com/pinkycollie/mbtquniverse",
+      "description": "A clean, decentralized platform for DAO governance, tokenization systems, agent/project registration, staking, and metrics tracking. Built without third-party company integrations for maximum transparency and independence.",
+      "updated_at": "2026-03-31T02:33:46Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "a70ae70076b4957297104f06ab1b5ea0b9d7f851",
+        "date": "2026-03-31T02:33:42Z",
+        "message": "Create mbtq.svg"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
+    {
+      "repo": "my-tanstack-app",
+      "full_name": "pinkycollie/my-tanstack-app",
+      "url": "https://github.com/pinkycollie/my-tanstack-app",
+      "description": "A TanStack Start project with Tanstack Query and Cloudflare",
+      "updated_at": "2026-04-12T16:12:51Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "NegraRosa",
+      "full_name": "pinkycollie/NegraRosa",
+      "url": "https://github.com/pinkycollie/NegraRosa",
+      "description": "an innovative security and identity verification framework.",
+      "updated_at": "2026-07-19T00:18:40Z",
+      "open_issues": 24,
+      "open_prs": 24,
+      "latest_commit": {
+        "sha": "8015723b2436bc0cd8de30b698595e29d6b76e3b",
+        "date": "2026-07-19T00:18:36Z",
+        "message": "chore: update SBOM [skip ci]"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Nextjs-DeafAUTH",
+      "full_name": "pinkycollie/Nextjs-DeafAUTH",
+      "url": "https://github.com/pinkycollie/Nextjs-DeafAUTH",
+      "description": "DeafAUTH is a focused identity and accessibility orchestration layer for Next.js apps, built to help teams reliably discover, prompt for, persist, and track accessibility needs for Deaf and hard-of-hearing learners.",
+      "updated_at": "2026-07-09T16:14:51Z",
+      "open_issues": 17,
+      "open_prs": 17,
+      "latest_commit": {
+        "sha": "fba679e1bb0738fc3be0d00f7f4d7eb73214c8b4",
+        "date": "2026-07-09T16:14:43Z",
+        "message": "chore(deps-dev)(deps-dev): bump postcss from 8.5.15 to 8.5.16 (#128)\n\nBumps [postcss](https://github.com/postcss/postcss) from 8.5.15 to\n8.5.16.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/releases\">postcss's\nreleases</a>.</em></p>\n<blockquote>\n<h2>8.5.16</h2>\n<ul>\n<li>Fixed <code>Input#origin()</code> position (by <a\nhref=\"https://github.com/mizdra\"><code>@\u200bmizdra</code></a>).</li>\n<li>Fixed <code>raws</code> after rehydrating a JSON AST (by <a\nhref=\"https://github.com/sarathfrancis90\"><code>@\u200bsarathfrancis90</code></a>).</li>\n<li>Fixed putting parent-less node in <code>nodes</code> of new node (by\n<a\nhref=\"https://github.com/MahinAnowar\"><code>@\u200bMahinAnowar</code></a>).</li>\n<li>Fixed computing <code>offset</code> in <code>positionBy()</code> (by\n<a\nhref=\"https://github.com/greymoth-jp\"><code>@\u200bgreymoth-jp</code></a>).</li>\n<li>Fixed <code>rangeBy()</code> on <code>index: 0</code> (by <a\nhref=\"https://github.com/sarathfrancis90\"><code>@\u200bsarathfrancis90</code></a>).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a\nhref=\"https://github.com/postcss/postcss/blob/main/CHANGELOG.md\">postcss's\nchangelog</a>.</em></p>\n<blockquote>\n<h2>8.5.16</h2>\n<ul>\n<li>Fixed <code>Input#origin()</code> position (by <a\nhref=\"https://github.com/mizdra\"><code>@\u200bmizdra</code></a>).</li>\n<li>Fixed <code>raws</code> after rehydrating a JSON AST (by <a\nhref=\"https://github.com/sarathfrancis90\"><code>@\u200bsarathfrancis90</code></a>).</li>\n<li>Fixed putting parent-less node in <code>nodes</code> of new node (by\n<a\nhref=\"https://github.com/MahinAnowar\"><code>@\u200bMahinAnowar</code></a>).</li>\n<li>Fixed computing <code>offset</code> in <code>positionBy()</code> (by\n<a\nhref=\"https://github.com/greymoth-jp\"><code>@\u200bgreymoth-jp</code></a>).</li>\n<li>Fixed <code>rangeBy()</code> on <code>index: 0</code> (by <a\nhref=\"https://github.com/sarathfrancis90\"><code>@\u200bsarathfrancis90</code></a>).</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/92ccc93ff15bd193491d67fad9763e62d489dfad\"><code>92ccc93</code></a>\nRelease 8.5.16 version</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/818bdd6043359af773ccc3ca8663053d61a707c8\"><code>818bdd6</code></a>\nUpdate formatting</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/46e451068ee6160b837865b715cf6972f28fabd5\"><code>46e4510</code></a>\nFix <code>Input#origin()</code> returning incorrect position (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2036\">#2036</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/34942ce76c0b0c9ee65b1421017ac71855e722c4\"><code>34942ce</code></a>\nFix tests</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/d4feed645314ee421edf80ee9ebe453cc75c997f\"><code>d4feed6</code></a>\nDon't clone root-less child nodes in container constructor (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2097\">#2097</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/da323fc8d327a38199a21987dcbf7e27e3bc34f3\"><code>da323fc</code></a>\nRevert version update to fix old Node.js on CI</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/886336919497516df8f140d0fb327bd125e35053\"><code>8863369</code></a>\nUpdate dependencies</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/3828982213fec6bc13d0791b1adf40393be0935e\"><code>3828982</code></a>\nPreserve node raws when rehydrating a JSON AST (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2100\">#2100</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/d1e80b830386b08dcd5b962fd466d1c51f28e82d\"><code>d1e80b8</code></a>\nFix Node#rangeBy() ignoring index 0 (<a\nhref=\"https://redirect.github.com/postcss/postcss/issues/2091\">#2091</a>)</li>\n<li><a\nhref=\"https://github.com/postcss/postcss/commit/b91e4a63907325d98b75d11fda546bdd91acc608\"><code>b91e4a6</code></a>\nFix Node.js 26 tests</li>\n<li>Additional commits viewable in <a\nhref=\"https://github.com/postcss/postcss/compare/8.5.15...8.5.16\">compare\nview</a></li>\n</ul>\n</details>\n<details>\n<summary>Maintainer changes</summary>\n<p>This version was pushed to npm by <a\nhref=\"https://www.npmjs.com/~GitHub%20Actions\">GitHub Actions</a>, a new\nreleaser for postcss since your current version.</p>\n</details>\n<br />\n\n\n[![Dependabot compatibility\nscore](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=postcss&package-manager=npm_and_yarn&previous-version=8.5.15&new-version=8.5.16)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't\nalter it yourself. You can also trigger a rebase manually by commenting\n`@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits\nthat have been made to it\n- `@dependabot show <dependency name> ignore conditions` will show all\nof the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop\nDependabot creating any more for this major version (unless you reopen\nthe PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop\nDependabot creating any more for this minor version (unless you reopen\nthe PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop\nDependabot creating any more for this dependency (unless you reopen the\nPR or upgrade to it yourself)\nYou can disable automated security fix PRs for this repo from the\n[Security Alerts\npage](https://github.com/pinkycollie/Nextjs-DeafAUTH/network/alerts).\n\n</details>\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "payment-service",
+      "full_name": "pinkycollie/payment-service",
+      "url": "https://github.com/pinkycollie/payment-service",
+      "description": "archived",
+      "updated_at": "2025-12-15T01:53:55Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "pinkflow",
+      "full_name": "pinkycollie/pinkflow",
+      "url": "https://github.com/pinkycollie/pinkflow",
+      "description": "Test automation workflows",
+      "updated_at": "2026-06-15T10:14:06Z",
+      "open_issues": 10,
+      "open_prs": 10,
+      "latest_commit": {
+        "sha": "ff2422a895503c65523ae27b5e991fa1bf07edd0",
+        "date": "2026-05-29T14:22:56Z",
+        "message": "adjusted flows"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "PinkSync-Visualizer",
+      "full_name": "pinkycollie/PinkSync-Visualizer",
+      "url": "https://github.com/pinkycollie/PinkSync-Visualizer",
+      "description": "Deaf-First accessibility tool that transforms music and sound into vibrations, visuals, and emotional color mapping. Built for the MBTQ ecosystem, this visualizer bridges rhythm and emotion across sight, touch, and motion \u2014 making sound universally accessible.",
+      "updated_at": "2026-04-22T12:29:22Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "15e3c6d4181543e8b50b73fddc829d9ba98f3f0e",
+        "date": "2026-04-22T12:29:17Z",
+        "message": "Merge pull request #14 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-e36e4750cc\n\nBump the npm_and_yarn group across 1 directory with 3 updates"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "pinksync_estimator",
+      "full_name": "pinkycollie/pinksync_estimator",
+      "url": "https://github.com/pinkycollie/pinksync_estimator",
+      "description": "A full AI\u2011powered productivity + cost\u2011estimation platform",
+      "updated_at": "2026-06-01T04:08:16Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "926de5ade4937ec147ba13569acd6032cfdb3f3e",
+        "date": "2026-06-01T04:08:11Z",
+        "message": "Add AI Hub functionality to the productivity platform.  This includes pipelines for text analysis, data transformation, and more.\n\nReplit-Commit-Author: Agent\nReplit-Commit-Session-Id: cd3e6531-ef5c-4a0b-9dc7-fb678e8ddd3d\nReplit-Commit-Screenshot-Url:\nhttps://storage.googleapis.com/screenshot-production-us-central1/1256edaf-1598-4f87-9afa-76255db49f60/70cf41f6-3d32-47ed-8888-5721c8a48fb7.jpg"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "Pinkyai-prod",
+      "full_name": "pinkycollie/Pinkyai-prod",
+      "url": "https://github.com/pinkycollie/Pinkyai-prod",
+      "description": "A TanStack Start project with Neon, Sentry, Prisma, Better Auth, Tanstack Query, and Cloudflare",
+      "updated_at": "2026-05-26T02:46:32Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "076966e695dcb3fe54051a4e1f173ef5bf74d834",
+        "date": "2026-05-26T02:46:28Z",
+        "message": "Initial commit from TanStack Builder"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "pinkycollie",
+      "full_name": "pinkycollie/pinkycollie",
+      "url": "https://github.com/pinkycollie/pinkycollie",
+      "description": "Config files for my GitHub profile.",
+      "updated_at": "2025-04-26T02:29:52Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": null,
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "SaaS-tabsrack",
+      "full_name": "pinkycollie/SaaS-tabsrack",
+      "url": "https://github.com/pinkycollie/SaaS-tabsrack",
+      "description": "A TanStack Start project with Neon, Form, Sentry, Shadcn, Tanstack Query, Better Auth, Drizzle, and Cloudflare",
+      "updated_at": "2026-05-26T02:42:11Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "96a29002f5fe143ceaecea1d7da55ab9e7e4cef0",
+        "date": "2026-05-26T02:42:09Z",
+        "message": "Add project files"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Core Identity"
+    },
+    {
+      "repo": "Signing-Bot",
+      "full_name": "pinkycollie/Signing-Bot",
+      "url": "https://github.com/pinkycollie/Signing-Bot",
+      "description": "This is a Flask platform ",
+      "updated_at": "2026-04-06T01:26:50Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "50df8acef6a81a2e38f6f2abf44cef318515bd95",
+        "date": "2026-04-06T01:26:44Z",
+        "message": "Update ai_suggestions.py"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "transistor",
+      "full_name": "pinkycollie/transistor",
+      "url": "https://github.com/pinkycollie/transistor",
+      "description": "A minimal working demo of the SSA transistor pattern bridging Web2 API and Web3 using Thirdweb for DAOs.",
+      "updated_at": "2026-03-29T08:07:27Z",
+      "open_issues": 2,
+      "open_prs": 2,
+      "latest_commit": {
+        "sha": "926ff0d45407c094ab180b3551aca8e43b356161",
+        "date": "2026-03-29T08:07:23Z",
+        "message": "Merge pull request #3 from pinkycollie/snyk-upgrade-563ced423fec30ea66964dec2b93629d"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
+      "repo": "VR4Deaf",
+      "full_name": "pinkycollie/VR4Deaf",
+      "url": "https://github.com/pinkycollie/VR4Deaf",
+      "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
+      "updated_at": "2026-05-23T02:42:35Z",
+      "open_issues": 2,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "8ff85caee725c607869967a016fb139ea17ed85e",
+        "date": "2026-05-23T02:42:31Z",
+        "message": "Create ProgramTypeSelect.tsx (#25)\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "businessmagician",
+      "full_name": "VR4DEAF/businessmagician",
+      "url": "https://github.com/VR4DEAF/businessmagician",
+      "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
+      "updated_at": "2026-06-05T05:53:51Z",
+      "open_issues": 13,
+      "open_prs": 13,
+      "latest_commit": {
+        "sha": "840ff5aef406d2f7bb0fc5cd6b7474a0c1487eae",
+        "date": "2026-06-05T05:53:48Z",
+        "message": "Update aiManager.ts"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "VR4DEAF",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
     },
     {
       "repo": "Magician_Platform",
@@ -102,26 +630,6 @@
       "category": "Core Identity"
     },
     {
-      "repo": "PinkSync",
-      "full_name": "PinkSync/PinkSync",
-      "url": "https://github.com/PinkSync/PinkSync",
-      "description": "comprehensive Layer 1 accessibility orchestration platform designed specifically for deaf users. It acts as a unified gateway connecting deaf communities with accessible services, products, and programs while providing real-time accessibility enhancements across multiple environments.",
-      "updated_at": "2026-05-27T21:36:39Z",
-      "open_issues": 1,
-      "open_prs": 1,
-      "latest_commit": {
-        "sha": "651036bf6c8bc2c20a12504faf9d2a2c7029bd12",
-        "date": "2026-05-27T21:36:34Z",
-        "message": "Bump next from 16.2.3 to 16.2.6 in the npm_and_yarn group across 1 directory (#30)"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "PinkSync",
-      "org": "PinkSync",
-      "status": "personal",
-      "category": "Accessibility Tools"
-    },
-    {
       "repo": "Core-principles",
       "full_name": "PinkSync/Core-principles",
       "url": "https://github.com/PinkSync/Core-principles",
@@ -140,26 +648,6 @@
       "org": "PinkSync",
       "status": "personal",
       "category": "Accessibility Tools"
-    },
-    {
-      "repo": "businessmagician",
-      "full_name": "VR4DEAF/businessmagician",
-      "url": "https://github.com/VR4DEAF/businessmagician",
-      "description": "A comprehensive business formation platform for deaf entrepreneurs, providing tools for business development, document management, and self-employment services.",
-      "updated_at": "2026-06-05T05:53:51Z",
-      "open_issues": 13,
-      "open_prs": 13,
-      "latest_commit": {
-        "sha": "840ff5aef406d2f7bb0fc5cd6b7474a0c1487eae",
-        "date": "2026-06-05T05:53:48Z",
-        "message": "Update aiManager.ts"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "VR4DEAF",
-      "org": "VR4DEAF",
-      "status": "personal",
-      "category": "Business Magicians"
     },
     {
       "repo": "readme.md",
