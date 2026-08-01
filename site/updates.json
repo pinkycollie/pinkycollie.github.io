@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T06:54:09.873902+00:00",
+  "updated": "2026-08-01T12:25:36.485320+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -147,7 +147,7 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-07-27T11:17:54Z",
-      "open_issues": 28,
+      "open_issues": 29,
       "open_prs": 26,
       "latest_commit": {
         "sha": "cffaef64c6d4431a954595b59cf0f4a116d3fb2d",
