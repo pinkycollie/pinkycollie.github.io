@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-06T02:32:08.073972+00:00",
+  "updated": "2026-08-06T08:35:33.022812+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
       "full_name": "MBTQ-dev/DeafAUTH",
       "url": "https://github.com/MBTQ-dev/DeafAUTH",
       "description": "DeafAUTH is a universal identity compiler that aggregates authentication from multiple sources into a single Deaf-first identity hub.",
-      "updated_at": "2026-05-15T04:17:11Z",
+      "updated_at": "2026-08-06T06:25:51Z",
       "open_issues": 2,
       "open_prs": 2,
       "latest_commit": {
@@ -66,13 +66,13 @@
       "full_name": "pinkycollie/ai-magicians-gcp",
       "url": "https://github.com/pinkycollie/ai-magicians-gcp",
       "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
-      "updated_at": "2026-06-11T03:16:21Z",
-      "open_issues": 1,
-      "open_prs": 1,
+      "updated_at": "2026-08-06T04:26:41Z",
+      "open_issues": 2,
+      "open_prs": 2,
       "latest_commit": {
-        "sha": "e51f6492483775edec45810faecc7c0b3408a9b5",
-        "date": "2026-06-11T03:16:17Z",
-        "message": "Merge pull request #6 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-b976e9ae45"
+        "sha": "c8a30a931852671a54aa9125f57714fb05e11168",
+        "date": "2026-08-06T04:26:26Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 4 updates\n\nBumps the npm_and_yarn group with 4 updates in the / directory: [next](https://github.com/vercel/next.js), [@ai-sdk/provider-utils](https://github.com/vercel/ai/tree/HEAD/packages/provider-utils), [picomatch](https://github.com/micromatch/picomatch) and [ws](https://github.com/websockets/ws).\n\n\nUpdates `next` from 15.5.15 to 15.5.19\n- [Release notes](https://github.com/vercel/next.js/releases)\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\n- [Commits](https://github.com/vercel/next.js/compare/v15.5.15...v15.5.19)\n\nUpdates `@ai-sdk/provider-utils` from 3.0.19 to 4.0.27\n- [Release notes](https://github.com/vercel/ai/releases)\n- [Changelog](https://github.com/vercel/ai/blob/@ai-sdk/provider-utils@4.0.27/packages/provider-utils/CHANGELOG.md)\n- [Commits](https://github.com/vercel/ai/commits/@ai-sdk/provider-utils@4.0.27/packages/provider-utils)\n\nRemoves `picomatch`\n\nUpdates `ws` from 8.18.3 to 8.21.0\n- [Release notes](https://github.com/websockets/ws/releases)\n- [Commits](https://github.com/websockets/ws/compare/8.18.3...8.21.0)\n\n---\nupdated-dependencies:\n- dependency-name: next\n  dependency-version: 15.5.19\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: \"@ai-sdk/provider-utils\"\n  dependency-version: 4.0.27\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: picomatch\n  dependency-version:\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: ws\n  dependency-version: 8.21.0\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
