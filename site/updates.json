@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T07:06:51.242037+00:00",
+  "updated": "2026-08-11T13:03:46.965764+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -226,13 +226,13 @@
       "full_name": "pinkycollie/Justifed-Idea-Generator",
       "url": "https://github.com/pinkycollie/Justifed-Idea-Generator",
       "description": "An advanced HTML-based interface for generating innovative business ideas with integrated AI support and validation tools. This application helps users justify accommodation needs for vocational rehabilitation, SBA, and other funding agencies.",
-      "updated_at": "2026-08-11T06:38:39Z",
-      "open_issues": 16,
-      "open_prs": 16,
+      "updated_at": "2026-08-11T07:11:17Z",
+      "open_issues": 15,
+      "open_prs": 15,
       "latest_commit": {
-        "sha": "6690eba7c7f5cf26f10753836860a02c3b66ec28",
-        "date": "2026-08-11T06:38:34Z",
-        "message": "Create reusable-chores.yml"
+        "sha": "ce2e567ef3f814911fe795b003e6eba7587b1161",
+        "date": "2026-08-11T07:11:07Z",
+        "message": "chore(deps): bump react-hook-form from 7.68.0 to 7.75.0\n\nBumps [react-hook-form](https://github.com/react-hook-form/react-hook-form) from 7.68.0 to 7.75.0.\n- [Release notes](https://github.com/react-hook-form/react-hook-form/releases)\n- [Changelog](https://github.com/react-hook-form/react-hook-form/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/react-hook-form/react-hook-form/compare/v7.68.0...v7.75.0)\n\n---\nupdated-dependencies:\n- dependency-name: react-hook-form\n  dependency-version: 7.75.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -555,8 +555,8 @@
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
       "updated_at": "2026-05-18T22:45:26Z",
-      "open_issues": 10,
-      "open_prs": 10,
+      "open_issues": 11,
+      "open_prs": 11,
       "latest_commit": {
         "sha": "f96d555fbed008c537fb0cca29bbfe80d3a6f02b",
         "date": "2026-05-18T22:45:19Z",
