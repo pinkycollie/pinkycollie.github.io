@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T07:26:12.065266+00:00",
+  "updated": "2026-08-13T13:09:07.217135+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -67,8 +67,8 @@
       "url": "https://github.com/pinkycollie/ai-magicians-gcp",
       "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
       "updated_at": "2026-08-06T04:26:41Z",
-      "open_issues": 2,
-      "open_prs": 2,
+      "open_issues": 3,
+      "open_prs": 3,
       "latest_commit": {
         "sha": "c8a30a931852671a54aa9125f57714fb05e11168",
         "date": "2026-08-06T04:26:26Z",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-06-29T12:36:27Z",
+      "updated_at": "2026-08-13T08:42:59Z",
       "open_issues": 113,
       "open_prs": 112,
       "latest_commit": {
-        "sha": "cfcdf749693998f3ad58fbe30a3b3cd10948ab7f",
-        "date": "2026-06-05T22:01:35Z",
-        "message": "Merge ; commit 'ae3d07ca17d987363c3cd3f8d0205920af4a20b8'"
+        "sha": "73d418dbf01d3dd900a9bc2ab15b3acc6d77618d",
+        "date": "2026-08-13T08:42:53Z",
+        "message": "Add CodeQL analysis workflow configuration"
       },
       "latest_release": null,
       "private": false,
