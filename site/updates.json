@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T21:56:58.114181+00:00",
+  "updated": "2026-09-30T04:13:51.652486+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -226,13 +226,13 @@
       "full_name": "pinkycollie/Justifed-Idea-Generator",
       "url": "https://github.com/pinkycollie/Justifed-Idea-Generator",
       "description": "An advanced HTML-based interface for generating innovative business ideas with integrated AI support and validation tools. This application helps users justify accommodation needs for vocational rehabilitation, SBA, and other funding agencies.",
-      "updated_at": "2026-08-11T07:11:17Z",
-      "open_issues": 15,
-      "open_prs": 15,
+      "updated_at": "2026-09-30T03:03:25Z",
+      "open_issues": 14,
+      "open_prs": 14,
       "latest_commit": {
-        "sha": "ce2e567ef3f814911fe795b003e6eba7587b1161",
-        "date": "2026-08-11T07:11:07Z",
-        "message": "chore(deps): bump react-hook-form from 7.68.0 to 7.75.0\n\nBumps [react-hook-form](https://github.com/react-hook-form/react-hook-form) from 7.68.0 to 7.75.0.\n- [Release notes](https://github.com/react-hook-form/react-hook-form/releases)\n- [Changelog](https://github.com/react-hook-form/react-hook-form/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/react-hook-form/react-hook-form/compare/v7.68.0...v7.75.0)\n\n---\nupdated-dependencies:\n- dependency-name: react-hook-form\n  dependency-version: 7.75.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "sha": "91abbc3471da76ec56b805ffa9f5f3cc8a0a1abd",
+        "date": "2026-09-30T03:03:21Z",
+        "message": "Update and rename nextjs.yml to Actions-dashboard.yml"
       },
       "latest_release": null,
       "private": false,
