@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T12:32:52.258691+00:00",
+  "updated": "2026-10-01T22:23:48.465617+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -147,7 +147,7 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-07-27T11:17:54Z",
-      "open_issues": 31,
+      "open_issues": 32,
       "open_prs": 26,
       "latest_commit": {
         "sha": "cffaef64c6d4431a954595b59cf0f4a116d3fb2d",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-09-30T22:45:29Z",
+      "updated_at": "2026-10-01T15:37:19Z",
       "open_issues": 114,
       "open_prs": 112,
       "latest_commit": {
-        "sha": "f6744713a3375feb7e7e5d404ca900d2c3e7db2f",
-        "date": "2026-09-30T22:45:23Z",
-        "message": "Update codeql.yml"
+        "sha": "0dd8af8277be5aab6483da07ac67fd82855a6919",
+        "date": "2026-10-01T15:37:14Z",
+        "message": "Add CI workflow for MBTQ Platform"
       },
       "latest_release": null,
       "private": false,
