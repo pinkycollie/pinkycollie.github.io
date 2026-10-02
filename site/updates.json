@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T22:23:48.465617+00:00",
+  "updated": "2026-10-02T04:18:02.045051+00:00",
   "repos": [
     {
       "repo": "DeafAUTH",
@@ -574,13 +574,13 @@
       "full_name": "MBTQ-dev/Magician_Platform",
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
-      "updated_at": "2026-05-18T22:45:26Z",
+      "updated_at": "2026-10-02T03:39:06Z",
       "open_issues": 11,
       "open_prs": 11,
       "latest_commit": {
-        "sha": "f96d555fbed008c537fb0cca29bbfe80d3a6f02b",
-        "date": "2026-05-18T22:45:19Z",
-        "message": "Create ci.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "c3e249f6ed443eede673bd2426eae26c1a24ff39",
+        "date": "2026-10-02T03:39:02Z",
+        "message": "Merge branch 'mbtq-actions-full-stack-review' into main"
       },
       "latest_release": null,
       "private": false,
@@ -594,7 +594,7 @@
       "full_name": "MBTQ-dev/Auto-API",
       "url": "https://github.com/MBTQ-dev/Auto-API",
       "description": "Visual-first API integration with auto-deployment to mbtq.dev",
-      "updated_at": "2026-08-12T13:35:23Z",
+      "updated_at": "2026-10-02T02:01:59Z",
       "open_issues": 0,
       "open_prs": 0,
       "latest_commit": {
@@ -634,7 +634,7 @@
       "full_name": "MBTQ-dev/DEAF-FIRST-PLATFORM2",
       "url": "https://github.com/MBTQ-dev/DEAF-FIRST-PLATFORM2",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-06-05T05:33:35Z",
+      "updated_at": "2026-10-02T02:02:48Z",
       "open_issues": 51,
       "open_prs": 51,
       "latest_commit": {
