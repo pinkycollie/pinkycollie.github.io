@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T11:58:18.041021+00:00",
+  "updated": "2026-10-02T17:44:04.800731+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -187,8 +187,8 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-10-02T11:43:36Z",
-      "open_issues": 32,
-      "open_prs": 26,
+      "open_issues": 33,
+      "open_prs": 27,
       "latest_commit": {
         "sha": "b9f1f6319b2aa1578df21ce244c4241b19658746",
         "date": "2026-10-02T11:43:32Z",
@@ -207,8 +207,8 @@
       "url": "https://github.com/pinkycollie/Developer-Magician",
       "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
       "updated_at": "2026-09-02T23:00:23Z",
-      "open_issues": 14,
-      "open_prs": 14,
+      "open_issues": 16,
+      "open_prs": 16,
       "latest_commit": {
         "sha": "8ba1f92ab149fa5fce5e4d2dfe978eb92c5a0cca",
         "date": "2026-08-10T14:46:20Z",
