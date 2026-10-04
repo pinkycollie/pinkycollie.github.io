@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T20:39:19.195499+00:00",
+  "updated": "2026-10-04T04:33:55.857934+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -246,13 +246,13 @@
       "full_name": "pinkycollie/Job-Magician",
       "url": "https://github.com/pinkycollie/Job-Magician",
       "description": "Job Magician ",
-      "updated_at": "2026-10-02T11:01:09Z",
+      "updated_at": "2026-10-03T20:51:43Z",
       "open_issues": 2,
       "open_prs": 1,
       "latest_commit": {
-        "sha": "2602bbbc3436035612071d4b534bf760cf06ff5b",
-        "date": "2026-10-02T11:01:05Z",
-        "message": "Create codeql.yml"
+        "sha": "6e1c9d9f74982d1a8ae7de34f852277a5632d16c",
+        "date": "2026-10-03T20:51:39Z",
+        "message": "Merge pull request #8 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-548dd8e52c\n\nBump the npm_and_yarn group across 1 directory with 4 updates"
       },
       "latest_release": null,
       "private": false,
@@ -286,13 +286,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-10-03T06:38:42Z",
+      "updated_at": "2026-10-04T01:35:25Z",
       "open_issues": 114,
       "open_prs": 112,
       "latest_commit": {
-        "sha": "f6284589a50d5e0abe72e298bf83ece8baf36f51",
-        "date": "2026-10-03T06:38:37Z",
-        "message": "Rename package.json to projects/orchestration-hub/package.json"
+        "sha": "f3b103ef72f1fc1e2709554ed0f7e700d9191a6e",
+        "date": "2026-10-04T01:35:21Z",
+        "message": "Rename index.html to site/index.html"
       },
       "latest_release": null,
       "private": false,
@@ -362,12 +362,12 @@
       "full_name": "pinkycollie/NegraRosa",
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
-      "updated_at": "2026-09-28T04:15:05Z",
-      "open_issues": 31,
-      "open_prs": 31,
+      "updated_at": "2026-10-04T04:19:13Z",
+      "open_issues": 33,
+      "open_prs": 33,
       "latest_commit": {
-        "sha": "790fd66b9a1cf2e70706c5754c9a5da129dd475b",
-        "date": "2026-09-28T04:15:00Z",
+        "sha": "921bc404fd49752088a29a37f9eaa5b9088cb949",
+        "date": "2026-10-04T04:19:09Z",
         "message": "chore: update SBOM [skip ci]"
       },
       "latest_release": null,
@@ -574,13 +574,13 @@
       "full_name": "MBTQ-dev/Magician_Platform",
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
-      "updated_at": "2026-10-02T03:39:06Z",
+      "updated_at": "2026-10-04T01:11:13Z",
       "open_issues": 11,
       "open_prs": 11,
       "latest_commit": {
-        "sha": "c3e249f6ed443eede673bd2426eae26c1a24ff39",
-        "date": "2026-10-02T03:39:02Z",
-        "message": "Merge branch 'mbtq-actions-full-stack-review' into main"
+        "sha": "69afafa5848403ba6c13fe051801ff8346f99f80",
+        "date": "2026-10-04T01:11:09Z",
+        "message": "Add Compliance and Quality Checks Workflow\n\nThis workflow file defines multiple jobs for compliance and quality checks, including accessibility audits, VR compliance validation, workforce solutions compliance, and security audits. It also generates a comprehensive compliance report after all checks are completed.\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
