@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T20:55:31.106164+00:00",
+  "updated": "2026-10-05T04:19:33.001802+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -82,6 +82,26 @@
       "category": "Accessibility Tools"
     },
     {
+      "repo": ".idea",
+      "full_name": "pinkycollie/.idea",
+      "url": "https://github.com/pinkycollie/.idea",
+      "description": "Vision to Idea Suite",
+      "updated_at": "2026-10-05T01:49:20Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "165e6fce3a6a51c9919a5604ea2c25d47c544675",
+        "date": "2026-06-02T19:04:04Z",
+        "message": "Create plans.txt"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "pinkycollie",
+      "org": null,
+      "status": "personal",
+      "category": "Community Projects"
+    },
+    {
       "repo": "Aegis",
       "full_name": "pinkycollie/Aegis",
       "url": "https://github.com/pinkycollie/Aegis",
@@ -162,37 +182,17 @@
       "category": "Accessibility Tools"
     },
     {
-      "repo": "deaf-first",
-      "full_name": "pinkycollie/deaf-first",
-      "url": "https://github.com/pinkycollie/deaf-first",
-      "description": "Vision to Idea Suite",
-      "updated_at": "2026-06-02T19:04:09Z",
-      "open_issues": 0,
-      "open_prs": 0,
-      "latest_commit": {
-        "sha": "165e6fce3a6a51c9919a5604ea2c25d47c544675",
-        "date": "2026-06-02T19:04:04Z",
-        "message": "Create plans.txt"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "pinkycollie",
-      "org": null,
-      "status": "personal",
-      "category": "Community Projects"
-    },
-    {
       "repo": "deaf-first-platform",
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-10-04T08:48:26Z",
-      "open_issues": 34,
-      "open_prs": 28,
+      "updated_at": "2026-10-05T03:20:41Z",
+      "open_issues": 35,
+      "open_prs": 29,
       "latest_commit": {
-        "sha": "8a97db1e79c53dc9dc606490856b510d4b54c5e7",
-        "date": "2026-10-04T08:48:22Z",
-        "message": "Update and rename Mbtq-sovereign.yml to mbtq-sovereign.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "aee7dd680bd86a41c92c9f662759fd58288cdabe",
+        "date": "2026-10-05T03:20:37Z",
+        "message": "Update and rename README.md to docs\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -286,13 +286,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-10-04T01:35:25Z",
+      "updated_at": "2026-10-05T02:42:43Z",
       "open_issues": 114,
       "open_prs": 112,
       "latest_commit": {
-        "sha": "f3b103ef72f1fc1e2709554ed0f7e700d9191a6e",
-        "date": "2026-10-04T01:35:21Z",
-        "message": "Rename index.html to site/index.html"
+        "sha": "83fcbb2ec94cca445b18b8e85762d0f1fc8333f7",
+        "date": "2026-10-05T02:42:39Z",
+        "message": "Add artifact upload step in deno.yml\n\nAdded steps to upload build artifacts in the Deno workflow."
       },
       "latest_release": null,
       "private": false,
@@ -515,8 +515,8 @@
       "url": "https://github.com/pinkycollie/transistor",
       "description": "A minimal working demo of the SSA transistor pattern bridging Web2 API and Web3 using Thirdweb for DAOs.",
       "updated_at": "2026-03-29T08:07:27Z",
-      "open_issues": 2,
-      "open_prs": 2,
+      "open_issues": 3,
+      "open_prs": 3,
       "latest_commit": {
         "sha": "926ff0d45407c094ab180b3551aca8e43b356161",
         "date": "2026-03-29T08:07:23Z",
