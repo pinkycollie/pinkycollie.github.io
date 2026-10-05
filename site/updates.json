@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T04:19:33.001802+00:00",
+  "updated": "2026-10-05T13:44:59.106358+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -187,8 +187,8 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-10-05T03:20:41Z",
-      "open_issues": 35,
-      "open_prs": 29,
+      "open_issues": 36,
+      "open_prs": 30,
       "latest_commit": {
         "sha": "aee7dd680bd86a41c92c9f662759fd58288cdabe",
         "date": "2026-10-05T03:20:37Z",
@@ -494,13 +494,13 @@
       "full_name": "pinkycollie/Signing-Bot",
       "url": "https://github.com/pinkycollie/Signing-Bot",
       "description": "This is a Flask platform ",
-      "updated_at": "2026-09-27T20:57:08Z",
+      "updated_at": "2026-10-05T05:52:55Z",
       "open_issues": 0,
       "open_prs": 0,
       "latest_commit": {
-        "sha": "6102ffcf3bb9cdd6a1a40932931b5e8a9fe8d3f6",
-        "date": "2026-09-27T20:57:04Z",
-        "message": "Create codeql.yml"
+        "sha": "51aed5672c16fe7260394ed3082d4733b905acc4",
+        "date": "2026-10-05T05:52:50Z",
+        "message": "Create DB setup workflow using db-setup-action\n\nAdded a workflow for setting up the database using a GitHub Action."
       },
       "latest_release": null,
       "private": false,
