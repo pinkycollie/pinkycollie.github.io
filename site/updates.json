@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T05:07:20.944793+00:00",
+  "updated": "2026-10-06T12:50:59.692637+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -574,13 +574,13 @@
       "full_name": "MBTQ-dev/Magician_Platform",
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
-      "updated_at": "2026-10-04T01:11:13Z",
+      "updated_at": "2026-10-06T09:31:05Z",
       "open_issues": 11,
       "open_prs": 11,
       "latest_commit": {
-        "sha": "69afafa5848403ba6c13fe051801ff8346f99f80",
-        "date": "2026-10-04T01:11:09Z",
-        "message": "Add Compliance and Quality Checks Workflow\n\nThis workflow file defines multiple jobs for compliance and quality checks, including accessibility audits, VR compliance validation, workforce solutions compliance, and security audits. It also generates a comprehensive compliance report after all checks are completed.\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "bcd460402b4c4bf9436237a2b3ab67c20343446e",
+        "date": "2026-10-06T09:31:00Z",
+        "message": "Update and rename config/settings.py to .config/config/settings.py\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
