@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T12:44:49.685216+00:00",
+  "updated": "2026-10-07T22:48:06.133021+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -287,7 +287,7 @@
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
       "updated_at": "2026-10-06T23:21:54Z",
-      "open_issues": 114,
+      "open_issues": 113,
       "open_prs": 112,
       "latest_commit": {
         "sha": "7ab477c626859b4fe79d1998b5cee4cbad1de54e",
@@ -535,8 +535,8 @@
       "url": "https://github.com/pinkycollie/VR4Deaf-12318237",
       "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
       "updated_at": "2026-10-02T04:42:06Z",
-      "open_issues": 2,
-      "open_prs": 0,
+      "open_issues": 3,
+      "open_prs": 1,
       "latest_commit": {
         "sha": "8ff85caee725c607869967a016fb139ea17ed85e",
         "date": "2026-05-23T02:42:31Z",
