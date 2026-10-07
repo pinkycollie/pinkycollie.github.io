@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T22:23:36.374958+00:00",
+  "updated": "2026-10-07T04:34:08.840740+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -46,13 +46,13 @@
       "full_name": "MBTQ-dev/pinkflow",
       "url": "https://github.com/MBTQ-dev/pinkflow",
       "description": "Test automation workflows",
-      "updated_at": "2026-10-02T04:43:02Z",
+      "updated_at": "2026-10-07T03:59:39Z",
       "open_issues": 14,
       "open_prs": 14,
       "latest_commit": {
-        "sha": "983bd60b10a5657da4051f2248b89b6a1bf550a3",
-        "date": "2026-09-30T12:18:29Z",
-        "message": "Rename DeafAUTH-Pinksync.md to docs/DeafAUTH-Pinksync.md"
+        "sha": "ec57954d7a21c5fce4a577aee59d882e070cf0e1",
+        "date": "2026-10-07T03:59:35Z",
+        "message": "Fix workflow configuration syntax in YAML file\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -186,13 +186,13 @@
       "full_name": "pinkycollie/deaf-first-platform",
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
-      "updated_at": "2026-10-05T03:20:41Z",
+      "updated_at": "2026-10-06T23:20:30Z",
       "open_issues": 37,
       "open_prs": 31,
       "latest_commit": {
-        "sha": "aee7dd680bd86a41c92c9f662759fd58288cdabe",
-        "date": "2026-10-05T03:20:37Z",
-        "message": "Update and rename README.md to docs\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "01a682e2147ca445d9aa84da1c1fb0367cf522ff",
+        "date": "2026-10-06T23:20:26Z",
+        "message": "Revise Dependabot config for new ecosystems and schedules\n\nUpdated Dependabot configuration to include new package ecosystems and adjusted schedules for existing ones.\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -286,13 +286,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-10-05T02:42:43Z",
+      "updated_at": "2026-10-06T23:21:54Z",
       "open_issues": 114,
       "open_prs": 112,
       "latest_commit": {
-        "sha": "83fcbb2ec94cca445b18b8e85762d0f1fc8333f7",
-        "date": "2026-10-05T02:42:39Z",
-        "message": "Add artifact upload step in deno.yml\n\nAdded steps to upload build artifacts in the Deno workflow."
+        "sha": "7ab477c626859b4fe79d1998b5cee4cbad1de54e",
+        "date": "2026-10-06T23:21:50Z",
+        "message": "Update dependabot configuration for new ecosystems\n\nAdded support for Deno and Docker package ecosystems with specified update schedules."
       },
       "latest_release": null,
       "private": false,
