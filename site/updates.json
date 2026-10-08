@@ -1,6 +1,46 @@
 {
-  "updated": "2026-10-08T12:54:32.043478+00:00",
+  "updated": "2026-10-08T22:58:59.574533+00:00",
   "repos": [
+    {
+      "repo": "Developer-Magician",
+      "full_name": "360-Magicians/Developer-Magician",
+      "url": "https://github.com/360-Magicians/Developer-Magician",
+      "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
+      "updated_at": "2026-10-08T18:08:22Z",
+      "open_issues": 21,
+      "open_prs": 21,
+      "latest_commit": {
+        "sha": "8ba1f92ab149fa5fce5e4d2dfe978eb92c5a0cca",
+        "date": "2026-08-10T14:46:20Z",
+        "message": "Update workflow to support pnpm package manager"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "360-Magicians",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
+    },
+    {
+      "repo": "Job-Magician",
+      "full_name": "360-Magicians/Job-Magician",
+      "url": "https://github.com/360-Magicians/Job-Magician",
+      "description": "Job Magician ",
+      "updated_at": "2026-10-08T18:08:29Z",
+      "open_issues": 1,
+      "open_prs": 0,
+      "latest_commit": {
+        "sha": "711d08569bb01039a09113322c2dfa26318b9790",
+        "date": "2026-10-04T07:15:39Z",
+        "message": "Merge pull request #9 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-45d704a0e3\n\nBump the npm_and_yarn group across 1 directory with 11 updates"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "360-Magicians",
+      "org": null,
+      "status": "personal",
+      "category": "Business Magicians"
+    },
     {
       "repo": "Nextjs-DeafAUTH",
       "full_name": "DeafAUTH/Nextjs-DeafAUTH",
@@ -202,26 +242,6 @@
       "category": "Core Identity"
     },
     {
-      "repo": "Developer-Magician",
-      "full_name": "pinkycollie/Developer-Magician",
-      "url": "https://github.com/pinkycollie/Developer-Magician",
-      "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
-      "updated_at": "2026-09-02T23:00:23Z",
-      "open_issues": 16,
-      "open_prs": 16,
-      "latest_commit": {
-        "sha": "8ba1f92ab149fa5fce5e4d2dfe978eb92c5a0cca",
-        "date": "2026-08-10T14:46:20Z",
-        "message": "Update workflow to support pnpm package manager"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "pinkycollie",
-      "org": null,
-      "status": "personal",
-      "category": "Accessibility Tools"
-    },
-    {
       "repo": "FibonRoseTrust",
       "full_name": "pinkycollie/FibonRoseTrust",
       "url": "https://github.com/pinkycollie/FibonRoseTrust",
@@ -240,26 +260,6 @@
       "org": null,
       "status": "personal",
       "category": "Core Identity"
-    },
-    {
-      "repo": "Job-Magician",
-      "full_name": "pinkycollie/Job-Magician",
-      "url": "https://github.com/pinkycollie/Job-Magician",
-      "description": "Job Magician ",
-      "updated_at": "2026-10-04T07:15:45Z",
-      "open_issues": 1,
-      "open_prs": 0,
-      "latest_commit": {
-        "sha": "711d08569bb01039a09113322c2dfa26318b9790",
-        "date": "2026-10-04T07:15:39Z",
-        "message": "Merge pull request #9 from pinkycollie/dependabot/npm_and_yarn/npm_and_yarn-45d704a0e3\n\nBump the npm_and_yarn group across 1 directory with 11 updates"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "pinkycollie",
-      "org": null,
-      "status": "personal",
-      "category": "Business Magicians"
     },
     {
       "repo": "Justifed-Idea-Generator",
@@ -530,26 +530,6 @@
       "category": "Community Projects"
     },
     {
-      "repo": "VR4Deaf-12318237",
-      "full_name": "pinkycollie/VR4Deaf-12318237",
-      "url": "https://github.com/pinkycollie/VR4Deaf-12318237",
-      "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
-      "updated_at": "2026-10-02T04:42:06Z",
-      "open_issues": 3,
-      "open_prs": 1,
-      "latest_commit": {
-        "sha": "8ff85caee725c607869967a016fb139ea17ed85e",
-        "date": "2026-05-23T02:42:31Z",
-        "message": "Create ProgramTypeSelect.tsx (#25)\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
-      },
-      "latest_release": null,
-      "private": false,
-      "owner": "pinkycollie",
-      "org": null,
-      "status": "personal",
-      "category": "Accessibility Tools"
-    },
-    {
       "repo": "businessmagician",
       "full_name": "VR4DEAF/businessmagician",
       "url": "https://github.com/VR4DEAF/businessmagician",
@@ -568,6 +548,26 @@
       "org": null,
       "status": "personal",
       "category": "Business Magicians"
+    },
+    {
+      "repo": "VR4Deaf-12318237",
+      "full_name": "VR4DEAF/VR4Deaf-12318237",
+      "url": "https://github.com/VR4DEAF/VR4Deaf-12318237",
+      "description": "A comprehensive Deaf-first platform connecting clients with vocational rehabilitation resources, workforce solutions, and business development opportunities through AI-powered accessibility.",
+      "updated_at": "2026-10-08T18:07:18Z",
+      "open_issues": 3,
+      "open_prs": 1,
+      "latest_commit": {
+        "sha": "8ff85caee725c607869967a016fb139ea17ed85e",
+        "date": "2026-05-23T02:42:31Z",
+        "message": "Create ProgramTypeSelect.tsx (#25)\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+      },
+      "latest_release": null,
+      "private": false,
+      "owner": "VR4DEAF",
+      "org": null,
+      "status": "personal",
+      "category": "Accessibility Tools"
     },
     {
       "repo": "Magician_Platform",
