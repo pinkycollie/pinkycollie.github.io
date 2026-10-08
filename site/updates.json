@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T04:44:49.262134+00:00",
+  "updated": "2026-10-08T12:54:32.043478+00:00",
   "repos": [
     {
       "repo": "Nextjs-DeafAUTH",
@@ -187,7 +187,7 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-10-06T23:20:30Z",
-      "open_issues": 37,
+      "open_issues": 31,
       "open_prs": 31,
       "latest_commit": {
         "sha": "01a682e2147ca445d9aa84da1c1fb0367cf522ff",
