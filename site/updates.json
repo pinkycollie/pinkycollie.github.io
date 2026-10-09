@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T22:58:59.574533+00:00",
+  "updated": "2026-10-09T04:48:12.553542+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -574,13 +574,13 @@
       "full_name": "MBTQ-dev/Magician_Platform",
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
-      "updated_at": "2026-10-06T09:31:05Z",
+      "updated_at": "2026-10-09T03:31:57Z",
       "open_issues": 11,
       "open_prs": 11,
       "latest_commit": {
-        "sha": "bcd460402b4c4bf9436237a2b3ab67c20343446e",
-        "date": "2026-10-06T09:31:00Z",
-        "message": "Update and rename config/settings.py to .config/config/settings.py\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "c0c53113e55215603ae0d04fb8d0babe2acc5728",
+        "date": "2026-10-09T03:31:53Z",
+        "message": "Rename ci.yml to Autodevops.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
