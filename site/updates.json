@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T22:20:59.276995+00:00",
+  "updated": "2026-10-14T03:44:29.713318+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -7,8 +7,8 @@
       "url": "https://github.com/360-Magicians/Developer-Magician",
       "description": "AI\u2011Native Accessibility Engine for Deaf\u2011First, ASL\u2011Centric UX  Accessibility-Validator is a next\u2011generation developer tool that validates interfaces for true Deaf\u2011first accessibility.   Not just WCAG. Not just checklists.   This is accessibility built for sign\u2011language\u2011native users.",
       "updated_at": "2026-10-08T18:08:22Z",
-      "open_issues": 21,
-      "open_prs": 21,
+      "open_issues": 22,
+      "open_prs": 22,
       "latest_commit": {
         "sha": "8ba1f92ab149fa5fce5e4d2dfe978eb92c5a0cca",
         "date": "2026-08-10T14:46:20Z",
@@ -106,13 +106,13 @@
       "full_name": "PinkSync/PinkSync",
       "url": "https://github.com/PinkSync/PinkSync",
       "description": "comprehensive Layer 1 accessibility orchestration platform designed specifically for deaf users. It acts as a unified gateway connecting deaf communities with accessible services, products, and programs while providing real-time accessibility enhancements across multiple environments.",
-      "updated_at": "2026-10-03T04:34:44Z",
-      "open_issues": 2,
-      "open_prs": 2,
+      "updated_at": "2026-10-13T22:28:51Z",
+      "open_issues": 3,
+      "open_prs": 3,
       "latest_commit": {
-        "sha": "ade19ec9b84e3bb0e217d95cbea417d059f1da28",
-        "date": "2026-10-03T04:34:39Z",
-        "message": "Update API base URL to new endpoint\n\nChanged the API base URL for the project."
+        "sha": "44804ec0c24743d0a52bf59ee522ea6d9d4522b7",
+        "date": "2026-10-13T22:28:46Z",
+        "message": "Rename deaf-directory.csv.xlsx to .bin/deaf-directory.csv.xlsx"
       },
       "latest_release": null,
       "private": false,
@@ -286,13 +286,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-10-06T23:21:54Z",
-      "open_issues": 116,
-      "open_prs": 114,
+      "updated_at": "2026-10-14T01:30:05Z",
+      "open_issues": 117,
+      "open_prs": 115,
       "latest_commit": {
-        "sha": "7ab477c626859b4fe79d1998b5cee4cbad1de54e",
-        "date": "2026-10-06T23:21:50Z",
-        "message": "Update dependabot configuration for new ecosystems\n\nAdded support for Deno and Docker package ecosystems with specified update schedules."
+        "sha": "d411d0cd95383d04f33a814bcd6de2d1e6a125a9",
+        "date": "2026-10-14T01:30:01Z",
+        "message": "Add permissions section to Mbtq-ci.yml"
       },
       "latest_release": null,
       "private": false,
