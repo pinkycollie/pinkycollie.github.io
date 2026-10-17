@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:11:35.461921+00:00",
+  "updated": "2026-10-17T10:13:43.357296+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -227,8 +227,8 @@
       "url": "https://github.com/pinkycollie/deaf-first-platform",
       "description": "monorepo containing multiple services designed with accessibility as the primary focus. It includes authentication, real-time synchronization, AI workflows, and specialized accessibility nodes.",
       "updated_at": "2026-10-06T23:20:30Z",
-      "open_issues": 30,
-      "open_prs": 30,
+      "open_issues": 31,
+      "open_prs": 31,
       "latest_commit": {
         "sha": "01a682e2147ca445d9aa84da1c1fb0367cf522ff",
         "date": "2026-10-06T23:20:26Z",
@@ -286,13 +286,13 @@
       "full_name": "pinkycollie/mbtq-dev",
       "url": "https://github.com/pinkycollie/mbtq-dev",
       "description": "MBTQ-dev platform with built in DeafAUTH, Pinksync and fibonrose that powers full-stack applications with modern tools for visual communication and compliance in vr and workforce.",
-      "updated_at": "2026-10-14T01:30:05Z",
+      "updated_at": "2026-10-17T04:34:06Z",
       "open_issues": 117,
       "open_prs": 115,
       "latest_commit": {
-        "sha": "d411d0cd95383d04f33a814bcd6de2d1e6a125a9",
-        "date": "2026-10-14T01:30:01Z",
-        "message": "Add permissions section to Mbtq-ci.yml"
+        "sha": "ef5210b1056b856d78a1d465fe6a40703814087f",
+        "date": "2026-10-17T04:34:02Z",
+        "message": "Update runner version and change label in workflow"
       },
       "latest_release": null,
       "private": false,
@@ -363,8 +363,8 @@
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
       "updated_at": "2026-10-13T01:45:55Z",
-      "open_issues": 32,
-      "open_prs": 32,
+      "open_issues": 33,
+      "open_prs": 33,
       "latest_commit": {
         "sha": "ddd7350e23e5f536da879281f0a8f90bdc454c4f",
         "date": "2026-10-13T01:45:50Z",
@@ -574,13 +574,13 @@
       "full_name": "MBTQ-dev/Magician_Platform",
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
-      "updated_at": "2026-10-09T03:31:57Z",
+      "updated_at": "2026-10-17T03:55:58Z",
       "open_issues": 11,
       "open_prs": 11,
       "latest_commit": {
-        "sha": "c0c53113e55215603ae0d04fb8d0babe2acc5728",
-        "date": "2026-10-09T03:31:53Z",
-        "message": "Rename ci.yml to Autodevops.yml\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
+        "sha": "cd398bb162e04070aa4582e4a4fa4214f227b061",
+        "date": "2026-10-17T03:55:54Z",
+        "message": "Remove platform image from README\n\nRemoved platform image from README.\n\nSigned-off-by: Pinky Collie <199848471+pinkycollie@users.noreply.github.com>"
       },
       "latest_release": null,
       "private": false,
