@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:13:43.357296+00:00",
+  "updated": "2026-10-17T15:03:04.339774+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -27,8 +27,8 @@
       "url": "https://github.com/360-Magicians/Job-Magician",
       "description": "Job Magician ",
       "updated_at": "2026-10-08T18:08:29Z",
-      "open_issues": 1,
-      "open_prs": 0,
+      "open_issues": 3,
+      "open_prs": 2,
       "latest_commit": {
         "sha": "711d08569bb01039a09113322c2dfa26318b9790",
         "date": "2026-10-04T07:15:39Z",
@@ -363,8 +363,8 @@
       "url": "https://github.com/pinkycollie/NegraRosa",
       "description": "an innovative security and identity verification framework.",
       "updated_at": "2026-10-13T01:45:55Z",
-      "open_issues": 33,
-      "open_prs": 33,
+      "open_issues": 35,
+      "open_prs": 35,
       "latest_commit": {
         "sha": "ddd7350e23e5f536da879281f0a8f90bdc454c4f",
         "date": "2026-10-13T01:45:50Z",
@@ -575,8 +575,8 @@
       "url": "https://github.com/MBTQ-dev/Magician_Platform",
       "description": "VR Compliance Workflow ",
       "updated_at": "2026-10-17T03:55:58Z",
-      "open_issues": 11,
-      "open_prs": 11,
+      "open_issues": 12,
+      "open_prs": 12,
       "latest_commit": {
         "sha": "cd398bb162e04070aa4582e4a4fa4214f227b061",
         "date": "2026-10-17T03:55:54Z",
