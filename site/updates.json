@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T13:42:38.204626+00:00",
+  "updated": "2026-11-03T22:57:42.525489+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -47,8 +47,8 @@
       "url": "https://github.com/DeafAUTH/Nextjs-DeafAUTH",
       "description": "DeafAUTH is a focused identity and accessibility orchestration layer for Next.js apps, built to help teams reliably discover, prompt for, persist, and track accessibility needs for Deaf and hard-of-hearing learners.",
       "updated_at": "2026-10-02T04:40:46Z",
-      "open_issues": 18,
-      "open_prs": 18,
+      "open_issues": 20,
+      "open_prs": 20,
       "latest_commit": {
         "sha": "fe8d84823d8be55df94c04c28c4f8af2058293da",
         "date": "2026-10-02T04:32:51Z",
