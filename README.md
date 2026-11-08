@@ -8,23 +8,56 @@ A GitHub Pages site showcasing Pinky Collie's work as a Deaf-first business arch
 
 ## About
 
-This is the personal website for **Pinky Collie**, featuring:
+<div align="center">
 
-- **Deaf-First Architecture:** Building platforms like DeafAUTH, PinkSync, and 360Magicians
-- **Business & Tech Integration:** Combining insurance, tax, real estate, and compliance expertise with modern cloud and AI technologies
-- **Accessibility Focus:** Dark-mode design with high contrast, clear typography, and text-first approach
-- **Modern Stack:** Supabase, TypeScript, Python, Cloud Run, Next.js, and AI copilots
+# 👋 Hi, I'm @pinkycollie
+
+### **Deaf System Architect** • **Accessibility & Ecosystem Builder** • **Pmaster-dev**
+
+[![Deaf-First Engineering](https://img.shields.io/badge/DeafAUTH-Identity_Backbone-ff0974?style=for-the-badge&logo=github)](https://github.com/pinkycollie)
+[![Accessibility Focus](https://img.shields.io/badge/WCAG-2.1_AAA-purple?style=for-the-badge)](https://github.com/pinkycollie)
+[![Platform](https://img.shields.io/badge/EcoSystem-PinkSync_%7C_Fibonrose_%7C_VR4Deaf-00d2ff?style=for-the-badge)](https://github.com/Pmaster-dev)
+
+---
+
+> *"Architecting accessible, sustainable systems built to outlast decades — empowering entrepreneurs with disabilities through zero-friction automation."*
+
+</div>
 
 ---
 
-## Site Structure
+### ⚡ Architectural DNA
 
-The site is built with:
-- **Static HTML/CSS:** Pure HTML with embedded CSS, no build tools required
-- **Modern Design:** Dark theme with gradient accents, responsive layout
-- **Accessibility:** Space Grotesk font, high contrast, semantic HTML
+* 🛠️ **Identity & Security:** Standardizing authentication via **DeafAUTH** (Supabase OAuth Server / Google IdP integration).
+* 🛰️ **Core Ecosystem:** Building **PinkSync** & **Fibonrose** trust engines for automated workflow execution.
+* ♿ **VR4Deaf & Disability Enterprise:** Crafting milestone-based startup pipelines for VR (Vocational Rehabilitation) partners, business specialists, and clients.
+* ⏳ **Long-Term Mission:** Designing 25+ year resilient infrastructure combining low-code ease (AppSheet / Google Workspace) with sovereign high-performance backends (Node, Python, Supabase, Vercel, GCP).
 
 ---
+
+### 💻 Stack & Ecosystem Matrix
+
+| Layer | Technologies & Tools |
+| :--- | :--- |
+| **Auth & Identity** | `DeafAUTH`, `Supabase OAuth`, `Google IdP` |
+| **Core Systems** | `PinkSync`, `Fibonrose`, `Node.js`, `Python` |
+| **AI & Automation** | `Gemini`, `Google AI Studio`, `Google Apps Script` |
+| **Cloud & Deployment** | `Vercel`, `Google Cloud Platform (GCP)`, `Firebase` |
+| **Frontends & Forms** | `AppSheet`, `Google Workspace`, `React / Next.js` |
+| **Standards** | `WCAG 2.1 AAA Compliance`, `Data Isolation Schemas` |
+
+---
+
+### 📊 System Architecture Snapshot
+
+```mermaid
+flowchart LR
+    A[VR Partner / Google Form] --> B[AppSheet & Apps Script Orchestrator]
+    B --> C[Supabase & DeafAUTH]
+    C --> D[PinkSync / Fibonrose Workflows]
+    D --> E[Gemini AI Automation]
+    E --> F[Client & Specialist Dashboard]
+
 
 ## Deployment
 
