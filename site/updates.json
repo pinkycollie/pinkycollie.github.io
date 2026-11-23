@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:58:27.787161+00:00",
+  "updated": "2026-11-23T17:50:33.891811+00:00",
   "repos": [
     {
       "repo": "Developer-Magician",
@@ -167,12 +167,12 @@
       "url": "https://github.com/pinkycollie/ai-magicians-gcp",
       "description": "360 Magicians Vertical AI Platform - a federated AI worker system designed to make digital experiences accessible to 70+ million deaf people worldwide.",
       "updated_at": "2026-08-06T04:26:41Z",
-      "open_issues": 3,
-      "open_prs": 3,
+      "open_issues": 2,
+      "open_prs": 2,
       "latest_commit": {
-        "sha": "c8a30a931852671a54aa9125f57714fb05e11168",
-        "date": "2026-08-06T04:26:26Z",
-        "message": "Bump the npm_and_yarn group across 1 directory with 4 updates\n\nBumps the npm_and_yarn group with 4 updates in the / directory: [next](https://github.com/vercel/next.js), [@ai-sdk/provider-utils](https://github.com/vercel/ai/tree/HEAD/packages/provider-utils), [picomatch](https://github.com/micromatch/picomatch) and [ws](https://github.com/websockets/ws).\n\n\nUpdates `next` from 15.5.15 to 15.5.19\n- [Release notes](https://github.com/vercel/next.js/releases)\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\n- [Commits](https://github.com/vercel/next.js/compare/v15.5.15...v15.5.19)\n\nUpdates `@ai-sdk/provider-utils` from 3.0.19 to 4.0.27\n- [Release notes](https://github.com/vercel/ai/releases)\n- [Changelog](https://github.com/vercel/ai/blob/@ai-sdk/provider-utils@4.0.27/packages/provider-utils/CHANGELOG.md)\n- [Commits](https://github.com/vercel/ai/commits/@ai-sdk/provider-utils@4.0.27/packages/provider-utils)\n\nRemoves `picomatch`\n\nUpdates `ws` from 8.18.3 to 8.21.0\n- [Release notes](https://github.com/websockets/ws/releases)\n- [Commits](https://github.com/websockets/ws/compare/8.18.3...8.21.0)\n\n---\nupdated-dependencies:\n- dependency-name: next\n  dependency-version: 15.5.19\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: \"@ai-sdk/provider-utils\"\n  dependency-version: 4.0.27\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: picomatch\n  dependency-version:\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n- dependency-name: ws\n  dependency-version: 8.21.0\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "sha": "ccaada629ee547858094c9a03f3a6602b8257a0a",
+        "date": "2026-11-23T12:57:39Z",
+        "message": "Add CodeQL analysis workflow configuration"
       },
       "latest_release": null,
       "private": false,
@@ -247,12 +247,12 @@
       "url": "https://github.com/pinkycollie/FibonRoseTrust",
       "description": "FibonRoseTrust is a robust development framework designed to integrate modern verification solutions with innovative trust management systems.",
       "updated_at": "2026-06-01T16:30:58Z",
-      "open_issues": 14,
-      "open_prs": 13,
+      "open_issues": 13,
+      "open_prs": 12,
       "latest_commit": {
-        "sha": "5bf2cc11c1cb0cbbfb6e550e2efe4779e2999c6f",
-        "date": "2026-06-01T16:19:22Z",
-        "message": "Update blueprint.md\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+        "sha": "022178acc4eca9ed39401b0cd46a88af00d61e46",
+        "date": "2026-11-23T11:56:04Z",
+        "message": "Bump the npm_and_yarn group across 1 directory with 4 updates\n\nBumps the npm_and_yarn group with 4 updates in the / directory: [axios](https://github.com/axios/axios), [ws](https://github.com/websockets/ws), [postcss](https://github.com/postcss/postcss) and [qs](https://github.com/ljharb/qs).\n\n\nUpdates `axios` from 1.15.2 to 1.16.0\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.15.2...v1.16.0)\n\nUpdates `ws` from 8.18.3 to 8.20.1\n- [Release notes](https://github.com/websockets/ws/releases)\n- [Commits](https://github.com/websockets/ws/compare/8.18.3...8.20.1)\n\nUpdates `postcss` from 8.5.6 to 8.5.15\n- [Release notes](https://github.com/postcss/postcss/releases)\n- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/postcss/postcss/compare/8.5.6...8.5.15)\n\nUpdates `qs` from 6.14.2 to 6.15.2\n- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/ljharb/qs/compare/v6.14.2...v6.15.2)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-version: 1.16.0\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: ws\n  dependency-version: 8.20.1\n  dependency-type: direct:production\n  dependency-group: npm_and_yarn\n- dependency-name: postcss\n  dependency-version: 8.5.15\n  dependency-type: direct:development\n  dependency-group: npm_and_yarn\n- dependency-name: qs\n  dependency-version: 6.15.2\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
       },
       "latest_release": null,
       "private": false,
@@ -290,9 +290,9 @@
       "open_issues": 117,
       "open_prs": 115,
       "latest_commit": {
-        "sha": "ef5210b1056b856d78a1d465fe6a40703814087f",
-        "date": "2026-10-17T04:34:02Z",
-        "message": "Update runner version and change label in workflow"
+        "sha": "178b8673c2833c818eb83b92e3aa4c8a3272a5b5",
+        "date": "2026-11-23T06:21:37Z",
+        "message": "Update .pre-commit-config.yaml"
       },
       "latest_release": null,
       "private": false,
